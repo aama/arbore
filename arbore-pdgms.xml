@@ -7664,7 +7664,7 @@
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="kill"/>
                <prop type="lexlabel" val="ekes"/>
-               <prop type="lexlabel" val="ʔEḳEs-"/>
+               <!-- <prop type="lexlabel" val="ʔEḳEs-"/> -->
                <prop type="token" val="yeḳesúm"/>
             </term>
             <term id="ID7cabeea8-5281-429a-b8d5-f81f1b7afbde">
