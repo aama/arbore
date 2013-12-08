@@ -295,8 +295,7 @@
          <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔElɗ-"/>
-         <!-- <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/> -->
+         <prop type="lexlabel" val="eld-"/>
       </lexeme>
       <lexeme id="ID9eed75bb-6a7f-49fc-83fc-117618d96ea1">
          <prop type="gloss" val="stand"/>
@@ -3746,8 +3745,7 @@
             </term>
             <term id="ID8da1a8cf-1f85-4fe9-88bb-ed1a31dcc0d4">
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="ʔElɗ-"/>
-               <!-- <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/> -->
+               <prop type="lexlabel" val="eld-"/>
                <prop type="note" val="1 sg ʔElɗ-, other sg ʔELL-, all pl ḳeʔ-. Causative:ʔIssIl-"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
@@ -7615,7 +7613,7 @@
             <term id="ID1b30a31b-bc93-44be-bb20-01428503175f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="ʔElɗ- "/>
+               <prop type="lexlabel" val="eld-"/>
                <prop type="token" val="yellúm"/>
             </term>
             <term id="ID27005a62-1583-4ecd-a174-bca19a57456b">
@@ -8407,7 +8405,7 @@
             <term id="ID0cfe5910-ff39-4227-8db6-290bcf9e2c6d">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="ʔElɗ- "/>
+               <prop type="lexlabel" val="eld-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID0e4fe88c-7d72-49f0-ba2e-2862f6b4a070">
