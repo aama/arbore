@@ -73,12 +73,6 @@
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="ʔIʔIt-"/>
       </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-Eld">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/>
-      </lexeme>
       <lexeme id="mlex_PrefPatternClasses-OhOm">
          <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
@@ -301,6 +295,13 @@
          <prop type="lexlabel" val="raf"/>
          <prop type="pos" val="Verb"/>
          <prop type="subconjClass" val="NonContracting"/>
+      </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-Eld">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="ʔElɗ-"/>
+         <!-- <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/> -->
       </lexeme>
       <lexeme id="ID9eed75bb-6a7f-49fc-83fc-117618d96ea1">
          <prop type="gloss" val="stand"/>
@@ -3743,7 +3744,8 @@
             </term>
             <term id="ID8da1a8cf-1f85-4fe9-88bb-ed1a31dcc0d4">
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/>
+               <prop type="lexlabel" val="ʔElɗ-"/>
+               <!-- <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/> -->
                <prop type="note" val="1 sg ʔElɗ-, other sg ʔELL-, all pl ḳeʔ-. Causative:ʔIssIl-"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
