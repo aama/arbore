@@ -86,10 +86,10 @@
          <prop type="lexlabel" val="ʔEEčč-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-inbit">
-         <prop type="gloss" val="[x]"/>
+         <prop type="gloss" val="ʔIn̅ḅIt-"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
+         <prop type="lexlabel" val="inbit-"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-aarg">
          <prop type="gloss" val="[x]"/>
@@ -7740,7 +7740,7 @@
             <term id="IDd4bda2d4-b322-4dad-8049-8e5a9093286f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="tread on"/>
-               <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
+               <prop type="lexlabel" val="inbit-"/>
                <prop type="token" val="yen̅ḅetúm"/>
             </term>
             <term id="IDd59f32b0-ccfa-447f-ba24-4d28be76e23d">
@@ -8429,7 +8429,7 @@
             <term id="ID1cd3755b-667d-4727-9d35-590a91a37b72">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="tread on"/>
-               <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
+               <prop type="lexlabel" val="inbit-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID2e882684-cf6f-4c1f-ab7e-d7b2834b35dc">
