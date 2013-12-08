@@ -85,12 +85,6 @@
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="ʔEEčč-"/>
       </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-ikkin">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔIk(k)In-"/>
-      </lexeme>
       <lexeme id="mlex_PrefPatternClasses-inbit">
          <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
@@ -329,6 +323,12 @@
          <prop type="lexlabel" val="zeren"/>
          <prop type="pos" val="Verb"/>
          <prop type="subconjClass" val="Contracting"/>
+      </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-ikkin">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="IkkIn-"/>
       </lexeme>
       <lexeme id="IDc1ca2153-adf0-462e-bf54-60f5ed0b97c7">
          <prop type="conjClass" val="Prefix"/>
@@ -3772,7 +3772,7 @@
             </term>
             <term id="IDd52d5daa-dcfc-4979-94d1-f24cd167ca34">
                <prop type="gloss" val="swallow"/>
-               <prop type="lexlabel" val="ʔIk(k)In-"/>
+               <prop type="lexlabel" val="IkkIn-"/>
                <prop type="note" val="_NULL"/>
                <prop type="patternClass" val="Pattern1"/>
             </term>
