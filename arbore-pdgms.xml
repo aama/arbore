@@ -61,12 +61,6 @@
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="ʔIttIg-"/>
       </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-igis- ">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/>
-      </lexeme>
       <lexeme id="mlex_PrefPatternClasses-IIt">
          <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
@@ -252,6 +246,13 @@
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="waññ-oɗ-"/>
+      </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-igis- ">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="ekes"/>
+         <!-- <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/> -->
       </lexeme>
       <lexeme id="ID12da746d-a197-4663-bcc2-c07457af42a3">
          <prop type="conjClass" val="Prefix"/>
@@ -3732,7 +3733,8 @@
             </term>
             <term id="ID3101b27b-98a3-4baf-a6be-c8caccae45f5">
                <prop type="gloss" val="kill"/>
-               <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/>
+               <prop type="lexlabel" val="ekes"/>
+               <!-- <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/> -->
                <prop type="note" val="alt. in 1 sg and imprtv aff"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
@@ -7661,6 +7663,7 @@
             <term id="ID65fe0135-2564-4335-804c-9f4d2af187c8">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="kill"/>
+               <prop type="lexlabel" val="ekes"/>
                <prop type="lexlabel" val="ʔEḳEs-"/>
                <prop type="token" val="yeḳesúm"/>
             </term>
@@ -8476,7 +8479,8 @@
             <term id="ID511415eb-b99e-4d82-adf7-cfa4152db59f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="kill"/>
-               <prop type="lexlabel" val="ʔEḳEs-"/>
+               <prop type="lexlabel" val="ekes"/>
+               <!-- <prop type="lexlabel" val="ʔEḳEs-"/> -->
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID6346a75f-72be-49de-8165-b4115289079e">
