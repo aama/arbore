@@ -74,10 +74,10 @@
          <prop type="lexlabel" val="ʔOhOm-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-IhId">
-         <prop type="gloss" val="[x]"/>
+         <prop type="gloss" val="ʔIhIɗ-"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔIhIɗ-"/>
+         <prop type="lexlabel" val="ihid"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-EEcc">
          <prop type="gloss" val="[x]"/>
@@ -3757,7 +3757,7 @@
             </term>
             <term id="IDbb63747c-6bbd-447f-81f2-a857df6820c0">
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ʔIhIɗ-"/>
+               <prop type="lexlabel" val="ihid"/>
                <prop type="note" val="_NULL"/>
                <prop type="patternClass" val="Pattern1"/>
             </term>
@@ -7686,7 +7686,7 @@
             <term id="ID86fc659b-b7b4-411f-ba67-4e44be9c4042">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ʔIhIɗ-"/>
+               <prop type="lexlabel" val="ihid"/>
                <prop type="token" val="yeheɗúm"/>
             </term>
             <term id="ID897af6c1-eed3-4ee6-a352-6ff86707617a">
@@ -8393,7 +8393,7 @@
             <term id="ID06797aa4-90d6-4708-b4c4-08472f5d48b6">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ʔIhIɗ-"/>
+               <prop type="lexlabel" val="ihid"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID077defac-8565-4ca2-9223-b26092d98bbd">
