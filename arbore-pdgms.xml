@@ -80,10 +80,10 @@
          <prop type="lexlabel" val="ihid"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-EEcc">
-         <prop type="gloss" val="[x]"/>
+         <prop type="gloss" val="ʔEEčč-"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ʔEEčč-"/>
+         <prop type="lexlabel" val="eecc-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-inbit">
          <prop type="gloss" val="ʔIn̅ḅIt-"/>
@@ -3763,7 +3763,7 @@
             </term>
             <term id="IDca8e37b6-9ac6-4abb-a2e0-9d32ccd255b9">
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="ʔEEčč-"/>
+               <prop type="lexlabel" val="eecc-"/>
                <prop type="note"
                   val="Irregular Imperative:sg may pl maaččá. Subj t- n- optionally palatalized"/>
                <prop type="patternClass" val="Pattern2"/>
@@ -7619,7 +7619,7 @@
             <term id="ID27005a62-1583-4ecd-a174-bca19a57456b">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="ʔEEčč-"/>
+               <prop type="lexlabel" val="eecc-"/>
                <prop type="token" val="yeeččúm"/>
             </term>
             <term id="ID2f36c62a-0080-4d1b-afb9-92dd2492a9b2">
@@ -8508,7 +8508,7 @@
             <term id="ID85fec839-ba4b-410a-b1eb-737cf0990b8d">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="ʔEEčč-"/>
+               <prop type="lexlabel" val="eecc-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID91f351f9-a634-4d11-8c71-84a82ee92672">
