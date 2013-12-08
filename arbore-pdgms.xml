@@ -923,7 +923,6 @@
                <prop type="tam" val="Jussive"/>
                <prop type="token-stem" val="ʔik(k)iní"/>
                <prop type="token" val="mán̅ ʔ-ʔik(k)iní"/>
-               <prop type="token" val="mán̅ ʔ-ʔik(k)iní"/>
             </term>
             <term id="ID35d35837-8c28-47b0-bf2e-d26843c30696">
                <prop type="gender" val="Masc"/>
@@ -935,7 +934,6 @@
                <prop type="stemClass" val="e-stem"/>
                <prop type="tam" val="Jussive"/>
                <prop type="token-stem" val="ek(k)enó"/>
-               <prop type="token" val="ʔalɗúy Y-ek(k)enó"/>
                <prop type="token" val="ʔalɗúy Y-ek(k)enó"/>
             </term>
             <term id="ID4c218279-b6b2-4f9a-97f6-dc09d9448975">
@@ -1291,7 +1289,7 @@
                <prop type="token-selGroup" val="mana"/>
                <prop type="token-suffix" val="no"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-no"/>
+               <prop type="token-x" val="1 béeḳo-no"/>
                <prop type="token" val="mana béeḳo-no"/>
             </term>
             <term id="ID3e838685-3627-4967-b9b7-e0ce0f2ffd88">
@@ -1301,7 +1299,7 @@
                <prop type="token-selGroup" val="maso"/>
                <prop type="token-suffix" val="wa"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-wa"/>
+               <prop type="token-x" val="1 béeḳo-wa"/>
                <prop type="token" val="maso béeḳo-wa"/>
             </term>
             <term id="ID6dd5ed57-0223-436f-821e-f247d94c4552">
@@ -1311,7 +1309,7 @@
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-suffix" val="to"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-to"/>
+               <prop type="token-x" val="1 béeḳo-to"/>
                <prop type="token" val="ʔamma béeḳo-to"/>
             </term>
             <term id="ID8da5b479-147d-45b7-b993-ea38f6ae6a40">
@@ -1321,7 +1319,7 @@
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-suffix" val="to"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-to"/>
+               <prop type="token-x" val="1 béeḳo-to"/>
                <prop type="token" val="Ma béeḳo-to"/>
             </term>
             <term id="IDcfaaa04d-797d-4325-8f32-d21446927307">
@@ -1331,7 +1329,7 @@
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-suffix" val="o ~ oo"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-o ~ oo"/>
+               <prop type="token-x" val="1 béeḳo-o ~ oo"/>
                <prop type="token" val="ʔamma béeḳo-o ~ oo"/>
             </term>
             <term id="IDdb32fc91-0c13-4bdf-8c1b-e448cad03afd">
@@ -1341,7 +1339,7 @@
                <prop type="token-selGroup" val="ʔimma"/>
                <prop type="token-suffix" val="ta"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-ta"/>
+               <prop type="token-x" val="1 béeḳo-ta"/>
                <prop type="token" val="ʔímma béeḳo-ta"/>
             </term>
             <term id="IDf506745d-f198-41bc-93be-e94720678c62">
@@ -1351,7 +1349,7 @@
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-suffix" val="o ~ oo"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token" val="1 béeḳo-o ~ oo"/>
+               <prop type="token-x" val="1 béeḳo-o ~ oo"/>
                <prop type="token" val="Ma béeḳo-o ~ oo"/>
             </term>
 
@@ -1644,7 +1642,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token" val="ʔamma T-állo"/>
+               <prop type="token-x" val="ʔamma T-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔamma T-állo-_NULL"/>
             </term>
@@ -1655,7 +1653,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token" val="Ma T-állo"/>
+               <prop type="token-x" val="Ma T-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Ma T-állo-_NULL"/>
             </term>
@@ -1666,7 +1664,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token" val="Ma Y-állo"/>
+               <prop type="token-x" val="Ma Y-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Ma Y-állo-_NULL"/>
             </term>
@@ -1677,7 +1675,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-stem" val="álɗo"/>
-               <prop type="token" val="ʔamma ʔ-álɗo"/>
+               <prop type="token-x" val="ʔamma ʔ-álɗo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔamma ʔ-álɗo-_NULL"/>
             </term>
@@ -1688,7 +1686,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="mana"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="mana ʔ-⊤"/>
+               <prop type="token-x" val="mana ʔ-⊤"/>
                <prop type="token-suffix" val="no"/>
                <prop type="token" val="mana ʔ-⊤-no"/>
             </term>
@@ -1699,7 +1697,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔímma"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="ʔímma ʔ-⊤"/>
+               <prop type="token-x" val="ʔímma ʔ-⊤"/>
                <prop type="token-suffix" val="[e"/>
                <prop type="token" val="ʔímma ʔ-⊤-[e"/>
             </term>
@@ -1710,7 +1708,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="maso"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="maso ʔ-⊤"/>
+               <prop type="token-x" val="maso ʔ-⊤"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="maso ʔ-⊤-_NULL"/>
             </term>
@@ -2017,7 +2015,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token" val="ʔay Y-élle"/>
+               <prop type="token-x" val="ʔay Y-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay Y-élle-_NULL"/>
             </term>
@@ -2028,7 +2026,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔasó"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔasó ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔasó ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔasó ʔ-ḳeʔ-_NULL"/>
             </term>
@@ -2039,7 +2037,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔín̅ ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔín̅ ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-ḳeʔ-te"/>
             </term>
@@ -2050,7 +2048,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔaná"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔaná ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔaná ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔaná ʔ-ḳeʔ-ne"/>
             </term>
@@ -2061,7 +2059,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔan̅"/>
                <prop type="token-stem" val="élɗe"/>
-               <prop type="token" val="ʔan̅ ʔ-élɗe"/>
+               <prop type="token-x" val="ʔan̅ ʔ-élɗe"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔan̅ ʔ-élɗe-_NULL"/>
             </term>
@@ -2072,7 +2070,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token" val="ʔay T-élle"/>
+               <prop type="token-x" val="ʔay T-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay T-élle-_NULL"/>
             </term>
@@ -2083,7 +2081,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔa"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token" val="ʔa T-élle"/>
+               <prop type="token-x" val="ʔa T-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔa T-élle-_NULL"/>
             </term>
@@ -4001,7 +3999,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔ"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token" val="Common T-elle"/>
+               <prop type="token-x" val="Common T-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Common T-elle-_NULL"/>
             </term>
@@ -4012,7 +4010,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔíy"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token" val="ʔíy T-elle"/>
+               <prop type="token-x" val="ʔíy T-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíy T-elle-_NULL"/>
             </term>
@@ -4023,7 +4021,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔína"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="ʔína ʔ-⊤"/>
+               <prop type="token-x" val="ʔína ʔ-⊤"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔína ʔ-⊤-ne"/>
             </term>
@@ -4034,7 +4032,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="elɗe"/>
-               <prop type="token" val="ʔín̅ ʔ-elɗe"/>
+               <prop type="token-x" val="ʔín̅ ʔ-elɗe"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔín̅ ʔ-elɗe-_NULL"/>
             </term>
@@ -4045,7 +4043,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔíy"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token" val="ʔíy Y-elle"/>
+               <prop type="token-x" val="ʔíy Y-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíy Y-elle-_NULL"/>
             </term>
@@ -4056,7 +4054,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="ʔín̅ ʔ-⊤"/>
+               <prop type="token-x" val="ʔín̅ ʔ-⊤"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-⊤-te"/>
             </term>
@@ -4067,7 +4065,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔíso"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token" val="ʔíso ʔ-⊤"/>
+               <prop type="token-x" val="ʔíso ʔ-⊤"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíso ʔ-⊤-_NULL"/>
             </term>
@@ -4913,7 +4911,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token" val="ʔay Y-álla"/>
+               <prop type="token-x" val="ʔay Y-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay Y-álla-_NULL"/>
             </term>
@@ -4924,7 +4922,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔaná"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔaná ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔaná ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔaná ʔ-ḳeʔ-ne"/>
             </term>
@@ -4935,7 +4933,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔa"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token" val="ʔa T-álla"/>
+               <prop type="token-" val="ʔa T-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔa T-álla-_NULL"/>
             </term>
@@ -4946,7 +4944,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔín̅ ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔín̅ ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-ḳeʔ-te"/>
             </term>
@@ -4957,7 +4955,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token" val="ʔay T-álla"/>
+               <prop type="token-x" val="ʔay T-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay T-álla-_NULL"/>
             </term>
@@ -4968,7 +4966,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔan̅"/>
                <prop type="token-stem" val="álɗa"/>
-               <prop type="token" val="ʔan̅ ʔ-álɗa"/>
+               <prop type="token-x" val="ʔan̅ ʔ-álɗa"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔan̅ ʔ-álɗa-_NULL"/>
             </term>
@@ -4979,7 +4977,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔasó"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔasó ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔasó ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔasó ʔ-ḳeʔ-_NULL"/>
             </term>
@@ -5005,7 +5003,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔalɗúy"/>
                <prop type="token-stem" val="alló"/>
-               <prop type="token" val="ʔalɗúy Y-alló"/>
+               <prop type="token-x" val="ʔalɗúy Y-alló"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗúy Y-alló-_NULL"/>
             </term>
@@ -5016,7 +5014,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗúso"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔalɗúso ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔalɗúso ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="⊤"/>
                <prop type="token" val="ʔalɗúso ʔ-ḳeʔ-⊤"/>
             </term>
@@ -5027,7 +5025,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔalɗúy"/>
                <prop type="token-stem" val="alló"/>
-               <prop type="token" val="ʔalɗúy Y-alló"/>
+               <prop type="token-x" val="ʔalɗúy Y-alló"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗúy Y-alló-_NULL"/>
             </term>
@@ -5038,7 +5036,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗún̅"/>
                <prop type="token-stem" val="alɗa"/>
-               <prop type="token" val="ʔalɗún̅ ʔ-alɗa"/>
+               <prop type="token-x" val="ʔalɗún̅ ʔ-alɗa"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗún̅ ʔ-alɗa-_NULL"/>
             </term>
@@ -5049,7 +5047,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗúna"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token" val="ʔalɗúna ʔ-ḳeʔ"/>
+               <prop type="token-x" val="ʔalɗúna ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="nó"/>
                <prop type="token" val="ʔalɗúna ʔ-ḳeʔ-nó"/>
             </term>
