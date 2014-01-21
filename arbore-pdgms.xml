@@ -67,6 +67,12 @@
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="ʔIʔIt-"/>
       </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-Eld">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/>
+      </lexeme>
       <lexeme id="mlex_PrefPatternClasses-OhOm">
          <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
@@ -74,22 +80,34 @@
          <prop type="lexlabel" val="ʔOhOm-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-IhId">
-         <prop type="gloss" val="ʔIhIɗ-"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ihid"/>
+         <prop type="lexlabel" val="ʔIhIɗ-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-EEcc">
-         <prop type="gloss" val="ʔEEčč-"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="eecc-"/>
+         <prop type="lexlabel" val="ʔEEčč-"/>
+      </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-ikkin">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="ʔIk(k)In-"/>
       </lexeme>
       <lexeme id="mlex_PrefPatternClasses-inbit">
-         <prop type="gloss" val="ʔIn̅ḅIt-"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="inbit-"/>
+         <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
+      </lexeme>
+      <lexeme id="mlex_PrefPatternClasses-igis- ">
+         <prop type="gloss" val="[x]"/>
+         <prop type="lang" val="arbore"/>
+         <prop type="lemma" val="[y]"/>
+         <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-aarg">
          <prop type="gloss" val="[x]"/>
@@ -98,40 +116,40 @@
          <prop type="lexlabel" val="ʔaarg-"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-beh">
-         <prop type="gloss" val="go out"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="beh-"/>
+         <prop type="lexlabel" val="beh- ‘go out’"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-guudaHA">
-         <prop type="gloss" val="grow"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="guudaHA-"/>
+         <prop type="lexlabel" val="guudaHAƊ- ‘grow’"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-seAD">
-         <prop type="gloss" val="travel on foot"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="seÁD-"/>
+         <prop type="lexlabel" val="seÁD- ‘travel on foot’"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-zah">
-         <prop type="gloss" val="die"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="zah-"/>
+         <prop type="lexlabel" val="zah- ‘die’"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-haaD">
-         <prop type="gloss" val="run"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="haadA-"/>
+         <prop type="lexlabel" val="ha(a)dAƊ- ‘run’"/>
       </lexeme>
       <lexeme id="mlex_SuppletivePdgms-hil">
-         <prop type="gloss" val="enter"/>
+         <prop type="gloss" val="[x]"/>
          <prop type="lang" val="arbore"/>
          <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="hil-"/>
+         <prop type="lexlabel" val="hil- ‘enter’"/>
       </lexeme>
       <lexeme id="mlex_VRadicalExt-watt-os">
          <prop type="gloss" val="[x]"/>
@@ -241,13 +259,6 @@
          <prop type="lemma" val="[y]"/>
          <prop type="lexlabel" val="waññ-oɗ-"/>
       </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-igis- ">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="ekes"/>
-         <!-- <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/> -->
-      </lexeme>
       <lexeme id="ID12da746d-a197-4663-bcc2-c07457af42a3">
          <prop type="conjClass" val="Prefix"/>
          <prop type="gloss" val="kill"/>
@@ -257,6 +268,7 @@
          <prop type="patternClass" val="Pattern2"/>
          <prop type="pos" val="Verb"/>
       </lexeme>
+
       <lexeme id="ID19f95cf5-0ff8-4cb5-a381-7c751fd7c110">
          <prop type="derivedStem" val="T3"/>
          <prop type="gloss" val="bow"/>
@@ -291,12 +303,6 @@
          <prop type="pos" val="Verb"/>
          <prop type="subconjClass" val="NonContracting"/>
       </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-Eld">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="eld-"/>
-      </lexeme>
       <lexeme id="ID9eed75bb-6a7f-49fc-83fc-117618d96ea1">
          <prop type="gloss" val="stand"/>
          <prop type="lang" val="Arbore"/>
@@ -322,12 +328,6 @@
          <prop type="lexlabel" val="zeren"/>
          <prop type="pos" val="Verb"/>
          <prop type="subconjClass" val="Contracting"/>
-      </lexeme>
-      <lexeme id="mlex_PrefPatternClasses-ikkin">
-         <prop type="gloss" val="[x]"/>
-         <prop type="lang" val="arbore"/>
-         <prop type="lemma" val="[y]"/>
-         <prop type="lexlabel" val="IkkIn-"/>
       </lexeme>
       <lexeme id="IDc1ca2153-adf0-462e-bf54-60f5ed0b97c7">
          <prop type="conjClass" val="Prefix"/>
@@ -923,6 +923,7 @@
                <prop type="tam" val="Jussive"/>
                <prop type="token-stem" val="ʔik(k)iní"/>
                <prop type="token" val="mán̅ ʔ-ʔik(k)iní"/>
+               <prop type="token" val="mán̅ ʔ-ʔik(k)iní"/>
             </term>
             <term id="ID35d35837-8c28-47b0-bf2e-d26843c30696">
                <prop type="gender" val="Masc"/>
@@ -934,6 +935,7 @@
                <prop type="stemClass" val="e-stem"/>
                <prop type="tam" val="Jussive"/>
                <prop type="token-stem" val="ek(k)enó"/>
+               <prop type="token" val="ʔalɗúy Y-ek(k)enó"/>
                <prop type="token" val="ʔalɗúy Y-ek(k)enó"/>
             </term>
             <term id="ID4c218279-b6b2-4f9a-97f6-dc09d9448975">
@@ -1289,7 +1291,7 @@
                <prop type="token-selGroup" val="mana"/>
                <prop type="token-suffix" val="no"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-no"/>
+               <prop type="token" val="1 béeḳo-no"/>
                <prop type="token" val="mana béeḳo-no"/>
             </term>
             <term id="ID3e838685-3627-4967-b9b7-e0ce0f2ffd88">
@@ -1299,7 +1301,7 @@
                <prop type="token-selGroup" val="maso"/>
                <prop type="token-suffix" val="wa"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-wa"/>
+               <prop type="token" val="1 béeḳo-wa"/>
                <prop type="token" val="maso béeḳo-wa"/>
             </term>
             <term id="ID6dd5ed57-0223-436f-821e-f247d94c4552">
@@ -1309,7 +1311,7 @@
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-suffix" val="to"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-to"/>
+               <prop type="token" val="1 béeḳo-to"/>
                <prop type="token" val="ʔamma béeḳo-to"/>
             </term>
             <term id="ID8da5b479-147d-45b7-b993-ea38f6ae6a40">
@@ -1319,7 +1321,7 @@
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-suffix" val="to"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-to"/>
+               <prop type="token" val="1 béeḳo-to"/>
                <prop type="token" val="Ma béeḳo-to"/>
             </term>
             <term id="IDcfaaa04d-797d-4325-8f32-d21446927307">
@@ -1329,7 +1331,7 @@
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-suffix" val="o ~ oo"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-o ~ oo"/>
+               <prop type="token" val="1 béeḳo-o ~ oo"/>
                <prop type="token" val="ʔamma béeḳo-o ~ oo"/>
             </term>
             <term id="IDdb32fc91-0c13-4bdf-8c1b-e448cad03afd">
@@ -1339,7 +1341,7 @@
                <prop type="token-selGroup" val="ʔimma"/>
                <prop type="token-suffix" val="ta"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-ta"/>
+               <prop type="token" val="1 béeḳo-ta"/>
                <prop type="token" val="ʔímma béeḳo-ta"/>
             </term>
             <term id="IDf506745d-f198-41bc-93be-e94720678c62">
@@ -1349,7 +1351,7 @@
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-suffix" val="o ~ oo"/>
                <prop type="token-stem" val="béeḳo"/>
-               <prop type="token-x" val="1 béeḳo-o ~ oo"/>
+               <prop type="token" val="1 béeḳo-o ~ oo"/>
                <prop type="token" val="Ma béeḳo-o ~ oo"/>
             </term>
 
@@ -1642,7 +1644,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token-x" val="ʔamma T-állo"/>
+               <prop type="token" val="ʔamma T-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔamma T-állo-_NULL"/>
             </term>
@@ -1653,7 +1655,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token-x" val="Ma T-állo"/>
+               <prop type="token" val="Ma T-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Ma T-állo-_NULL"/>
             </term>
@@ -1664,7 +1666,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="Ma"/>
                <prop type="token-stem" val="állo"/>
-               <prop type="token-x" val="Ma Y-állo"/>
+               <prop type="token" val="Ma Y-állo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Ma Y-állo-_NULL"/>
             </term>
@@ -1675,7 +1677,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔamma"/>
                <prop type="token-stem" val="álɗo"/>
-               <prop type="token-x" val="ʔamma ʔ-álɗo"/>
+               <prop type="token" val="ʔamma ʔ-álɗo"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔamma ʔ-álɗo-_NULL"/>
             </term>
@@ -1686,7 +1688,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="mana"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="mana ʔ-⊤"/>
+               <prop type="token" val="mana ʔ-⊤"/>
                <prop type="token-suffix" val="no"/>
                <prop type="token" val="mana ʔ-⊤-no"/>
             </term>
@@ -1697,7 +1699,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔímma"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="ʔímma ʔ-⊤"/>
+               <prop type="token" val="ʔímma ʔ-⊤"/>
                <prop type="token-suffix" val="[e"/>
                <prop type="token" val="ʔímma ʔ-⊤-[e"/>
             </term>
@@ -1708,7 +1710,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="maso"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="maso ʔ-⊤"/>
+               <prop type="token" val="maso ʔ-⊤"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="maso ʔ-⊤-_NULL"/>
             </term>
@@ -2015,7 +2017,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token-x" val="ʔay Y-élle"/>
+               <prop type="token" val="ʔay Y-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay Y-élle-_NULL"/>
             </term>
@@ -2026,7 +2028,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔasó"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔasó ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔasó ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔasó ʔ-ḳeʔ-_NULL"/>
             </term>
@@ -2037,7 +2039,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔín̅ ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔín̅ ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-ḳeʔ-te"/>
             </term>
@@ -2048,7 +2050,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔaná"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔaná ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔaná ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔaná ʔ-ḳeʔ-ne"/>
             </term>
@@ -2059,7 +2061,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔan̅"/>
                <prop type="token-stem" val="élɗe"/>
-               <prop type="token-x" val="ʔan̅ ʔ-élɗe"/>
+               <prop type="token" val="ʔan̅ ʔ-élɗe"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔan̅ ʔ-élɗe-_NULL"/>
             </term>
@@ -2070,7 +2072,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token-x" val="ʔay T-élle"/>
+               <prop type="token" val="ʔay T-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay T-élle-_NULL"/>
             </term>
@@ -2081,7 +2083,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔa"/>
                <prop type="token-stem" val="élle"/>
-               <prop type="token-x" val="ʔa T-élle"/>
+               <prop type="token" val="ʔa T-élle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔa T-élle-_NULL"/>
             </term>
@@ -3730,8 +3732,7 @@
             </term>
             <term id="ID3101b27b-98a3-4baf-a6be-c8caccae45f5">
                <prop type="gloss" val="kill"/>
-               <prop type="lexlabel" val="ekes"/>
-               <!-- <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/> -->
+               <prop type="lexlabel" val="ʔEḳEs- ~ ʔigis- "/>
                <prop type="note" val="alt. in 1 sg and imprtv aff"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
@@ -3743,7 +3744,7 @@
             </term>
             <term id="ID8da1a8cf-1f85-4fe9-88bb-ed1a31dcc0d4">
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="eld-"/>
+               <prop type="lexlabel" val="ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)"/>
                <prop type="note" val="1 sg ʔElɗ-, other sg ʔELL-, all pl ḳeʔ-. Causative:ʔIssIl-"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
@@ -3755,20 +3756,20 @@
             </term>
             <term id="IDbb63747c-6bbd-447f-81f2-a857df6820c0">
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ihid"/>
+               <prop type="lexlabel" val="ʔIhIɗ-"/>
                <prop type="note" val="_NULL"/>
                <prop type="patternClass" val="Pattern1"/>
             </term>
             <term id="IDca8e37b6-9ac6-4abb-a2e0-9d32ccd255b9">
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="eecc-"/>
+               <prop type="lexlabel" val="ʔEEčč-"/>
                <prop type="note"
                   val="Irregular Imperative:sg may pl maaččá. Subj t- n- optionally palatalized"/>
                <prop type="patternClass" val="Pattern2"/>
             </term>
             <term id="IDd52d5daa-dcfc-4979-94d1-f24cd167ca34">
                <prop type="gloss" val="swallow"/>
-               <prop type="lexlabel" val="IkkIn-"/>
+               <prop type="lexlabel" val="ʔIk(k)In-"/>
                <prop type="note" val="_NULL"/>
                <prop type="patternClass" val="Pattern1"/>
             </term>
@@ -3999,7 +4000,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔ"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token-x" val="Common T-elle"/>
+               <prop type="token" val="Common T-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="Common T-elle-_NULL"/>
             </term>
@@ -4010,7 +4011,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔíy"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token-x" val="ʔíy T-elle"/>
+               <prop type="token" val="ʔíy T-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíy T-elle-_NULL"/>
             </term>
@@ -4021,7 +4022,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔína"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="ʔína ʔ-⊤"/>
+               <prop type="token" val="ʔína ʔ-⊤"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔína ʔ-⊤-ne"/>
             </term>
@@ -4032,7 +4033,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="elɗe"/>
-               <prop type="token-x" val="ʔín̅ ʔ-elɗe"/>
+               <prop type="token" val="ʔín̅ ʔ-elɗe"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔín̅ ʔ-elɗe-_NULL"/>
             </term>
@@ -4043,7 +4044,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔíy"/>
                <prop type="token-stem" val="elle"/>
-               <prop type="token-x" val="ʔíy Y-elle"/>
+               <prop type="token" val="ʔíy Y-elle"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíy Y-elle-_NULL"/>
             </term>
@@ -4054,7 +4055,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="ʔín̅ ʔ-⊤"/>
+               <prop type="token" val="ʔín̅ ʔ-⊤"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-⊤-te"/>
             </term>
@@ -4065,7 +4066,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔíso"/>
                <prop type="token-stem" val="⊤"/>
-               <prop type="token-x" val="ʔíso ʔ-⊤"/>
+               <prop type="token" val="ʔíso ʔ-⊤"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔíso ʔ-⊤-_NULL"/>
             </term>
@@ -4911,7 +4912,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token-x" val="ʔay Y-álla"/>
+               <prop type="token" val="ʔay Y-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay Y-álla-_NULL"/>
             </term>
@@ -4922,7 +4923,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔaná"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔaná ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔaná ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="ne"/>
                <prop type="token" val="ʔaná ʔ-ḳeʔ-ne"/>
             </term>
@@ -4933,7 +4934,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔa"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token-" val="ʔa T-álla"/>
+               <prop type="token" val="ʔa T-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔa T-álla-_NULL"/>
             </term>
@@ -4944,7 +4945,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔín̅"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔín̅ ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔín̅ ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="te"/>
                <prop type="token" val="ʔín̅ ʔ-ḳeʔ-te"/>
             </term>
@@ -4955,7 +4956,7 @@
                <prop type="token-prefGroup" val="T"/>
                <prop type="token-selGroup" val="ʔay"/>
                <prop type="token-stem" val="álla"/>
-               <prop type="token-x" val="ʔay T-álla"/>
+               <prop type="token" val="ʔay T-álla"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔay T-álla-_NULL"/>
             </term>
@@ -4966,7 +4967,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔan̅"/>
                <prop type="token-stem" val="álɗa"/>
-               <prop type="token-x" val="ʔan̅ ʔ-álɗa"/>
+               <prop type="token" val="ʔan̅ ʔ-álɗa"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔan̅ ʔ-álɗa-_NULL"/>
             </term>
@@ -4977,7 +4978,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔasó"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔasó ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔasó ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔasó ʔ-ḳeʔ-_NULL"/>
             </term>
@@ -5003,7 +5004,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔalɗúy"/>
                <prop type="token-stem" val="alló"/>
-               <prop type="token-x" val="ʔalɗúy Y-alló"/>
+               <prop type="token" val="ʔalɗúy Y-alló"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗúy Y-alló-_NULL"/>
             </term>
@@ -5014,7 +5015,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗúso"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔalɗúso ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔalɗúso ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="⊤"/>
                <prop type="token" val="ʔalɗúso ʔ-ḳeʔ-⊤"/>
             </term>
@@ -5025,7 +5026,7 @@
                <prop type="token-prefGroup" val="Y"/>
                <prop type="token-selGroup" val="ʔalɗúy"/>
                <prop type="token-stem" val="alló"/>
-               <prop type="token-x" val="ʔalɗúy Y-alló"/>
+               <prop type="token" val="ʔalɗúy Y-alló"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗúy Y-alló-_NULL"/>
             </term>
@@ -5036,7 +5037,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗún̅"/>
                <prop type="token-stem" val="alɗa"/>
-               <prop type="token-x" val="ʔalɗún̅ ʔ-alɗa"/>
+               <prop type="token" val="ʔalɗún̅ ʔ-alɗa"/>
                <prop type="token-suffix" val="_NULL"/>
                <prop type="token" val="ʔalɗún̅ ʔ-alɗa-_NULL"/>
             </term>
@@ -5047,7 +5048,7 @@
                <prop type="token-prefGroup" val="ʔ"/>
                <prop type="token-selGroup" val="ʔalɗúna"/>
                <prop type="token-stem" val="ḳeʔ"/>
-               <prop type="token-x" val="ʔalɗúna ʔ-ḳeʔ"/>
+               <prop type="token" val="ʔalɗúna ʔ-ḳeʔ"/>
                <prop type="token-suffix" val="nó"/>
                <prop type="token" val="ʔalɗúna ʔ-ḳeʔ-nó"/>
             </term>
@@ -5836,37 +5837,37 @@
                <prop type="token" val="dooy-"/>
             </term>
             <term id="ID216f5f65-8b9c-4fcb-a878-ebdd5f1a68c2">
-               <prop type="lexlabel" val="beh-"/>
+               <prop type="lexlabel" val="beh- ‘go out’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="_NULL"/>
                <prop type="token" val="huym-"/>
             </term>
             <term id="ID5df35ee3-b71d-4892-828f-ad896fe3a90d">
-               <prop type="lexlabel" val="guudaHA"/>
+               <prop type="lexlabel" val="guudaHAƊ- ‘grow’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="_NULL"/>
                <prop type="token" val="guɗɗaHAƊ-"/>
             </term>
             <term id="ID5efc5e12-4fb7-42a9-9dc1-6576a820bd2e">
-               <prop type="lexlabel" val="seÁD-"/>
+               <prop type="lexlabel" val="seÁD- ‘travel on foot’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="lex has full pdgm with meaning ‘go to’"/>
                <prop type="token" val="ro(o)t-"/>
             </term>
             <term id="ID71050415-1f1e-4ae0-95f2-f68182ac6421">
-               <prop type="lexlabel" val="zah-"/>
+               <prop type="lexlabel" val="zah- ‘die’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="suppletive has full pdgm as ‘be finished, exhausted’"/>
                <prop type="token" val="rahasAƊ-"/>
             </term>
             <term id="ID751dfeba-4343-4805-bd48-34a84dd3e13b">
-               <prop type="lexlabel" val="haadA"/>
+               <prop type="lexlabel" val="ha(a)dAƊ- ‘run’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="suppletive has full pdgm as ‘run away’"/>
                <prop type="token" val="baḳAƊ- (or ʔorj-)"/>
             </term>
             <term id="IDbd558552-aece-4ae7-8793-f80c1ae7d87e">
-               <prop type="lexlabel" val="hil-"/>
+               <prop type="lexlabel" val="hil- ‘enter’"/>
                <prop type="morphoSynEnv" val="sgOnlySuppletivePl"/>
                <prop type="note" val="_NULL"/>
                <prop type="token" val="faʔm-"/>
@@ -7611,13 +7612,13 @@
             <term id="ID1b30a31b-bc93-44be-bb20-01428503175f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="eld-"/>
+               <prop type="lexlabel" val="ʔElɗ- "/>
                <prop type="token" val="yellúm"/>
             </term>
             <term id="ID27005a62-1583-4ecd-a174-bca19a57456b">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="eecc-"/>
+               <prop type="lexlabel" val="ʔEEčč-"/>
                <prop type="token" val="yeeččúm"/>
             </term>
             <term id="ID2f36c62a-0080-4d1b-afb9-92dd2492a9b2">
@@ -7659,8 +7660,7 @@
             <term id="ID65fe0135-2564-4335-804c-9f4d2af187c8">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="kill"/>
-               <prop type="lexlabel" val="ekes"/>
-               <!-- <prop type="lexlabel" val="ʔEḳEs-"/> -->
+               <prop type="lexlabel" val="ʔEḳEs-"/>
                <prop type="token" val="yeḳesúm"/>
             </term>
             <term id="ID7cabeea8-5281-429a-b8d5-f81f1b7afbde">
@@ -7684,7 +7684,7 @@
             <term id="ID86fc659b-b7b4-411f-ba67-4e44be9c4042">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ihid"/>
+               <prop type="lexlabel" val="ʔIhIɗ-"/>
                <prop type="token" val="yeheɗúm"/>
             </term>
             <term id="ID897af6c1-eed3-4ee6-a352-6ff86707617a">
@@ -7738,7 +7738,7 @@
             <term id="IDd4bda2d4-b322-4dad-8049-8e5a9093286f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="tread on"/>
-               <prop type="lexlabel" val="inbit-"/>
+               <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
                <prop type="token" val="yen̅ḅetúm"/>
             </term>
             <term id="IDd59f32b0-ccfa-447f-ba24-4d28be76e23d">
@@ -8391,7 +8391,7 @@
             <term id="ID06797aa4-90d6-4708-b4c4-08472f5d48b6">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="chew"/>
-               <prop type="lexlabel" val="ihid"/>
+               <prop type="lexlabel" val="ʔIhIɗ-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID077defac-8565-4ca2-9223-b26092d98bbd">
@@ -8403,7 +8403,7 @@
             <term id="ID0cfe5910-ff39-4227-8db6-290bcf9e2c6d">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="stand"/>
-               <prop type="lexlabel" val="eld-"/>
+               <prop type="lexlabel" val="ʔElɗ- "/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID0e4fe88c-7d72-49f0-ba2e-2862f6b4a070">
@@ -8427,7 +8427,7 @@
             <term id="ID1cd3755b-667d-4727-9d35-590a91a37b72">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="tread on"/>
-               <prop type="lexlabel" val="inbit-"/>
+               <prop type="lexlabel" val="ʔIn̅ḅIt-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID2e882684-cf6f-4c1f-ab7e-d7b2834b35dc">
@@ -8475,8 +8475,7 @@
             <term id="ID511415eb-b99e-4d82-adf7-cfa4152db59f">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="kill"/>
-               <prop type="lexlabel" val="ekes"/>
-               <!-- <prop type="lexlabel" val="ʔEḳEs-"/> -->
+               <prop type="lexlabel" val="ʔEḳEs-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID6346a75f-72be-49de-8165-b4115289079e">
@@ -8506,7 +8505,7 @@
             <term id="ID85fec839-ba4b-410a-b1eb-737cf0990b8d">
                <prop type="conjClass" val="Prefix"/>
                <prop type="gloss" val="come"/>
-               <prop type="lexlabel" val="eecc-"/>
+               <prop type="lexlabel" val="ʔEEčč-"/>
                <prop type="token" val="⊤"/>
             </term>
             <term id="ID91f351f9-a634-4d11-8c71-84a82ee92672">
