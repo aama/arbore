@@ -2,39 +2,37 @@
 :lang :arbore
 :sgpref "abr"
 :schemata {
-:case [:Absolutive, :Nominative, :Predicative, :_NULL]
-	  :classification [:SentenceFocusTypes]
-	  :classlabel [:focus-type]
+:case [:Absolutive, :Nominative, :Predicative, ]
 	  :clauseType [:Main, :Relative]
 	  :conjClass [:Prefix, :Suffix]
-	  :defClass [:Definite, :Indefinite, :_NULL]
+	  :defClass [:Definite, :Indefinite, ]
 	  :deixis [:Far, :Near]
 	  :derivedStem [:Base, :Inchoative, :M, :S1, :S2, :T1, :T2, :T3, :T4]
-	  :focus [:Neutral, :Non-subj-focus, :Subj-focus]
+	  ;;:focus [:Neutral, :Non_subj_focus, :Subj_focus]
 	  :formType [:Suffix]
 	  :gender [:Common, :Fem, :Masc]
-	  :genderPoss [:Common, :Fem, :Masc]
-	  :infinitiveClass [:Infinitive-me]
-	  :mood [:Indicative, :Non-indicative]
+	  :genderPoss [:P_Common, :P_Fem, :P_Masc]
+	  :infinitiveClass [:Infinitive_me]
+	  :mood [:Indicative, :Non_indicative]
 	  :morphoSynEnv [:sgOnlySuppletivePl]
-	  :morphClass [:Infinitive-me, :Infinitive-um, :PrefPatternClasses, :SuppletivePdgms, :VRadicalExt]
+	  :morphClass [:Infinitive_me, :Infinitive_um, :PrefPatternClasses, :SuppletivePdgms, :VRadicalExt]
 	  :nonFiniteForm [:Infinitive]
-	  :numPoss [:Plural, :Singular]
-	  :number [:Common, :Impersonal, :Plural, :Singular, :_NULL]
-	  :patternClass [:Irreg1-2, :Pattern1, :Pattern2]
-	  :pdgmType [:Exemplary, :Structure]
-	  :person [:Common :Impersonal, :Person1, :Person2, :Person3, :_NULL]
+	  :numPoss [:P_Plural, :P_Singular]
+	  :number [:Impersonal, :Plural, :Singular, ]
+	  :patternClass [:Irreg1_2, :Pattern1, :Pattern2]
+	  :pdgmType [:Partial, :Structure]
+	  :person [:Impersonal, :Person1, :Person2, :Person3, ]
 	  :polarity [:Affirmative, :Negative]
 	  :pos [:Pronoun, :Verb]
 	  :proClass [:BoundSubject, :Deictic, :Independent, :PossSuff, :Possessive, :ReflEmph]
 	  :selectorProClass [:PreVerbSelSubjMarkers, :PreVerbSel_SubjMarkers]
-	  :stemAltClass [:Ad-Class, :Add-Class, :Ahad-Class, :Had-Class, :Is-Class, :M-Class, :S-Class, :W-Class]
-	  :stemClass [:Ee-stem, :I-stem, :aa-stem, :e-stem]
+	  :stemAltClass [:Ad_Class, :Add_Class, :Ahad_Class, :Had_Class, :Is_Class, :M_Class, :S_Class, :W_Class]
+	  :stemClass [:Ee_stem, :I_Stem, :aa_Stem, :e_Stem]
 	  :subconjClass [:Contracting, :NonContracting]
 	  :subjectIdent [:Ident, :NonIdent]
 	  :subjectVerbAgreement [:Agreement, :NonAgr]
 	  :suffixType [:HeSuff, :LoSuff, :SeSuff, :Simple, :TSuff, :TaSuff]
-	  :tam [:General, :Imperative, :Imperfect, :Jussive, :Perfect, :Pluperfect, :_NULL]
+	  :tam [:General, :Imperative, :Imperfect, :Jussive, :Perfect, :Pluperfect, ]
 	  }
 :pclass {
            :pngClass [:person :number :gender ]
@@ -55,55 +53,55 @@
 }
 :lexemes {
   :beekow {:derivedStem :Inchoative, :gloss "become wounded", :lemma "beeḳoW-", :pos :Verb}
-  :beh-  {:gloss "go out", :lemma "[y]", }
-  :beɗɗ-a- {:gloss "[x]", :lemma "[y]", }
-  :bol-ɗ- {:gloss "[x]", :lemma "[y]", }
+  :beh  {:gloss "go out", :lemma "[y]", }
+  :beɗɗ_a {:gloss "[x]", :lemma "[y]", }
+  :bol_ɗ {:gloss "[x]", :lemma "[y]", }
   :eecc {:conjClass :Prefix, :gloss "come", :lemma "ʔEEčč-", :patternClass :Pattern2, :pos :Verb}
   :eld {:gloss "stand", :lemma "ʔElɗ- ~ ʔEll- ~ ḳeʔ-(suff)", :patternClass :Pattern2, :pos :Verb}
-  :fur-m- {:gloss "[x]", :lemma "[y]", }
-  :guruf-now- {:gloss "[x]", :lemma "[y]", }
-  :guudaHAƊ-  {:gloss "grow", :lemma "[y]", }
-  :haadAƊ-  {:gloss "run", :lemma "[y]", }
-  :haaraay-nos- {:gloss "[x]", :lemma "[y]", }
+  :fur_m {:gloss "[x]", :lemma "[y]", }
+  :guruf_now {:gloss "[x]", :lemma "[y]", }
+  :guudaHAƊ  {:gloss "grow", :lemma "[y]", }
+  :haadAƊ  {:gloss "run", :lemma "[y]", }
+  :haaraay_nos {:gloss "[x]", :lemma "[y]", }
   :hariyad {:derivedStem :T1, :gloss "feel (tr.)", :lemma "hariyAƊ-", :pos :Verb}
-  :hil-  {:gloss "enter", :lemma "[y]", }
+  :hil  {:gloss "enter", :lemma "[y]", }
   :igis {:conjClass :Prefix, :gloss "kill", :lemma "ʔEḳEs- ~ ʔigis-", :patternClass :Pattern2, :pos :Verb}
   :ikkin {:conjClass :Prefix, :gloss "swallow", :lemma "ʔIk(k)In-", :patternClass :Pattern1, :pos :Verb}
   :inbit {:conjClass :Prefix, :gloss "step", :lemma "ʔInḅIt-", :patternClass :Pattern1, :pos :Verb}
-  :kum-ɗ- {:gloss "[x]", :lemma "[y]", }
+  :kum_ɗ {:gloss "[x]", :lemma "[y]", }
   :kumahadd {:derivedStem :T3, :gloss "bow", :lemma "kumAHAƊ-", :pos :Verb}
-  :neyb-eɗ- {:gloss "[x]", :lemma "[y]", }
+  :neyb_eɗ {:gloss "[x]", :lemma "[y]", }
   :nyooris {:derivedStem :S1, :gloss "cause to arrive", :lemma "ñoorIS-", :pos :Verb}
   :raf {:conjClass :Suffix, :derivedStem :Base, :gloss "sleep", :lemma "raf-", :pos :Verb, :subconjClass :NonContracting}
-  :rah-ayɗ- {:gloss "[x]", :lemma "[y]", }
-  :rak-aɗɗ- {:gloss "[x]", :lemma "[y]", }
+  :rah_ayɗ {:gloss "[x]", :lemma "[y]", }
+  :rak_aɗɗ {:gloss "[x]", :lemma "[y]", }
   :rakkadd {:derivedStem :T4, :gloss "experience trouble", :lemma "rakkAƊƊ-", :pos :Verb}
-  :seÁD-  {:gloss "travel on foot", :lemma "[y]", }
-  :sirg-ow- {:gloss "[x]", :lemma "[y]", }
+  :seÁD  {:gloss "travel on foot", :lemma "[y]", }
+  :sirg_ow {:gloss "[x]", :lemma "[y]", }
   :wannohad {:derivedStem :T2, :gloss "become old", :lemma "waññoHAƊ-", :pos :Verb}
-  :watt-os- {:gloss "[x]", :lemma "[y]", }
-  :waññ-oɗ- {:gloss "[x]", :lemma "[y]", }
-  :zah-  {:gloss "die", :lemma "[y]", }
+  :watt_os {:gloss "[x]", :lemma "[y]", }
+  :waññ_oɗ {:gloss "[x]", :lemma "[y]", }
+  :zah  {:gloss "die", :lemma "[y]", }
   :zeren {:conjClass :Suffix, :gloss "pierce", :lemma "zer(e)n-", :pos :Verb, :subconjClass :Contracting}
-  :ñoor-s- {:gloss "[x]", :lemma "[y]", }
-  :ɗeer-as- {:gloss "[x]", :lemma "[y]", }
-  :ɗuggann-oyɗ- {:gloss "[x]", :lemma "[y]", }
-  :ʔEEčč- {:gloss "[x]", :lemma "[y]", }
-  :ʔElɗ- {:gloss "[x]", :lemma "[y]", }
-  :ʔEll- {:gloss "[x]", :lemma "[y]", }
-  :ḳeʔ- {:gloss "[x]", :lemma "[y]", }
-  :ʔEḳEs- {:gloss "[x]", :lemma "[y]", }
-  :ʔigis-  {:gloss "[x]", :lemma "[y]", }
-  :ʔIhIɗ- {:gloss "[x]", :lemma "[y]", }
-  :ʔIkkIn- {:gloss "[x]", :lemma "[y]", }
-  :ʔIn̅ḅIt- {:gloss "[x]", :lemma "[y]", }
-  :ʔIttIg- {:gloss "[x]", :lemma "[y]", }
-  :ʔIʔIt- {:gloss "[x]", :lemma "[y]", }
-  :ʔOhOm- {:gloss "[x]", :lemma "[y]", }
-  :ʔaarg- {:gloss "[x]", :lemma "[y]", }
-  :ʔerg-iyɗ- {:gloss "[x]", :lemma "[y]", }
-  :ʔils-aɗ- {:gloss "[x]", :lemma "[y]", }
-  :ʔilʔe-noɗ- {:gloss "[x]", :lemma "[y]", }
+  :ñoor_s {:gloss "[x]", :lemma "[y]", }
+  :ɗeer_as {:gloss "[x]", :lemma "[y]", }
+  :ɗuggann_oyɗ {:gloss "[x]", :lemma "[y]", }
+  :ʔEEčč {:gloss "[x]", :lemma "[y]", }
+  :ʔElɗ {:gloss "[x]", :lemma "[y]", }
+  :ʔEll {:gloss "[x]", :lemma "[y]", }
+  :ḳeʔ {:gloss "[x]", :lemma "[y]", }
+  :ʔEḳEs {:gloss "[x]", :lemma "[y]", }
+  :ʔigis  {:gloss "[x]", :lemma "[y]", }
+  :ʔIhIɗ {:gloss "[x]", :lemma "[y]", }
+  :ʔIkkIn {:gloss "[x]", :lemma "[y]", }
+  :ʔIn̅ḅIt {:gloss "[x]", :lemma "[y]", }
+  :ʔIttIg {:gloss "[x]", :lemma "[y]", }
+  :ʔIʔIt {:gloss "[x]", :lemma "[y]", }
+  :ʔOhOm {:gloss "[x]", :lemma "[y]", }
+  :ʔaarg {:gloss "[x]", :lemma "[y]", }
+  :ʔerg_iyɗ {:gloss "[x]", :lemma "[y]", }
+  :ʔils_aɗ {:gloss "[x]", :lemma "[y]", }
+  :ʔilʔe_noɗ {:gloss "[x]", :lemma "[y]", }
 }
 :lxterms #{
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegImprtv-eld"
@@ -116,9 +114,9 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix]  ;; schema
-	    [:Plural, "Y", "mán̅", "ḳiʔ", "mán̅ Y-ḳiʔ", "⊤"],
-	    [:Singular, "Y", "má", "ellí", "má Y-ellí", "_NULL"]]
+    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix]  ;; schema
+	    [:Plural, "Y", "mán̅", "ḳiʔ", "mán̅ Y-ḳiʔ", "∅"],
+	    [:Singular, "Y", "má", "ellí", "má Y-ellí", "∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffImperf-rakkadd"
     :common {:clauseType :Main,
@@ -128,7 +126,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔaná", "rakka", "nna", "ʔaná rakka-nna"],
 	    [:Common, :Plural, :Person3, "ʔasó", "rakka", "ta", "ʔasó rakka-ta"],
 	    [:Fem, :Singular, :Person3, "ʔay", "rákka", "tta", "ʔay rákka-tta"],
@@ -145,11 +143,11 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "máy", "hariy", "tí", "máy hariy-tí"],
 	    [:Common, :Plural, :Person1, "mána", "hariy", "tí", "mána hariy-tí"],
 	    [:Fem, :Singular, :Person3, "máy", "hariy", "tí", "máy hariy-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "hariy", "⊤", "mán̅ hariy-⊤"],
+	    [:Common, :Singular, :Person1, "mán̅", "hariy", "∅", "mán̅ hariy-∅"],
 	    [:Common, :Plural, :Person3, "máso", "hariy", "tí", "máso hariy-tí"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainBaseAffPluperf-raf"
@@ -161,7 +159,7 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "raf", "te", "ʔín̅ raf-te"],
 	    [:Common, :Plural, :Person1, "ʔaná", "raf", "ne", "ʔaná raf-ne"],
 	    [:Common, :Plural, :Person3, "ʔasó", "raf", "e", "ʔasó raf-e"],
@@ -178,7 +176,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "ʔa", "ñóoris", "a", "ʔa ñóoris-a"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "ñóors", "a", "ʔan̅ ñóors-a"],
 	    [:Common, :Plural, :Person1, "ʔaná", "ñoori", "na", "ʔaná ñoori-na"],
@@ -192,11 +190,11 @@
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "aḳasó", "ʔalɗúy Y-aḳasó"],
 	    [:Common, :Plural, :Person3, "Y", "ʔalɗúso", "aḳasé", "ʔalɗúso Y-aḳasé"],
 	    [:Common, :Plural, :Person1, "N", "ʔalɗúna", "aḳasó", "ʔalɗúna N-aḳasó"],
@@ -211,12 +209,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "ñoors", "⊤", "ʔalɗúso ñoors-⊤"],
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "ʔalɗúso", "ñoors", "∅", "ʔalɗúso ñoors-∅"],
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "ñoori", "nó", "ʔalɗúna ñoori-nó"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "ñoors", "⊤", "ʔalɗúy ñoors-⊤"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy", "ñoors", "∅", "ʔalɗúy ñoors-∅"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "ñoors", "a", "ʔalɗún̅ ñoors-a"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "ñooris", "⊤", "ʔalɗúy ñooris-⊤"]]
+	    [:Fem, :Singular, :Person3, "ʔalɗúy", "ñooris", "∅", "ʔalɗúy ñooris-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffPluperf-wannohad"
     :common {:clauseType :Main,
@@ -226,7 +224,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔaná", "wañño", "hane", "ʔaná wañño-hane"],
 	    [:Fem, :Singular, :Person3, "ʔay", "wáñño", "hate", "ʔay wáñño-hate"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "wáñño", "ɗe", "ʔan̅ wáñño-ɗe"],
@@ -240,43 +238,43 @@
 	    :conjClass :Prefix,
 	    :lexeme :ikkin,
 	    :patternClass :Pattern1,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:gender, :number, :person, :polarity, :token-prefGroup, :token-selGroup, :stemClass, :tam, :token-stem, :token, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "mán̅", :I-stem, :Jussive, "ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní"],
-	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :e-stem, :Jussive, "ek(k)enó", "ʔalɗúy Y-ek(k)enó", "ʔalɗúy Y-ek(k)enó"],
-	    [:Common, :Singular, :Person2, :Affirmative, "ʔ", "ʔ", :I-stem, :Imperative, "ʔik(k)ín", "Common ʔ-ʔik(k)ín"],
-	    [:Common, :Plural, :Person1, :Negative, "N", "mana", :e-stem, :Imperfect, "ék(k)eno", "mana N-ék(k)eno"],
-	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔí", :I-stem, :Perfect, "ek(k)ene", "ʔí T-ek(k)ene"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I-stem, :Imperfect, "ʔík(k)ino", "ʔamma ʔ-ʔík(k)ino"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :I-stem, :Jussive, "ʔik(k)ina", "ʔalɗún̅ ʔ-ʔik(k)ina"],
-	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :I-stem, :Imperative, "ʔik(k)iná", "Common ʔ-ʔik(k)iná"],
-	    [:Masc, :Singular, :Person3, :Negative, "Y", "Ma", :e-stem, :Perfect, "ék(k)éní", "Ma Y-ék(k)éní"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔan̅", :I-stem, :Imperfect, "ʔík(k)ina", "ʔan̅ ʔ-ʔík(k)ina"],
-	    [:Common, :Plural, :Person2, :Negative, "Y", "má", :e-stem, :Imperative, "ek(k)ení", "má Y-ek(k)ení"],
-	    [:Fem, :Singular, :Person3, :Negative, "Y", "máy", :e-stem, :Jussive, "ek(k)ení", "máy Y-ek(k)ení"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :I-stem, :Perfect, "ʔik(k)ine", "ʔín̅ ʔ-ʔik(k)ine"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I-stem, :Perfect, "ʔík(k)íní", "ʔamma ʔ-ʔík(k)íní"],
-	    [:Common, :Singular, :Person2, :Negative, "Y", "mán̅", :e-stem, :Imperative, "ek(k)ení]S]}", "mán̅ Y-ek(k)ení]S]}"],
-	    [:Fem, :Singular, :Person3, :Affirmative, "T", "ʔay", :e-stem, :Imperfect, "ék(k)ene", "ʔay T-ék(k)ene"]]
+    :terms [[:gender, :number, :person, :polarity, :token_prefGroup, :token_selGroup, :stemClass, :tam, :token_stem, :token, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Negative, "ʔ", "mán̅", :I_Stem, :Jussive, "ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní"],
+	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :e_Stem, :Jussive, "ek(k)enó", "ʔalɗúy Y-ek(k)enó", "ʔalɗúy Y-ek(k)enó"],
+	    [:Common, :Singular, :Person2, :Affirmative, "ʔ", "ʔ", :I_Stem, :Imperative, "ʔik(k)ín", "Common ʔ-ʔik(k)ín"],
+	    [:Common, :Plural, :Person1, :Negative, "N", "mana", :e_Stem, :Imperfect, "ék(k)eno", "mana N-ék(k)eno"],
+	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔí", :I_Stem, :Perfect, "ek(k)ene", "ʔí T-ek(k)ene"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I_Stem, :Imperfect, "ʔík(k)ino", "ʔamma ʔ-ʔík(k)ino"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :I_Stem, :Jussive, "ʔik(k)ina", "ʔalɗún̅ ʔ-ʔik(k)ina"],
+	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :I_Stem, :Imperative, "ʔik(k)iná", "Common ʔ-ʔik(k)iná"],
+	    [:Masc, :Singular, :Person3, :Negative, "Y", "Ma", :e_Stem, :Perfect, "ék(k)éní", "Ma Y-ék(k)éní"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔan̅", :I_Stem, :Imperfect, "ʔík(k)ina", "ʔan̅ ʔ-ʔík(k)ina"],
+	    [:Common, :Plural, :Person2, :Negative, "Y", "má", :e_Stem, :Imperative, "ek(k)ení", "má Y-ek(k)ení"],
+	    [:Fem, :Singular, :Person3, :Negative, "Y", "máy", :e_Stem, :Jussive, "ek(k)ení", "máy Y-ek(k)ení"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :I_Stem, :Perfect, "ʔik(k)ine", "ʔín̅ ʔ-ʔik(k)ine"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I_Stem, :Perfect, "ʔík(k)íní", "ʔamma ʔ-ʔík(k)íní"],
+	    [:Common, :Singular, :Person2, :Negative, "Y", "mán̅", :e_Stem, :Imperative, "ek(k)ení]S]}", "mán̅ Y-ek(k)ení]S]}"],
+	    [:Fem, :Singular, :Person3, :Affirmative, "T", "ʔay", :e_Stem, :Imperfect, "ék(k)ene", "ʔay T-ék(k)ene"]]
     }
     {:label "arbore-VPrefRelativeNegGeneral-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :General}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "T", "eḳes", "⊤", "T-eḳes-⊤"],
-	    [:Masc, :Singular, :Person3, "Y", "eḳes", "⊤", "Y-eḳes-⊤"],
-	    [:Common, :Plural, :Person1, "Neut", "eḳes", "⊤", "Neut-eḳes-⊤"],
-	    [:Common, :Singular, :Person2, "T", "eḳes", "⊤", "T-eḳes-⊤"],
-	    [:Common, :Plural, :Person2, "T", "eḳes", "⊤", "T-eḳes-⊤"],
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "T", "eḳes", "∅", "T-eḳes-∅"],
+	    [:Masc, :Singular, :Person3, "Y", "eḳes", "∅", "Y-eḳes-∅"],
+	    [:Common, :Plural, :Person1, "Neut", "eḳes", "∅", "Neut-eḳes-∅"],
+	    [:Common, :Singular, :Person2, "T", "eḳes", "∅", "T-eḳes-∅"],
+	    [:Common, :Plural, :Person2, "T", "eḳes", "∅", "T-eḳes-∅"],
 	    [:Common, :Singular, :Person1, "ʔ", "igis", "ʔ-igis"],
-	    [:Common, :Plural, :Person3, "Y", "eḳes", "⊤", "Y-eḳes-⊤"]]
+	    [:Common, :Plural, :Person3, "Y", "eḳes", "∅", "Y-eḳes-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegPerf-eld"
     :common {:clauseType :Main,
@@ -286,14 +284,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "éllí", "_NULL", "Ma Y-éllí"],
-	    [:Common, :Singular, :Person2, "Y", "ʔamma", "éllí", "_NULL", "ʔamma Y-éllí"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "⊤", "_NULL", "ʔímma ʔ-⊤"],
-	    [:Common, :Plural, :Person1, "ʔ", "mana", "⊤", "_NULL", "mana ʔ-⊤"],
-	    [:Fem, :Singular, :Person3, "Y", "Ma", "éllí", "_NULL", "Ma Y-éllí"],
-	    [:Common, :Plural, :Person3, "ʔ", "maso", "⊤", "_NULL", "maso ʔ-⊤"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "élɗí", "_NULL", "ʔamma ʔ-élɗí"]]
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y", "Ma", "éllí", "∅", "Ma Y-éllí"],
+	    [:Common, :Singular, :Person2, "Y", "ʔamma", "éllí", "∅", "ʔamma Y-éllí"],
+	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "∅", "∅", "ʔímma ʔ-∅"],
+	    [:Common, :Plural, :Person1, "ʔ", "mana", "∅", "∅", "mana ʔ-∅"],
+	    [:Fem, :Singular, :Person3, "Y", "Ma", "éllí", "∅", "Ma Y-éllí"],
+	    [:Common, :Plural, :Person3, "ʔ", "maso", "∅", "∅", "maso ʔ-∅"],
+	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "élɗí", "∅", "ʔamma ʔ-élɗí"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegImperf-beekow"
     :common {:clauseType :Main,
@@ -303,7 +301,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-suffix, :token-stem, :token, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_suffix, :token_stem, :token, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "mana", "no", "béeḳo", "1 béeḳo-no", "mana béeḳo-no"],
 	    [:Common, :Plural, :Person3, "maso", "wa", "béeḳo", "1 béeḳo-wa", "maso béeḳo-wa"],
 	    [:Common, :Singular, :Person2, "ʔamma", "to", "béeḳo", "1 béeḳo-to", "ʔamma béeḳo-to"],
@@ -317,11 +315,11 @@
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "T", "ʔíy", "eḳese", "ʔíy T-eḳese"],
 	    [:Common, :Plural, :Person2, "T", "ʔín̅", "eḳese", "ʔín̅ T-eḳese"],
 	    [:Common, :Plural, :Person1, "N", "ʔína", "éḳese", "ʔína N-éḳese"],
@@ -338,7 +336,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ate", "ʔín̅ hariy-ate"],
 	    [:Common, :Plural, :Person3, "ʔíso", "hariy", "te", "ʔíso hariy-te"],
 	    [:Common, :Plural, :Person1, "ʔína", "háriy", "ane", "ʔína háriy-ane"],
@@ -355,7 +353,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "ʔasó", "ñoors", "e", "ʔasó ñoors-e"],
 	    [:Masc, :Singular, :Person3, "ʔay", "ñóors", "e", "ʔay ñóors-e"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "ñóors", "e", "ʔan̅ ñóors-e"],
@@ -374,8 +372,8 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-suffix :tí}
-    :terms [[:number, :token-selGroup, :token-stem, :token]  ;; schema
+	    :token_suffix :tí}
+    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Singular, "má", "wáñño", "má wáñño"],
 	    [:Plural, "mán̅", "wañño", "mán̅ wañño"]]
     }
@@ -387,14 +385,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "T", "ʔamma", "állo", "ʔamma T-állo", "_NULL", "ʔamma T-állo-_NULL"],
-	    [:Fem, :Singular, :Person3, "T", "Ma", "állo", "Ma T-állo", "_NULL", "Ma T-állo-_NULL"],
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "állo", "Ma Y-állo", "_NULL", "Ma Y-állo-_NULL"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "álɗo", "ʔamma ʔ-álɗo", "_NULL", "ʔamma ʔ-álɗo-_NULL"],
-	    [:Common, :Plural, :Person1, "ʔ", "mana", "⊤", "mana ʔ-⊤", "no", "mana ʔ-⊤-no"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "⊤", "ʔímma ʔ-⊤", "[e", "ʔímma ʔ-⊤-[e"],
-	    [:Common, :Plural, :Person3, "ʔ", "maso", "⊤", "maso ʔ-⊤", "_NULL", "maso ʔ-⊤-_NULL"]]
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "T", "ʔamma", "állo", "ʔamma T-állo", "∅", "ʔamma T-állo-∅"],
+	    [:Fem, :Singular, :Person3, "T", "Ma", "állo", "Ma T-állo", "∅", "Ma T-állo-∅"],
+	    [:Masc, :Singular, :Person3, "Y", "Ma", "állo", "Ma Y-állo", "∅", "Ma Y-állo-∅"],
+	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "álɗo", "ʔamma ʔ-álɗo", "∅", "ʔamma ʔ-álɗo-∅"],
+	    [:Common, :Plural, :Person1, "ʔ", "mana", "∅", "mana ʔ-∅", "no", "mana ʔ-∅-no"],
+	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "∅", "ʔímma ʔ-∅", "[e", "ʔímma ʔ-∅-[e"],
+	    [:Common, :Plural, :Person3, "ʔ", "maso", "∅", "maso ʔ-∅", "∅", "maso ʔ-∅-∅"]]
     }
     {:label "arbore-VSuffRelativeAffPerf-raf"
     :note "Only three tams:perf imperf gen"
@@ -404,7 +402,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-suffix, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_suffix, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "e", "ráf", "ráf-e"],
 	    [:Common, :Plural, :Person1, "ne", "ráf", "ráf-ne"],
 	    [:Masc, :Singular, :Person3, "e", "ráf", "ráf-e"],
@@ -421,7 +419,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔaná", "kum", "ahane", "ʔaná kum-ahane"],
 	    [:Common, :Plural, :Person3, "ʔasó", "kum", "te", "ʔasó kum-te"],
 	    [:Masc, :Singular, :Person3, "ʔay", "kúm", "te", "ʔay kúm-te"],
@@ -435,11 +433,11 @@
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "Neut", "éḳes", "e", "Neut-éḳes-e"],
 	    [:Fem, :Singular, :Person3, "T", "éḳes", "e", "T-éḳes-e"],
 	    [:Common, :Plural, :Person2, "T", "éḳes", "e", "T-éḳes-e"],
@@ -456,25 +454,25 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "élle", "ʔay Y-élle", "_NULL", "ʔay Y-élle-_NULL"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "_NULL", "ʔasó ʔ-ḳeʔ-_NULL"],
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y", "ʔay", "élle", "ʔay Y-élle", "∅", "ʔay Y-élle-∅"],
+	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "∅", "ʔasó ʔ-ḳeʔ-∅"],
 	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "ḳeʔ", "ʔín̅ ʔ-ḳeʔ", "te", "ʔín̅ ʔ-ḳeʔ-te"],
 	    [:Common, :Plural, :Person1, "ʔ", "ʔaná", "ḳeʔ", "ʔaná ʔ-ḳeʔ", "ne", "ʔaná ʔ-ḳeʔ-ne"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "élɗe", "ʔan̅ ʔ-élɗe", "_NULL", "ʔan̅ ʔ-élɗe-_NULL"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "élle", "ʔay T-élle", "_NULL", "ʔay T-élle-_NULL"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "élle", "ʔa T-élle", "_NULL", "ʔa T-élle-_NULL"]]
+	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "élɗe", "ʔan̅ ʔ-élɗe", "∅", "ʔan̅ ʔ-élɗe-∅"],
+	    [:Fem, :Singular, :Person3, "T", "ʔay", "élle", "ʔay T-élle", "∅", "ʔay T-élle-∅"],
+	    [:Common, :Singular, :Person2, "T", "ʔa", "élle", "ʔa T-élle", "∅", "ʔa T-élle-∅"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffImperf-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "T", "ʔín̅", "aḳasa", "ʔín̅ T-aḳasa"],
 	    [:Common, :Plural, :Person3, "Y", "ʔasó", "aḳasa", "ʔasó Y-aḳasa"],
 	    [:Common, :Plural, :Person1, "N", "ʔaná", "aḳasa", "ʔaná N-aḳasa"],
@@ -492,12 +490,12 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mána", "raf", "⊤", "mána raf-⊤"],
-	    [:Common, :Plural, :Person3, "máso", "raf", "⊤", "máso raf-⊤"],
-	    [:Fem, :Singular, :Person3, "máy", "raf", "⊤", "máy raf-⊤"],
-	    [:Masc, :Singular, :Person3, "máy", "raf", "⊤", "máy raf-⊤"],
-	    [:Common, :Singular, :Person1, "mán̅", "raf", "⊤", "mán̅ raf-⊤"]]
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mána", "raf", "∅", "mána raf-∅"],
+	    [:Common, :Plural, :Person3, "máso", "raf", "∅", "máso raf-∅"],
+	    [:Fem, :Singular, :Person3, "máy", "raf", "∅", "máy raf-∅"],
+	    [:Masc, :Singular, :Person3, "máy", "raf", "∅", "máy raf-∅"],
+	    [:Common, :Singular, :Person1, "mán̅", "raf", "∅", "mán̅ raf-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegImperf-rakkadd"
     :common {:clauseType :Main,
@@ -507,7 +505,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "Ma", "rakka", "atto", "Ma rakka-atto"],
 	    [:Common, :Singular, :Person2, "ʔamma", "rakka", "atto", "ʔamma rakka-atto"],
 	    [:Masc, :Singular, :Person3, "Ma", "rakka", "ato", "Ma rakka-ato"],
@@ -525,14 +523,14 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Ma", "zérn", "⊤", "Ma zérn-⊤"],
-	    [:Common, :Plural, :Person2, "ʔímma", "zérn", "⊤", "ʔímma zérn-⊤"],
-	    [:Common, :Plural, :Person3, "maso", "zérn", "⊤", "maso zérn-⊤"],
-	    [:Common, :Plural, :Person1, "mana", "zérn", "⊤", "mana zérn-⊤"],
-	    [:Common, :Singular, :Person2, "ʔamma", "zérn", "⊤", "ʔamma zérn-⊤"],
-	    [:Fem, :Singular, :Person3, "Ma", "zérn", "⊤", "Ma zérn-⊤"],
-	    [:Common, :Singular, :Person1, "ʔamma", "zérn", "⊤", "ʔamma zérn-⊤"]]
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Ma", "zérn", "∅", "Ma zérn-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma", "zérn", "∅", "ʔímma zérn-∅"],
+	    [:Common, :Plural, :Person3, "maso", "zérn", "∅", "maso zérn-∅"],
+	    [:Common, :Plural, :Person1, "mana", "zérn", "∅", "mana zérn-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma", "zérn", "∅", "ʔamma zérn-∅"],
+	    [:Fem, :Singular, :Person3, "Ma", "zérn", "∅", "Ma zérn-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma", "zérn", "∅", "ʔamma zérn-∅"]]
     }
     {:label "arbore-VSuffRelativeAffImperf-raf"
     :note "Only three tams:perf imperf gen"
@@ -542,7 +540,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-suffix, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_suffix, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "a", "ráf", "ráf-a"],
 	    [:Common, :Singular, :Person2, "to", "ráf", "ráf-to"],
 	    [:Common, :Singular, :Person1, "o", "ráf", "ráf-o"],
@@ -560,7 +558,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "T", "ʔín̅", "én̅ḅet[e", "ʔín̅ T-én̅ḅet[e"],
 	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ín̅ḅita", "ʔan̅ ʔ-ín̅ḅita"],
 	    [:Common, :Plural, :Person1, "N", "ʔaná", "én̅ḅet[e", "ʔaná N-én̅ḅet[e"],
@@ -574,20 +572,20 @@
 	    :conjClass :Prefix,
 	    :lexeme :eecc,
 	    :patternClass :Pattern2,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:gender, :number, :person, :polarity, :token-prefGroup, :token-selGroup, :stemClass, :tam, :token-stem, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :Ee-stem, :Perfect, "ʔeečče", "ʔín̅ ʔ-ʔeečče"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :aa-stem, :Jussive, "ʔaačča", "ʔalɗún̅ ʔ-ʔaačča"],
-	    [:Common, :Plural, :Person1, :Negative, "Y", "mána", :Ee-stem, :Jussive, "eeččí", "mána Y-eeččí"],
-	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔa", :aa-stem, :Imperfect, "áačča", "ʔa T-áačča"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "amma", :Ee-stem, :Perfect, "ʔéeččí", "amma ʔ-ʔéeččí"],
-	    [:Common, :Singular, :Person2, :Negative, "Y", "má", :Ee-stem, :Imperative, "eeččí", "má Y-eeččí"],
-	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :aa-stem, :Jussive, "aaččó", "ʔalɗúy Y-aaččó"],
-	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :aa-stem, :Imperative, "maaččá", "Common ʔ-maaččá"],
-	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔasó", :aa-stem, :Imperfect, "aačč", "ʔasó Y-aačč"],
-	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔalɗúso", :Ee-stem, :Jussive, "eeččé", "ʔalɗúso Y-eeččé"],
-	    [:Common, :Plural, :Person2, :Affirmative, "T", "ʔín̅", :Ee-stem, :Perfect, "eečče", "ʔín̅ T-eečče"]]
+    :terms [[:gender, :number, :person, :polarity, :token_prefGroup, :token_selGroup, :stemClass, :tam, :token_stem, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :Ee_Stem, :Perfect, "ʔeečče", "ʔín̅ ʔ-ʔeečče"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :aa_Stem, :Jussive, "ʔaačča", "ʔalɗún̅ ʔ-ʔaačča"],
+	    [:Common, :Plural, :Person1, :Negative, "Y", "mána", :Ee_Stem, :Jussive, "eeččí", "mána Y-eeččí"],
+	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔa", :aa_Stem, :Imperfect, "áačča", "ʔa T-áačča"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ", "amma", :Ee_Stem, :Perfect, "ʔéeččí", "amma ʔ-ʔéeččí"],
+	    [:Common, :Singular, :Person2, :Negative, "Y", "má", :Ee_Stem, :Imperative, "eeččí", "má Y-eeččí"],
+	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :aa_Stem, :Jussive, "aaččó", "ʔalɗúy Y-aaččó"],
+	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :aa_Stem, :Imperative, "maaččá", "Common ʔ-maaččá"],
+	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔasó", :aa_Stem, :Imperfect, "aačč", "ʔasó Y-aačč"],
+	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔalɗúso", :Ee_Stem, :Jussive, "eeččé", "ʔalɗúso Y-eeččé"],
+	    [:Common, :Plural, :Person2, :Affirmative, "T", "ʔín̅", :Ee_Stem, :Perfect, "eečče", "ʔín̅ T-eečče"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffPluperf-hariyad"
     :common {:clauseType :Main,
@@ -597,7 +595,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "ʔay", "háriy", "ate", "ʔay háriy-ate"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "háriy", "ɗe", "ʔan̅ háriy-ɗe"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ate", "ʔín̅ hariy-ate"],
@@ -614,7 +612,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔímma", "wáñño", "hata", "ʔímma wáñño-hata"],
 	    [:Masc, :Singular, :Person3, "Ma", "wáñño", "to", "Ma wáñño-to"],
 	    [:Common, :Singular, :Person2, "ʔamma", "wáñño", "hato", "ʔamma wáñño-hato"],
@@ -631,11 +629,11 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-stem :kúm}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+	    :token_stem :kúm}
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "ʔamma", "kúm", "tí", "ʔamma kúm-tí"],
 	    [:Common, :Plural, :Person1, "mana", "kúm", "tí", "mana kúm-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "kúm", "⊤", "ʔamma kúm-⊤"],
+	    [:Common, :Singular, :Person1, "ʔamma", "kúm", "∅", "ʔamma kúm-∅"],
 	    [:Common, :Plural, :Person3, "maso", "kúm", "tí", "maso kúm-tí"],
 	    [:Masc, :Singular, :Person3, "Ma", "kúm", "tí", "Ma kúm-tí"],
 	    [:Fem, :Singular, :Person3, "Ma", "kúm", "tí", "Ma kúm-tí"],
@@ -650,7 +648,7 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "Ma", "zéren", "to", "Ma zéren-to"],
 	    [:Common, :Singular, :Person2, "ʔamma", "zéren", "to", "ʔamma zéren-to"],
 	    [:Common, :Plural, :Person3, "maso", "zérn", "a", "maso zérn-a"],
@@ -670,9 +668,9 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Plural, "mán̅", "zern", "⊤", "mán̅ zern-⊤"],
-	    [:Singular, "má", "zern", "⊤", "má zern-⊤"]]
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Plural, "mán̅", "zern", "∅", "mán̅ zern-∅"],
+	    [:Singular, "má", "zern", "∅", "má zern-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImprtv-raf"
     :common {:clauseType :Main,
@@ -685,9 +683,9 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Singular, "má", "raf", "⊤", "má raf-⊤"],
-	    [:Plural, "mán̅", "raf", "⊤", "mán̅ raf-⊤"]]
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Singular, "má", "raf", "∅", "má raf-∅"],
+	    [:Plural, "mán̅", "raf", "∅", "mán̅ raf-∅"]]
     }
     {:label "arbore-VSuffMainCausative1NegPerf-nyooris"
     :common {:clauseType :Main,
@@ -697,14 +695,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-stem, :token-suffix, :token-selGroup, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "ñóors", "⊤", "Ma", "Maarbore-VPrefPatternClasses ñóors-⊤"],
-	    [:Common, :Plural, :Person1, "mana", "ñóors", "⊤", "mana ñóors-⊤"],
-	    [:Common, :Plural, :Person2, "ʔímma", "ñóors", "⊤", "ʔímma ñóors-⊤"],
-	    [:Fem, :Singular, :Person3, "Ma", "ñóors", "⊤", "Ma ñóors-⊤"],
-	    [:Common, :Plural, :Person3, "maso", "ñóors", "⊤", "maso ñóors-⊤"],
-	    [:Common, :Singular, :Person2, "ʔamma", "ñóors", "⊤", "ʔamma ñóors-⊤"],
-	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "⊤", "ʔamma ñóors-⊤"]]
+    :terms [[:gender, :number, :person, :token_stem, :token_suffix, :token_selGroup, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "ñóors", "∅", "Ma", "Ma ñóors-∅"],
+	    [:Common, :Plural, :Person1, "mana", "ñóors", "∅", "mana ñóors-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma", "ñóors", "∅", "ʔímma ñóors-∅"],
+	    [:Fem, :Singular, :Person3, "Ma", "ñóors", "∅", "Ma ñóors-∅"],
+	    [:Common, :Plural, :Person3, "maso", "ñóors", "∅", "maso ñóors-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffImperf-beekow"
     :common {:clauseType :Main,
@@ -714,7 +712,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "ʔa", "béeḳo", "ta", "ʔa béeḳo-ta"],
 	    [:Masc, :Singular, :Person3, "ʔay", "béeḳo", "wa", "ʔay béeḳo-wa"],
 	    [:Common, :Plural, :Person1, "ʔaná", "beeḳo", "na", "ʔaná beeḳo-na"],
@@ -732,7 +730,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "en̅bite", "ʔíy Y-en̅bite"],
 	    [:Common, :Plural, :Person2, "T", "ʔín̅", "en̅bite", "ʔín̅ T-en̅bite"],
 	    [:Fem, :Singular, :Person3, "T", "ʔíy", "en̅bite", "ʔíy T-en̅bite"],
@@ -746,11 +744,11 @@
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "Y", "Ma", "éḳésí", "Ma Y-éḳésí"],
 	    [:Common, :Singular, :Person2, "Y", "ʔamma", "éḳésí", "ʔamma Y-éḳésí"],
 	    [:Masc, :Singular, :Person3, "Y", "Ma", "éḳésí", "Ma Y-éḳésí"],
@@ -764,17 +762,17 @@
             infinitive paradigm."
     :common {:conjClass :Prefix,
 	    :morphClass :PrefPatternClasses,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :pos :Verb}
     :terms [[:gloss, :lexeme, :token, :patternClass]  ;; schema
-	    ["know", :ʔIttIg-, "_NULL", :Pattern1],
+	    ["know", :ʔIttIg, "∅", :Pattern1],
 	    ["kill", :ʔEḳEs-  , "alt. in 1 sg and imprtv aff", :Pattern2],
-	    ["go", :ʔIʔIt-, "Irregular Imperative:sg ʔíit pl ʔiitá", :Pattern1],
-	    ["stand", :ʔElɗ- , "1 sg ʔElɗ-, other sg ʔELL-, all pl ḳeʔ-. Causative:ʔIssIl-", :Pattern2],
-	    ["eat", :ʔOhOm-, "Irregular Imperative:pl ʔahambá", :Pattern2],
-	    ["chew", :ʔIhIɗ-, "_NULL", :Pattern1],
-	    ["come", :ʔEEčč-, "Irregular Imperative:sg may pl maaččá. Subj t- n- optionally palatalized", :Pattern2],
-	    ["swallow", :ʔIkkIn-, "_NULL", :Pattern1],
+	    ["go", :ʔIʔIt, "Irregular Imperative:sg ʔíit pl ʔiitá", :Pattern1],
+	    ["stand", :ʔElɗ- , "1 sg ʔElɗ, other sg ʔELL, all pl ḳeʔ-. Causative:ʔIssIl-", :Pattern2],
+	    ["eat", :ʔOhOm, "Irregular Imperative:pl ʔahambá", :Pattern2],
+	    ["chew", :ʔIhIɗ, "∅", :Pattern1],
+	    ["come", :ʔEEčč, "Irregular Imperative:sg may pl maaččá. Subj t- n- optionally palatalized", :Pattern2],
+	    ["swallow", :ʔIkkIn, "∅", :Pattern1],
 	    ["step, tread on", :inbit, "conj:pref Causative:ʔin̅ḅisiis- (imprtv1 sg indicative) ~ -en̅ḅes- (all other)", :Pattern1]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffJuss-kumahadd"
@@ -785,7 +783,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "kum", "ahanó", "ʔalɗúna kum-ahanó"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "kum", "ɗa", "ʔalɗún̅ kum-ɗa"],
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "kum", "tó", "ʔalɗúy kum-tó"],
@@ -800,12 +798,12 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "máy", "ñoors", "⊤", "máy ñoors-⊤"],
-	    [:Common, :Singular, :Person1, "mán̅", "ñoors", "⊤", "mán̅ ñoors-⊤"],
-	    [:Common, :Plural, :Person1, "mána", "ñoors", "⊤", "mána ñoors-⊤"],
-	    [:Common, :Plural, :Person3, "máso", "ñoors", "⊤", "máso ñoors-⊤"],
-	    [:Masc, :Singular, :Person3, "máy", "ñoors", "⊤", "máy ñoors-⊤"]]
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "máy", "ñoors", "∅", "máy ñoors-∅"],
+	    [:Common, :Singular, :Person1, "mán̅", "ñoors", "∅", "mán̅ ñoors-∅"],
+	    [:Common, :Plural, :Person1, "mána", "ñoors", "∅", "mána ñoors-∅"],
+	    [:Common, :Plural, :Person3, "máso", "ñoors", "∅", "máso ñoors-∅"],
+	    [:Masc, :Singular, :Person3, "máy", "ñoors", "∅", "máy ñoors-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainBaseAffImprtv-zeren"
     :common {:clauseType :Main,
@@ -818,9 +816,9 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "zerén", "_NULL", "ʔ zerén-_NULL"],
-	    [:Plural, "ʔ", "zern", "⊤", "ʔ zern-⊤"]]
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Singular, "ʔ", "zerén", "∅", "ʔ zerén-∅"],
+	    [:Plural, "ʔ", "zern", "∅", "ʔ zern-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffPerf-eld"
     :common {:clauseType :Main,
@@ -830,14 +828,14 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "T", "ʔ", "elle", "Common T-elle", "_NULL", "Common T-elle-_NULL"],
-	    [:Fem, :Singular, :Person3, "T", "ʔíy", "elle", "ʔíy T-elle", "_NULL", "ʔíy T-elle-_NULL"],
-	    [:Common, :Plural, :Person1, "ʔ", "ʔína", "⊤", "ʔína ʔ-⊤", "ne", "ʔína ʔ-⊤-ne"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "elɗe", "ʔín̅ ʔ-elɗe", "_NULL", "ʔín̅ ʔ-elɗe-_NULL"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "elle", "ʔíy Y-elle", "_NULL", "ʔíy Y-elle-_NULL"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "⊤", "ʔín̅ ʔ-⊤", "te", "ʔín̅ ʔ-⊤-te"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔíso", "⊤", "ʔíso ʔ-⊤", "_NULL", "ʔíso ʔ-⊤-_NULL"]]
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "T", "ʔ", "elle", "Common T-elle", "∅", "Common T-elle-∅"],
+	    [:Fem, :Singular, :Person3, "T", "ʔíy", "elle", "ʔíy T-elle", "∅", "ʔíy T-elle-∅"],
+	    [:Common, :Plural, :Person1, "ʔ", "ʔína", "∅", "ʔína ʔ-∅", "ne", "ʔína ʔ-∅-ne"],
+	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "elɗe", "ʔín̅ ʔ-elɗe", "∅", "ʔín̅ ʔ-elɗe-∅"],
+	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "elle", "ʔíy Y-elle", "∅", "ʔíy Y-elle-∅"],
+	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "∅", "ʔín̅ ʔ-∅", "te", "ʔín̅ ʔ-∅-te"],
+	    [:Common, :Plural, :Person3, "ʔ", "ʔíso", "∅", "ʔíso ʔ-∅", "∅", "ʔíso ʔ-∅-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffPerf-wannohad"
     :common {:clauseType :Main,
@@ -847,7 +845,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hate", "ʔín̅ wañño-hate"],
 	    [:Masc, :Singular, :Person3, "ʔíy", "wañño", "te", "ʔíy wañño-te"],
 	    [:Fem, :Singular, :Person3, "ʔíy", "wañño", "hate", "ʔíy wañño-hate"],
@@ -861,11 +859,11 @@
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "T", "áḳas", "a", "T-áḳas-a"],
 	    [:Common, :Plural, :Person3, "Y", "áḳas", "a", "Y-áḳas-a"],
 	    [:Common, :Singular, :Person2, "T", "áḳas", "o", "T-áḳas-o"],
@@ -882,7 +880,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔan̅", "béeḳo", "we", "ʔan̅ béeḳo-we"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "beeḳo", "te", "ʔín̅ beeḳo-te"],
 	    [:Masc, :Singular, :Person3, "ʔay", "béeḳo", "we", "ʔay béeḳo-we"],
@@ -899,8 +897,8 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-stem :rakka}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+	    :token_stem :rakka}
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "rakka", "tó", "ʔalɗúy rakka-tó"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "rakka", "ttó", "ʔalɗúy rakka-ttó"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "rakka", "ɗɗa", "ʔalɗún̅ rakka-ɗɗa"],
@@ -916,7 +914,7 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "ʔíy", "zeren", "te", "ʔíy zeren-te"],
 	    [:Masc, :Singular, :Person3, "ʔíy", "zern", "e", "ʔíy zern-e"],
 	    [:Common, :Singular, :Person1, "ʔín̅", "zern", "e", "ʔín̅ zern-e"],
@@ -934,7 +932,7 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔína", "ráf", "ne", "ʔína ráf-ne"],
 	    [:Common, :Plural, :Person3, "ʔíso", "raf", "e", "ʔíso raf-e"],
 	    [:Fem, :Singular, :Person3, "ʔíy", "raf", "te", "ʔíy raf-te"],
@@ -951,7 +949,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "ʔíy", "kum", "ahate", "ʔíy kum-ahate"],
 	    [:Common, :Plural, :Person3, "ʔíso", "kum", "te", "ʔíso kum-te"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "kum", "ahate", "ʔín̅ kum-ahate"],
@@ -968,7 +966,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ata", "ʔín̅ hariy-ata"],
 	    [:Common, :Plural, :Person1, "ʔaná", "hariy", "ana", "ʔaná hariy-ana"],
 	    [:Common, :Plural, :Person3, "ʔasó", "hariy", "ta", "ʔasó hariy-ta"],
@@ -985,14 +983,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :General}
-    :terms [[:gender, :number, :person, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "raf", "⊤", "raf-⊤"],
-	    [:Common, :Singular, :Person1, "raf", "⊤", "raf-⊤"],
-	    [:Common, :Singular, :Person2, "raf", "⊤", "raf-⊤"],
-	    [:Fem, :Singular, :Person3, "raf", "⊤", "raf-⊤"],
-	    [:Common, :Plural, :Person1, "raf", "⊤", "raf-⊤"],
-	    [:Common, :Plural, :Person3, "raf", "⊤", "raf-⊤"],
-	    [:Masc, :Singular, :Person3, "raf", "⊤", "raf-⊤"]]
+    :terms [[:gender, :number, :person, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "raf", "∅", "raf-∅"],
+	    [:Common, :Singular, :Person1, "raf", "∅", "raf-∅"],
+	    [:Common, :Singular, :Person2, "raf", "∅", "raf-∅"],
+	    [:Fem, :Singular, :Person3, "raf", "∅", "raf-∅"],
+	    [:Common, :Plural, :Person1, "raf", "∅", "raf-∅"],
+	    [:Common, :Plural, :Person3, "raf", "∅", "raf-∅"],
+	    [:Masc, :Singular, :Person3, "raf", "∅", "raf-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffPerf-rakkadd"
     :common {:clauseType :Main,
@@ -1002,7 +1000,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tte", "ʔín̅ rakka-tte"],
 	    [:Common, :Singular, :Person1, "ʔín̅", "rakka", "ɗɗe", "ʔín̅ rakka-ɗɗe"],
 	    [:Common, :Singular, :Person2, "ʔ", "rakka", "tte", "Common rakka-tte"],
@@ -1021,8 +1019,8 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-suffix :tí}
-    :terms [[:number, :token-selGroup, :token-stem, :token]  ;; schema
+	    :token_suffix :tí}
+    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Singular, "má", "kúm", "má kúm"],
 	    [:Plural, "mán̅", "kum", "mán̅ kum"]]
     }
@@ -1036,9 +1034,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Singular, "ʔ", "rákka", "ta", "ʔ rákka-ta"],
-	    [:Plural, "ʔ", "rakka", "⊤", "ʔ rakka-⊤"]]
+	    [:Plural, "ʔ", "rakka", "∅", "ʔ rakka-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffImperf-eld"
     :common {:clauseType :Main,
@@ -1048,14 +1046,14 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "álla", "ʔay Y-álla", "_NULL", "ʔay Y-álla-_NULL"],
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y", "ʔay", "álla", "ʔay Y-álla", "∅", "ʔay Y-álla-∅"],
 	    [:Common, :Plural, :Person1, "ʔ", "ʔaná", "ḳeʔ", "ʔaná ʔ-ḳeʔ", "ne", "ʔaná ʔ-ḳeʔ-ne"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "álla", "ʔa T-álla", "_NULL", "ʔa T-álla-_NULL"],
+	    [:Common, :Singular, :Person2, "T", "ʔa", "álla", "ʔa T-álla", "∅", "ʔa T-álla-∅"],
 	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "ḳeʔ", "ʔín̅ ʔ-ḳeʔ", "te", "ʔín̅ ʔ-ḳeʔ-te"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "álla", "ʔay T-álla", "_NULL", "ʔay T-álla-_NULL"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "álɗa", "ʔan̅ ʔ-álɗa", "_NULL", "ʔan̅ ʔ-álɗa-_NULL"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "_NULL", "ʔasó ʔ-ḳeʔ-_NULL"]]
+	    [:Fem, :Singular, :Person3, "T", "ʔay", "álla", "ʔay T-álla", "∅", "ʔay T-álla-∅"],
+	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "álɗa", "ʔan̅ ʔ-álɗa", "∅", "ʔan̅ ʔ-álɗa-∅"],
+	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "∅", "ʔasó ʔ-ḳeʔ-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffJuss-eld"
     :common {:clauseType :Main,
@@ -1065,11 +1063,11 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token, :token-suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "_NULL", "ʔalɗúy Y-alló-_NULL"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔalɗúso", "ḳeʔ", "ʔalɗúso ʔ-ḳeʔ", "⊤", "ʔalɗúso ʔ-ḳeʔ-⊤"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "_NULL", "ʔalɗúy Y-alló-_NULL"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "alɗa", "ʔalɗún̅ ʔ-alɗa", "_NULL", "ʔalɗún̅ ʔ-alɗa-_NULL"],
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "∅", "ʔalɗúy Y-alló-∅"],
+	    [:Common, :Plural, :Person3, "ʔ", "ʔalɗúso", "ḳeʔ", "ʔalɗúso ʔ-ḳeʔ", "∅", "ʔalɗúso ʔ-ḳeʔ-∅"],
+	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "∅", "ʔalɗúy Y-alló-∅"],
+	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "alɗa", "ʔalɗún̅ ʔ-alɗa", "∅", "ʔalɗún̅ ʔ-alɗa-∅"],
 	    [:Common, :Plural, :Person1, "ʔ", "ʔalɗúna", "ḳeʔ", "ʔalɗúna ʔ-ḳeʔ", "nó", "ʔalɗúna ʔ-ḳeʔ-nó"]]
     }
     {:label "arbore-VPrefMainPattern1NegImprtv-inbit"
@@ -1083,7 +1081,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Singular, "Y", "má", "en̅ḅetí", "má Y-en̅ḅetí"],
 	    [:Plural, "Y", "mán̅", "en̅ḅetí", "mán̅ Y-en̅ḅetí"]]
     }
@@ -1095,11 +1093,11 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔímma", "wáññó", "tí", "ʔímma wáññó-tí"],
 	    [:Masc, :Singular, :Person3, "Ma", "wáññó", "tí", "Ma wáññó-tí"],
 	    [:Common, :Plural, :Person3, "maso", "wáññó", "tí", "maso wáññó-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "wáññó", "⊤", "ʔamma wáññó-⊤"],
+	    [:Common, :Singular, :Person1, "ʔamma", "wáññó", "∅", "ʔamma wáññó-∅"],
 	    [:Common, :Singular, :Person2, "ʔamma", "wáññó", "tí", "ʔamma wáññó-tí"],
 	    [:Fem, :Singular, :Person3, "Ma", "wáññó", "tí", "Ma wáññó-tí"],
 	    [:Common, :Plural, :Person1, "mana", "wáññó", "tí", "mana wáññó-tí"]]
@@ -1113,7 +1111,7 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔan̅", "ráf", "a", "ʔan̅ ráf-a"],
 	    [:Common, :Singular, :Person2, "ʔa", "ráf", "ta", "ʔa ráf-ta"],
 	    [:Common, :Plural, :Person3, "ʔasó", "raf", "a", "ʔasó raf-a"],
@@ -1130,7 +1128,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "ʔíy", "beeḳo", "we", "ʔíy beeḳo-we"],
 	    [:Common, :Singular, :Person2, "ʔ", "beeḳo", "te", "Common beeḳo-te"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "beeḳo", "te", "ʔín̅ beeḳo-te"],
@@ -1148,30 +1146,30 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Ma", "ráf", "⊤", "Ma ráf-⊤"],
-	    [:Common, :Plural, :Person3, "maso", "ráf", "⊤", "maso ráf-⊤"],
-	    [:Common, :Plural, :Person1, "mana", "ráf", "⊤", "mana ráf-⊤"],
-	    [:Common, :Plural, :Person2, "ʔímma", "ráf", "⊤", "ʔímma ráf-⊤"],
-	    [:Common, :Singular, :Person2, "ʔamma", "ráf", "⊤", "ʔamma ráf-⊤"],
-	    [:Fem, :Singular, :Person3, "Ma", "ráf", "⊤", "Ma ráf-⊤"],
-	    [:Common, :Singular, :Person1, "ʔamma", "ráf", "⊤", "ʔamma ráf-⊤"]]
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Ma", "ráf", "∅", "Ma ráf-∅"],
+	    [:Common, :Plural, :Person3, "maso", "ráf", "∅", "maso ráf-∅"],
+	    [:Common, :Plural, :Person1, "mana", "ráf", "∅", "mana ráf-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma", "ráf", "∅", "ʔímma ráf-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma", "ráf", "∅", "ʔamma ráf-∅"],
+	    [:Fem, :Singular, :Person3, "Ma", "ráf", "∅", "Ma ráf-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma", "ráf", "∅", "ʔamma ráf-∅"]]
     }
     {:label "arbore-VSuffSuppletivePdgms"
     :note "Note also referfence to “26 sufix verbs showing some sort of irregularity” and
             noted in the lexicon. (Hayward1984a p. 298)"
     :common {:conjClass :Suffix,
 	    :morphClass :SuppletivePdgms,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :pos :Verb}
     :terms [[:lexeme, :morphoSynEnv, :note, :token]  ;; schema
-	    [:ʔaarg-, :sgOnlySuppletivePl, "suppletive has full pdgm as ‘look at’", "dooy-"],
-	    [:beh-, :sgOnlySuppletivePl, "_NULL", "huym-"],
-	    [:guudaHAƊ-, :sgOnlySuppletivePl, "_NULL", "guɗɗaHAƊ-"],
-	    [:seÁD-, :sgOnlySuppletivePl, "lex has full pdgm with meaning ‘go to’", "ro(o)t-"],
+	    [:ʔaarg, :sgOnlySuppletivePl, "suppletive has full pdgm as ‘look at’", "dooy-"],
+	    [:beh, :sgOnlySuppletivePl, "∅", "huym-"],
+	    [:guudaHAƊ, :sgOnlySuppletivePl, "∅", "guɗɗaHAƊ-"],
+	    [:seÁD, :sgOnlySuppletivePl, "lex has full pdgm with meaning ‘go to’", "ro(o)t-"],
 	    [:zah- , :sgOnlySuppletivePl, "suppletive has full pdgm as ‘be finished, exhausted’", "rahasAƊ-"],
 	    [:haadAƊ- , :sgOnlySuppletivePl, "suppletive has full pdgm as ‘run away’", "baḳAƊ- (or ʔorj-)"],
-	    [:hil-, :sgOnlySuppletivePl, "_NULL", "faʔm-"]]
+	    [:hil, :sgOnlySuppletivePl, "∅", "faʔm-"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegPerf-beekow"
     :common {:clauseType :Main,
@@ -1181,7 +1179,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔamma", "béeḳó", "wí", "ʔamma béeḳó-wí"],
 	    [:Common, :Plural, :Person2, "ʔímma", "béeḳó", "wí", "ʔímma béeḳó-wí"],
 	    [:Common, :Singular, :Person2, "ʔamma", "béeḳó", "wí", "ʔamma béeḳó-wí"],
@@ -1198,7 +1196,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔan̅", "rákka", "ɗɗe", "ʔan̅ rákka-ɗɗe"],
 	    [:Common, :Singular, :Person2, "ʔa", "rákka", "tte", "ʔa rákka-tte"],
 	    [:Common, :Plural, :Person1, "ʔaná", "rakka", "nne", "ʔaná rakka-nne"],
@@ -1218,9 +1216,9 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Plural, "ʔ", "raf", "⊤", "ʔ raf-⊤"],
-	    [:Singular, "ʔ", "ráf", "_NULL", "ʔ ráf-_NULL"]]
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Plural, "ʔ", "raf", "∅", "ʔ raf-∅"],
+	    [:Singular, "ʔ", "ráf", "∅", "ʔ ráf-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegJuss-rakkadd"
     :common {:clauseType :Main,
@@ -1230,11 +1228,11 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "máy", "rakka", "tí", "máy rakka-tí"],
 	    [:Fem, :Singular, :Person3, "máy", "rakka", "tí", "máy rakka-tí"],
 	    [:Common, :Plural, :Person1, "mána", "rakka", "tí", "mána rakka-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "rakka", "⊤", "mán̅ rakka-⊤"],
+	    [:Common, :Singular, :Person1, "mán̅", "rakka", "∅", "mán̅ rakka-∅"],
 	    [:Common, :Plural, :Person3, "máso", "rakka", "tí", "máso rakka-tí"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegImprtv-rakkadd"
@@ -1247,8 +1245,8 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-suffix :tí}
-    :terms [[:number, :token-selGroup, :token-stem, :token]  ;; schema
+	    :token_suffix :tí}
+    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Plural, "mán̅", "rakka", "mán̅ rakka"],
 	    [:Singular, "má", "rákka", "má rákka"]]
     }
@@ -1261,12 +1259,12 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "zeren", "nó", "ʔalɗúna zeren-nó"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "zern", "⊤", "ʔalɗúso zern-⊤"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso", "zern", "∅", "ʔalɗúso zern-∅"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "zern", "tó", "ʔalɗúy zern-tó"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "zern", "a", "ʔalɗún̅ zern-a"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "zeren", "⊤", "ʔalɗúy zeren-⊤"]]
+	    [:Masc, :Singular, :Person3, "ʔalɗúy", "zeren", "∅", "ʔalɗúy zeren-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffJuss-beekow"
     :common {:clauseType :Main,
@@ -1276,7 +1274,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "beeḳo", "nó", "ʔalɗúna beeḳo-nó"],
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "beeḳ", "ó ~ óo", "ʔalɗúy beeḳ-ó ~ óo"],
 	    [:Common, :Plural, :Person3, "ʔalɗúso", "beeḳo", "wé", "ʔalɗúso beeḳo-wé"],
@@ -1287,28 +1285,28 @@
     :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p.
             304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na
             enclitic,pp. 304-308)."
-    :common {:pdgmType :Exemplary,
+    :common {:pdgmType :Partial,
 	    :morphClass :VRadicalExt,
 	    :pos :Verb}
     :terms [[:derivedStem, :gloss, :lexeme, :stemAltClass, :token]  ;; schema
-	    [:S2, "blacken", :watt-os-, :S-Class, "-o + -s"],
-	    [:T3, "bow", :kum-ɗ-, :Ahad-Class, "-ɗ ~ -t ~ -aha ~ -a"],
-	    [:M, "be scattered", :fur-m-, :M-Class, "-m"],
-	    [:T2, "become heavy", :ʔils-aɗ-, :Had-Class, "-a + (-ɗ ~ -t ~ -ha)"],
-	    [:T2, "believe", :ɗuggann-oyɗ-, :Had-Class, "-os + (-ɗ ~ -t ~ -ha)"],
-	    [:S1, "causativee to arrive", :ñoor-s-, :Is-Class, "-i ~ -s ~ -is"],
-	    [:T2, "borrow", :ʔerg-iyɗ-, :Had-Class, "-is + (-ɗ ~ -t ~ -ha)"],
-	    [:T4, "have difficuolties", :rak-aɗɗ-, :Add-Class, "-aɗɗ ~ -at "],
-	    [:S2, "lengthen", :ɗeer-as-, :S-Class, "-a + -s"],
-	    [:T2, "wake up", :neyb-eɗ-, :Had-Class, "-e + (-ɗ ~ -t ~ -ha)"],
-	    [:T2, "become green", :ʔilʔe-noɗ-, :Had-Class, "-no + (-ɗ ~ -t ~ -ha)"],
-	    [:S2, "renew", :haaraay-nos-, :S-Class, "-no + -s"],
-	    [:Inchoative, "become bad", :beɗɗ-a-, :W-Class, "-aw ~ -a"],
-	    [:Inchoative, "go made", :sirg-ow-, :W-Class, "-ow ~ -o"],
-	    [:Inchoative, "smell pleasant", :guruf-now-, :W-Class, "-now ~ -no"],
-	    [:T2, "be finished", :rah-ayɗ-, :Had-Class, "-as + (-ɗ ~ -t ~ -ha)"],
-	    [:T1, "dress oneself", :bol-ɗ-, :Ad-Class, "-ɗ ~ -t ~ -a"],
-	    [:T2, "become old", :waññ-oɗ-, :Had-Class, "-o + (-ɗ ~ -t ~ -ha)"]]
+	    [:S2, "blacken", :watt-os, :S_Class, "-o + -s"],
+	    [:T3, "bow", :kum-ɗ, :Ahad_Class, "-ɗ ~ -t ~ -aha ~ -a"],
+	    [:M, "be scattered", :fur-m, :M_Class, "-m"],
+	    [:T2, "become heavy", :ʔils-aɗ, :Had_Class, "-a + (-ɗ ~ -t ~ -ha)"],
+	    [:T2, "believe", :ɗuggann-oyɗ, :Had_Class, "-os + (-ɗ ~ -t ~ -ha)"],
+	    [:S1, "causativee to arrive", :ñoor-s, :Is_Class, "-i ~ -s ~ -is"],
+	    [:T2, "borrow", :ʔerg-iyɗ, :Had_Class, "-is + (-ɗ ~ -t ~ -ha)"],
+	    [:T4, "have difficuolties", :rak-aɗɗ, :Add_Class, "-aɗɗ ~ -at "],
+	    [:S2, "lengthen", :ɗeer-as, :S_Class, "-a + -s"],
+	    [:T2, "wake up", :neyb-eɗ, :Had_Class, "-e + (-ɗ ~ -t ~ -ha)"],
+	    [:T2, "become green", :ʔilʔe-noɗ, :Had_Class, "-no + (-ɗ ~ -t ~ -ha)"],
+	    [:S2, "renew", :haaraay-nos, :S_Class, "-no + -s"],
+	    [:Inchoative, "become bad", :beɗɗ-a, :W_Class, "-aw ~ -a"],
+	    [:Inchoative, "go made", :sirg-ow, :W_Class, "-ow ~ -o"],
+	    [:Inchoative, "smell pleasant", :guruf-now, :W_Class, "-now ~ -no"],
+	    [:T2, "be finished", :rah-ayɗ, :Had_Class, "-as + (-ɗ ~ -t ~ -ha)"],
+	    [:T1, "dress oneself", :bol-ɗ, :Ad_Class, "-ɗ ~ -t ~ -a"],
+	    [:T2, "become old", :waññ-oɗ, :Had_Class, "-o + (-ɗ ~ -t ~ -ha)"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffJuss-hariyad"
     :common {:clauseType :Main,
@@ -1318,7 +1316,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "ʔalɗúso", "hariy", "té", "ʔalɗúso hariy-té"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "hariy", "ɗa", "ʔalɗún̅ hariy-ɗa"],
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "hariy", "to", "ʔalɗúy hariy-to"],
@@ -1333,8 +1331,8 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "mán̅", "kum", "⊤", "mán̅ kum-⊤"],
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "mán̅", "kum", "∅", "mán̅ kum-∅"],
 	    [:Common, :Plural, :Person3, "máso", "kum", "tí", "máso kum-tí"],
 	    [:Masc, :Singular, :Person3, "máy", "kum", "tí", "máy kum-tí"],
 	    [:Fem, :Singular, :Person3, "máy", "kum", "tí", "máy kum-tí"],
@@ -1350,8 +1348,8 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-suffix :wí}
-    :terms [[:number, :token-selGroup, :token-stem, :token]  ;; schema
+	    :token_suffix :wí}
+    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Plural, "mán̅", "beeḳo", "mán̅ beeḳo"],
 	    [:Singular, "má", "beeḳó", "má beeḳó"]]
     }
@@ -1365,9 +1363,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Singular, "ʔ", "háriy", "a", "ʔ háriy-a"],
-	    [:Plural, "ʔ", "hariy", "⊤", "ʔ hariy-⊤"]]
+	    [:Plural, "ʔ", "hariy", "∅", "ʔ hariy-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle1NegPerf-hariyad"
     :common {:clauseType :Main,
@@ -1377,10 +1375,10 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "ʔamma", "háríy", "tí", "ʔamma háríy-tí"],
 	    [:Common, :Plural, :Person2, "ʔímma", "háríy", "tí", "ʔímma háríy-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "háríy", "⊤", "ʔamma háríy-⊤"],
+	    [:Common, :Singular, :Person1, "ʔamma", "háríy", "∅", "ʔamma háríy-∅"],
 	    [:Common, :Plural, :Person3, "maso", "háríy", "tí", "maso háríy-tí"],
 	    [:Masc, :Singular, :Person3, "Ma", "háríy", "tí", "Ma háríy-tí"],
 	    [:Common, :Plural, :Person1, "mana", "háríy", "tí", "mana háríy-tí"],
@@ -1394,7 +1392,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "Ma", "kum", "to", "Ma kum-to"],
 	    [:Fem, :Singular, :Person3, "Ma", "kum", "ahato", "Ma kum-ahato"],
 	    [:Common, :Singular, :Person2, "ʔamma", "kum", "ahato", "ʔamma kum-ahato"],
@@ -1412,7 +1410,7 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔaná", "zeren", "ne", "ʔaná zeren-ne"],
 	    [:Masc, :Singular, :Person3, "ʔay", "zérn", "e", "ʔay zérn-e"],
 	    [:Fem, :Singular, :Person3, "ʔay", "zéren", "te", "ʔay zéren-te"],
@@ -1430,7 +1428,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "N", "ʔalɗúna", "en̅ḅitó", "ʔalɗúna N-en̅ḅitó"],
 	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "en̅ḅitó", "ʔalɗúy Y-en̅ḅitó"],
 	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "in̅ḅita", "ʔalɗún̅ ʔ-in̅ḅita"],
@@ -1446,7 +1444,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "T", "ʔín̅", "en̅bite", "ʔín̅ T-en̅bite"],
 	    [:Common, :Singular, :Person2, "T", "ʔa", "en̅bite", "ʔa T-en̅bite"],
 	    [:Fem, :Singular, :Person3, "T", "ʔay", "en̅bite", "ʔay T-en̅bite"],
@@ -1465,7 +1463,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Singular, "má", "háriy", "tí", "má háriy-tí"],
 	    [:Plural, "mán̅", "hariy", "tí", "mán̅ hariy-tí"]]
     }
@@ -1479,9 +1477,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-prefGroup, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "ʔ", "ál", "_NULL", "ʔ ʔ-ál-_NULL"],
-	    [:Plural, "ʔ", "ʔ", "ḳeʔ", "⊤", "ʔ ʔ-ḳeʔ-⊤"]]
+    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Singular, "ʔ", "ʔ", "ál", "∅", "ʔ ʔ-ál-∅"],
+	    [:Plural, "ʔ", "ʔ", "ḳeʔ", "∅", "ʔ ʔ-ḳeʔ-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffImprtv-wannohad"
     :common {:clauseType :Main,
@@ -1493,8 +1491,8 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Plural, "ʔ", "wañño", "⊤", "ʔ wañño-⊤"],
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Plural, "ʔ", "wañño", "∅", "ʔ wañño-∅"],
 	    [:Singular, "ʔ", "wáñño", "ha", "ʔ wáñño-ha"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegPerf-rakkadd"
@@ -1505,9 +1503,9 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "mana", "rákká", "tí", "mana rákká-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "rákká", "⊤", "ʔamma rákká-⊤"],
+	    [:Common, :Singular, :Person1, "ʔamma", "rákká", "∅", "ʔamma rákká-∅"],
 	    [:Common, :Plural, :Person2, "ʔímma", "rákká", "tí", "ʔímma rákká-tí"],
 	    [:Fem, :Singular, :Person3, "Ma", "rákká", "tí", "Ma rákká-tí"],
 	    [:Common, :Singular, :Person2, "ʔamma", "rákká", "tí", "ʔamma rákká-tí"],
@@ -1518,39 +1516,39 @@
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
-    :common {:infinitiveClass :Infinitive-me,
-	    :morphClass :Infinitive-um,
+    :common {:infinitiveClass :Infinitive_me,
+	    :morphClass :Infinitive_um,
 	    :nonFiniteForm :Infinitive,
 	    :pos :Verb}
     :terms [[:conjClass, :gloss, :lexeme, :token]  ;; schema
-	    [:Prefix, "leak", :ʔehen-, "yehenúm"],
-	    [:Suffix, "climb", :tiir-, "tiirúm"],
+	    [:Prefix, "leak", :ʔehen, "yehenúm"],
+	    [:Suffix, "climb", :tiir, "tiirúm"],
 	    [:Prefix, "stand", :ʔElɗ- , "yellúm"],
-	    [:Prefix, "come", :ʔEEčč-, "yeeččúm"],
-	    [:Suffix, "water (tr.)", :faḳ-, "faḳúm"],
-	    [:Suffix, "hide oneslef", :ɗegAƊ-, "ɗegúm"],
-	    [:Suffix, "suckle", :nuugIS-, "nuussúm"],
-	    [:Suffix, "believe", :ʔaman-, "ʔamanʔum"],
-	    [:Suffix, "fall", :jiʔ-, "jiʔúm"],
-	    [:Suffix, "raid for cattle", :boojjiy-, "boojjiyúm"],
-	    [:Prefix, "kill", :ʔEḳEs-, "yeḳesúm"],
-	    [:Prefix, "go", :ʔIʔIt-, "yeʔetúm"],
-	    [:Suffix, "get up", :keʔ-, "keʔúm"],
-	    [:Prefix, "eat", :ʔOhOm-, "yohúm"],
-	    [:Prefix, "chew", :ʔIhIɗ-, "yeheɗúm"],
-	    [:Prefix, "cause to tread on", :ʔIn̅ḅIs-, "yen̅ḅesúm"],
-	    [:Suffix, "bake", :karIS-, "karsúm"],
-	    [:Suffix, "be replete", :heyy-, "heyyúm"],
-	    [:Suffix, "spit", :tuf-, "tumúm"],
-	    [:Prefix, "know", :ʔIttIg-, "yettegúm"],
-	    [:Suffix, "kiss", :ɗon̅g-, "ɗon̅ḳúm"],
-	    [:Suffix, "give birth", :ɗal-, "ɗalúm"],
-	    [:Suffix, "find", :day-, "dayúm"],
-	    [:Prefix, "tread on", :ʔIn̅ḅIt-, "yen̅ḅetúm"],
-	    [:Suffix, "swim", :zawaHAƊ-, "zawúm"],
-	    [:Suffix, "reap", :čaah-, "č’aahʔum"],
-	    [:Prefix, "cause to stand", :ʔIssIl-, "yesselúm"],
-	    [:Prefix, "swallow", :ʔIkkIn-, "yekkenúm"]]
+	    [:Prefix, "come", :ʔEEčč, "yeeččúm"],
+	    [:Suffix, "water (tr.)", :faḳ, "faḳúm"],
+	    [:Suffix, "hide oneslef", :ɗegAƊ, "ɗegúm"],
+	    [:Suffix, "suckle", :nuugIS, "nuussúm"],
+	    [:Suffix, "believe", :ʔaman, "ʔamanʔum"],
+	    [:Suffix, "fall", :jiʔ, "jiʔúm"],
+	    [:Suffix, "raid for cattle", :boojjiy, "boojjiyúm"],
+	    [:Prefix, "kill", :ʔEḳEs, "yeḳesúm"],
+	    [:Prefix, "go", :ʔIʔIt, "yeʔetúm"],
+	    [:Suffix, "get up", :keʔ, "keʔúm"],
+	    [:Prefix, "eat", :ʔOhOm, "yohúm"],
+	    [:Prefix, "chew", :ʔIhIɗ, "yeheɗúm"],
+	    [:Prefix, "cause to tread on", :ʔIn̅ḅIs, "yen̅ḅesúm"],
+	    [:Suffix, "bake", :karIS, "karsúm"],
+	    [:Suffix, "be replete", :heyy, "heyyúm"],
+	    [:Suffix, "spit", :tuf, "tumúm"],
+	    [:Prefix, "know", :ʔIttIg, "yettegúm"],
+	    [:Suffix, "kiss", :ɗon̅g, "ɗon̅ḳúm"],
+	    [:Suffix, "give birth", :ɗal, "ɗalúm"],
+	    [:Suffix, "find", :day, "dayúm"],
+	    [:Prefix, "tread on", :ʔIn̅ḅIt, "yen̅ḅetúm"],
+	    [:Suffix, "swim", :zawaHAƊ, "zawúm"],
+	    [:Suffix, "reap", :čaah, "č’aahʔum"],
+	    [:Prefix, "cause to stand", :ʔIssIl, "yesselúm"],
+	    [:Prefix, "swallow", :ʔIkkIn, "yekkenúm"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainBaseNegJuss-zeren"
     :common {:clauseType :Main,
@@ -1561,12 +1559,12 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mána", "zern", "⊤", "mána zern-⊤"],
-	    [:Common, :Singular, :Person1, "mán̅", "zern", "⊤", "mán̅ zern-⊤"],
-	    [:Fem, :Singular, :Person3, "máy", "zern", "⊤", "máy zern-⊤"],
-	    [:Common, :Plural, :Person3, "máso", "zern", "⊤", "máso zern-⊤"],
-	    [:Masc, :Singular, :Person3, "máy", "zern", "⊤", "máy zern-⊤"]]
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mána", "zern", "∅", "mána zern-∅"],
+	    [:Common, :Singular, :Person1, "mán̅", "zern", "∅", "mán̅ zern-∅"],
+	    [:Fem, :Singular, :Person3, "máy", "zern", "∅", "máy zern-∅"],
+	    [:Common, :Plural, :Person3, "máso", "zern", "∅", "máso zern-∅"],
+	    [:Masc, :Singular, :Person3, "máy", "zern", "∅", "máy zern-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImperf-raf"
     :common {:clauseType :Main,
@@ -1577,7 +1575,7 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-suffix, :token-stem, :token, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_suffix, :token_stem, :token, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "ʔamma", "to", "ráf", "ráf-to", "ʔamma ráf-to"],
 	    [:Common, :Plural, :Person3, "maso", "a", "ráf", "maso ráf-a"],
 	    [:Fem, :Singular, :Person3, "Ma", "to", "ráf", "Ma ráf-to"],
@@ -1595,7 +1593,7 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔaná", "zeren", "na", "ʔaná zeren-na"],
 	    [:Common, :Plural, :Person3, "ʔasó", "zern", "a", "ʔasó zern-a"],
 	    [:Masc, :Singular, :Person3, "ʔay", "zérn", "a", "ʔay zérn-a"],
@@ -1612,7 +1610,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "ʔíso", "ñoors", "e", "ʔíso ñoors-e"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "ñooris", "e", "ʔín̅ ñooris-e"],
 	    [:Common, :Singular, :Person1, "ʔín̅", "ñoors", "e", "ʔín̅ ñoors-e"],
@@ -1632,7 +1630,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Plural, "ʔ", "ʔ", "in̅ḅitá", "ʔ ʔ-in̅ḅitá"],
 	    [:Singular, "ʔ", "ʔ", "in̅ḅít", "ʔ ʔ-in̅ḅít"]]
     }
@@ -1644,7 +1642,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "máy", "beeḳo", "wí", "máy beeḳo-wí"],
 	    [:Common, :Singular, :Person1, "mán̅", "beeḳo", "wí", "mán̅ beeḳo-wí"],
 	    [:Masc, :Singular, :Person3, "máy", "beeḳo", "wí", "máy beeḳo-wí"],
@@ -1660,7 +1658,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "Y", "máso", "en̅ḅetí", "máso Y-en̅ḅetí"],
 	    [:Common, :Plural, :Person1, "Y", "mána", "en̅ḅetí", "mána Y-en̅ḅetí"],
 	    [:Fem, :Singular, :Person3, "Y", "máy", "en̅ḅetí", "máy Y-en̅ḅetí"],
@@ -1675,7 +1673,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔan̅", "kúm", "ɗa", "ʔan̅ kúm-ɗa"],
 	    [:Common, :Plural, :Person1, "ʔaná", "kum", "ahana", "ʔaná kum-ahana"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "kum", "ahata", "ʔín̅ kum-ahata"],
@@ -1693,7 +1691,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "Y", "ʔímma", "én̅ḅétí", "ʔímma Y-én̅ḅétí"],
 	    [:Common, :Plural, :Person3, "Y", "maso", "én̅ḅétí", "maso Y-én̅ḅétí"],
 	    [:Masc, :Singular, :Person3, "Y", "Ma", "én̅ḅétí", "Ma Y-én̅ḅétí"],
@@ -1706,50 +1704,50 @@
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
-    :common {:infinitiveClass :Infinitive-me,
-	    :morphClass :Infinitive-me,
+    :common {:infinitiveClass :Infinitive_me,
+	    :morphClass :Infinitive_me,
 	    :nonFiniteForm :Infinitive,
 	    :pos :Verb}
     :terms [[:conjClass, :gloss, :lexeme, :token]  ;; schema
-	    [:Prefix, "chew", :ʔIhIɗ-, "⊤"],
-	    [:Suffix, "fall", :jiʔ-, "jiʔmé"],
-	    [:Prefix, "stand", :ʔElɗ- , "⊤"],
-	    [:Prefix, "cause to stand", :ʔIssIl-, "⊤"],
-	    [:Suffix, "swim", :zawaHAƊ-, "zawmé"],
-	    [:Prefix, "cause to tread on", :ʔIn̅ḅIs-, "⊤"],
-	    [:Prefix, "tread on", :ʔIn̅ḅIt-, "⊤"],
-	    [:Suffix, "spit", :tuf-, "tufmé"],
-	    [:Prefix, "go", :ʔIʔIt-, "⊤"],
-	    [:Suffix, "give birth", :ɗal-, "ɗalmé"],
-	    [:Suffix, "suckle", :nuugIS-, "nuusmé"],
-	    [:Suffix, "hide oneslef", :ɗegAƊ-, "⊤"],
-	    [:Prefix, "leak", :ʔehen-, "⊤"],
-	    [:Suffix, "kiss", :ɗon̅g-, "⊤"],
-	    [:Prefix, "kill", :ʔEḳEs-, "⊤"],
-	    [:Suffix, "raid for cattle", :boojjiy-, "boojjiymé"],
-	    [:Suffix, "get up", :keʔ-, "⊤"],
-	    [:Suffix, "water (tr.)", :faḳ-, "⊤"],
-	    [:Suffix, "bake", :karIS-, "⊤"],
-	    [:Prefix, "come", :ʔEEčč-, "⊤"],
-	    [:Suffix, "believe", :ʔaman-, "⊤"],
-	    [:Suffix, "reap", :čaah-, "č’ahamʔe"],
-	    [:Prefix, "swallow", :ʔIkkIn-, "⊤"],
-	    [:Suffix, "find", :day-, "daymé"],
-	    [:Prefix, "know", :ʔIttIg-, "⊤"],
-	    [:Suffix, "be replete", :heyy-, "heymé"],
-	    [:Prefix, "eat", :ʔOhOm-, "⊤"],
-	    [:Suffix, "climb", :tiir-, "tiirmé"]]
+	    [:Prefix, "chew", :ʔIhIɗ, "∅"],
+	    [:Suffix, "fall", :jiʔ, "jiʔmé"],
+	    [:Prefix, "stand", :ʔElɗ- , "∅"],
+	    [:Prefix, "cause to stand", :ʔIssIl, "∅"],
+	    [:Suffix, "swim", :zawaHAƊ, "zawmé"],
+	    [:Prefix, "cause to tread on", :ʔIn̅ḅIs, "∅"],
+	    [:Prefix, "tread on", :ʔIn̅ḅIt, "∅"],
+	    [:Suffix, "spit", :tuf, "tufmé"],
+	    [:Prefix, "go", :ʔIʔIt, "∅"],
+	    [:Suffix, "give birth", :ɗal, "ɗalmé"],
+	    [:Suffix, "suckle", :nuugIS, "nuusmé"],
+	    [:Suffix, "hide oneslef", :ɗegAƊ, "∅"],
+	    [:Prefix, "leak", :ʔehen, "∅"],
+	    [:Suffix, "kiss", :ɗon̅g, "∅"],
+	    [:Prefix, "kill", :ʔEḳEs, "∅"],
+	    [:Suffix, "raid for cattle", :boojjiy, "boojjiymé"],
+	    [:Suffix, "get up", :keʔ, "∅"],
+	    [:Suffix, "water (tr.)", :faḳ, "∅"],
+	    [:Suffix, "bake", :karIS, "∅"],
+	    [:Prefix, "come", :ʔEEčč, "∅"],
+	    [:Suffix, "believe", :ʔaman, "∅"],
+	    [:Suffix, "reap", :čaah, "č’ahamʔe"],
+	    [:Prefix, "swallow", :ʔIkkIn, "∅"],
+	    [:Suffix, "find", :day, "daymé"],
+	    [:Prefix, "know", :ʔIttIg, "∅"],
+	    [:Suffix, "be replete", :heyy, "heymé"],
+	    [:Prefix, "eat", :ʔOhOm, "∅"],
+	    [:Suffix, "climb", :tiir, "tiirmé"]]
     }
     {:label "arbore-VPrefMainPattern1-2NegJuss-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "Y", "mána", "eḳesí", "mána Y-eḳesí"],
 	    [:Masc, :Singular, :Person3, "Y", "máy", "eḳesí", "máy Y-eḳesí"],
 	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "igisí", "mán̅ ʔ-igisí"],
@@ -1764,7 +1762,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "wañño", "tó", "ʔalɗúy wañño-tó"],
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "wañño", "hanó", "ʔalɗúna wañño-hanó"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "wañño", "ható", "ʔalɗúy wañño-ható"],
@@ -1781,9 +1779,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Singular, "ʔ", "ñoorís", "∅", "ʔ ñoorís-∅"],
-	    [:Plural, "ʔ", "ñoors", "⊤", "ʔ ñoors-⊤"]]
+	    [:Plural, "ʔ", "ñoors", "∅", "ʔ ñoors-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegJuss-eld"
     :common {:clauseType :Main,
@@ -1793,12 +1791,12 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "máy", "ellí", "_NULL", "máy Y-ellí-_NULL"],
-	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "elɗí", "_NULL", "mán̅ ʔ-elɗí"],
-	    [:Common, :Plural, :Person3, "ʔ", "máso", "ḳiʔí", "_NULL", "máso ʔ-ḳiʔí"],
-	    [:Fem, :Singular, :Person3, "Y", "máy", "ellí", "_NULL", "máy Y-ellí"],
-	    [:Common, :Plural, :Person1, "ʔ", "mána", "ḳiʔí", "_NULL", "mána ʔ-ḳiʔí"]]
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y", "máy", "ellí", "∅", "máy Y-ellí-∅"],
+	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "elɗí", "∅", "mán̅ ʔ-elɗí"],
+	    [:Common, :Plural, :Person3, "ʔ", "máso", "ḳiʔí", "∅", "máso ʔ-ḳiʔí"],
+	    [:Fem, :Singular, :Person3, "Y", "máy", "ellí", "∅", "máy Y-ellí"],
+	    [:Common, :Plural, :Person1, "ʔ", "mána", "ḳiʔí", "∅", "mána ʔ-ḳiʔí"]]
     }
     {:label "arbore-VPrefMainPattern1NegImperf-inbit"
     :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
@@ -1809,7 +1807,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "Y", "maso", "én̅ḅete", "maso Y-én̅ḅete"],
 	    [:Common, :Singular, :Person2, "T", "ʔamma", "én̅ḅeto", "ʔamma T-én̅ḅeto"],
 	    [:Masc, :Singular, :Person3, "Y", "Ma", "én̅ḅeto", "Ma Y-én̅ḅeto"],
@@ -1826,11 +1824,11 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "máy", "wañño", "tí", "máy wañño-tí"],
 	    [:Fem, :Singular, :Person3, "máy", "wañño", "tí", "máy wañño-tí"],
 	    [:Common, :Plural, :Person1, "mána", "wañño", "tí", "mána wañño-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "wañño", "⊤", "mán̅ wañño-⊤"],
+	    [:Common, :Singular, :Person1, "mán̅", "wañño", "∅", "mán̅ wañño-∅"],
 	    [:Common, :Plural, :Person3, "máso", "wañño", "tí", "máso wañño-tí"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffImprtv-beekow"
@@ -1843,7 +1841,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Plural, "ʔ", "beeḳo", "wá", "ʔ beeḳo-wá"],
 	    [:Singular, "ʔ", "beeḳó", "w", "ʔ beeḳó-w"]]
     }
@@ -1855,16 +1853,16 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔímma", "ñóoris", "a", "ʔímma ñóoris-a"],
 	    [:Common, :Singular, :Person2, "ʔamma", "ñóoris", "o", "ʔamma ñóoris-o"],
 	    [:Masc, :Singular, :Person3, "Ma", "ñóors", "o", "Ma ñóors-o"],
 	    [:Fem, :Singular, :Person3, "Ma", "ñóoris", "o", "Ma ñóoris-o"],
 	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "o", "ʔamma ñóors-o"],
 	    [:Common, :Plural, :Person1, "mana", "ñóori", "no", "mana ñóori-no"],
-	    [:Common, :Plural, :Person2, "mán̅", "ñoors", "⊤", "mán̅ ñoors-⊤"],
+	    [:Common, :Plural, :Person2, "mán̅", "ñoors", "∅", "mán̅ ñoors-∅"],
 	    [:Common, :Plural, :Person3, "maso", "ñóors", "a", "maso ñóors-a"],
-	    [:Common, :Singular, :Person2, "má", "ñoors", "⊤", "má ñoors-⊤"]]
+	    [:Common, :Singular, :Person2, "má", "ñoors", "∅", "má ñoors-∅"]]
     }
     {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffImperf-wannohad"
     :common {:clauseType :Main,
@@ -1874,7 +1872,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hata", "ʔín̅ wañño-hata"],
 	    [:Common, :Plural, :Person1, "ʔaná", "wañño", "hana", "ʔaná wañño-hana"],
 	    [:Masc, :Singular, :Person3, "ʔay", "wáñño", "ta", "ʔay wáñño-ta"],
@@ -1891,7 +1889,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "Ma", "háriy", "ato", "Ma háriy-ato"],
 	    [:Common, :Singular, :Person2, "ʔamma", "háriy", "ato", "ʔamma háriy-ato"],
 	    [:Common, :Plural, :Person1, "mana", "háriy", "ano", "mana háriy-ano"],
@@ -1909,12 +1907,12 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "raf", "nó", "ʔalɗúna raf-nó"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "raf", "⊤", "ʔalɗúy raf-⊤"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy", "raf", "∅", "ʔalɗúy raf-∅"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "raf", "tó", "ʔalɗúy raf-tó"],
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "raf", "a", "ʔalɗún̅ raf-a"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "raf", "⊤", "ʔalɗúso raf-⊤"]]
+	    [:Common, :Plural, :Person3, "ʔalɗúso", "raf", "∅", "ʔalɗúso raf-∅"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffImprtv-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
@@ -1922,12 +1920,12 @@
 	    :conjClass :Prefix,
 	    :gender :Common,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Singular, "ʔ", "ʔ", "igís", "ʔ ʔ-igís"],
 	    [:Plural, "ʔ", "ʔ", "igisá", "ʔ ʔ-igisá"]]
     }
@@ -1935,7 +1933,7 @@
     :common {:gender :Masc,
 	    :lexeme :raf,
 	    :number :Singular,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :person :Person3,
 	    :pos :Verb}
     :terms [[:clauseType, :polarity, :tam, :token]  ;; schema
@@ -1953,11 +1951,11 @@
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
-	    :patternClass :Irreg1-2,
+	    :patternClass :Irreg1_2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token-prefGroup, :token-selGroup, :token-stem, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ígise", "ʔan̅ ʔ-ígise"],
 	    [:Fem, :Singular, :Person3, "T", "ʔay", "éḳese", "ʔay T-éḳese"],
 	    [:Common, :Plural, :Person3, "Y", "ʔasó", "eḳese", "ʔasó Y-eḳese"],
@@ -1976,9 +1974,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token-selGroup, :token-stem, :token-suffix, :token]  ;; schema
+    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
 	    [:Singular, "ʔ", "kúm", "a", "ʔ kúm-a"],
-	    [:Plural, "ʔ", "kum", "⊤", "ʔ kum-⊤"]]
+	    [:Plural, "ʔ", "kum", "∅", "ʔ kum-∅"]]
     }}
 :muterms #{
     {:label "aama:pdgmlabel arbore-PReflEmph"
@@ -2000,35 +1998,35 @@
 	    :proClass :Independent}
     :terms [[:case, :gender, :number, :person, :suffixType, :token]  ;; schema
 	    [:Absolutive, :Fem, :Singular, :Person3, :TSuff, "ʔes(s)ét"],
-	    [:_NULL, :Common, :Plural, :Person1, :SeSuff, "ʔonos(s)e"],
-	    [:_NULL, :Common, :Plural, :Person1, :Simple, "ʔonó"],
-	    [:_NULL, :Masc, :Singular, :Person3, :LoSuff, "ʔus(s)ulo"],
+	    [:_NA, :Common, :Plural, :Person1, :SeSuff, "ʔonos(s)e"],
+	    [:_NA, :Common, :Plural, :Person1, :Simple, "ʔonó"],
+	    [:_NA, :Masc, :Singular, :Person3, :LoSuff, "ʔus(s)ulo"],
 	    [:Nominative, :Fem, :Singular, :Person3, :TSuff, "ʔés(s)et"],
-	    [:_NULL, :Common, :Singular, :Person1, :Simple, "yé"],
-	    [:_NULL, :Common, :Plural, :Person3, :LoSuff, "ʔos(s)olo"],
-	    [:_NULL, :Common, :Plural, :Person3, :TaSuff, "ʔos(s)ota"],
+	    [:_NA, :Common, :Singular, :Person1, :Simple, "yé"],
+	    [:_NA, :Common, :Plural, :Person3, :LoSuff, "ʔos(s)olo"],
+	    [:_NA, :Common, :Plural, :Person3, :TaSuff, "ʔos(s)ota"],
 	    [:Nominative, :Common, :Plural, :Person3, :Simple, "ʔós(s)o"],
-	    [:_NULL, :Common, :Plural, :Person2, :SeSuff, "ʔinse"],
+	    [:_NA, :Common, :Plural, :Person2, :SeSuff, "ʔinse"],
 	    [:Absolutive, :Fem, :Singular, :Person3, :Simple, "ʔes(s)é"],
 	    [:Nominative, :Masc, :Singular, :Person3, :Simple, "ʔús(s)u"],
 	    [:Nominative, :Fem, :Singular, :Person3, :Simple, "ʔés(s)e"],
 	    [:Absolutive, :Masc, :Singular, :Person3, :TSuff, "ʔus(s)út"],
 	    [:Absolutive, :Masc, :Singular, :Person3, :Simple, "ʔus(s)ú"],
 	    [:Absolutive, :Common, :Plural, :Person3, :Simple, "ʔos(s)ó"],
-	    [:_NULL, :Common, :Singular, :Person1, :HeSuff, "yéhe"],
-	    [:_NULL, :Common, :Singular, :Person2, :Simple, "ké"],
-	    [:_NULL, :Common, :Plural, :Person2, :Simple, "ʔín"],
+	    [:_NA, :Common, :Singular, :Person1, :HeSuff, "yéhe"],
+	    [:_NA, :Common, :Singular, :Person2, :Simple, "ké"],
+	    [:_NA, :Common, :Plural, :Person2, :Simple, "ʔín"],
 	    [:Absolutive, :Common, :Plural, :Person3, :TSuff, "ʔos(s)ót"],
-	    [:_NULL, :Common, :Plural, :Person2, :LoSuff, "ʔinlo"],
+	    [:_NA, :Common, :Plural, :Person2, :LoSuff, "ʔinlo"],
 	    [:Nominative, :Masc, :Singular, :Person3, :TSuff, "ʔús(s)ut"],
 	    [:Nominative, :Common, :Plural, :Person3, :TSuff, "ʔós(s)ot"],
-	    [:_NULL, :Common, :Plural, :Person1, :LoSuff, "ʔonolo"],
-	    [:_NULL, :Common, :Singular, :Person2, :LoSuff, "kehelo"],
-	    [:_NULL, :Masc, :Singular, :Person3, :TaSuff, "ʔus(s)uta"],
-	    [:_NULL, :Fem, :Singular, :Person3, :LoSuff, "ʔes(s)elo"],
-	    [:_NULL, :Common, :Singular, :Person2, :HeSuff, "kéhe"],
-	    [:_NULL, :Common, :Singular, :Person1, :LoSuff, "yehelo"],
-	    [:_NULL, :Fem, :Singular, :Person3, :TaSuff, "ʔes(s)eta"]]
+	    [:_NA, :Common, :Plural, :Person1, :LoSuff, "ʔonolo"],
+	    [:_NA, :Common, :Singular, :Person2, :LoSuff, "kehelo"],
+	    [:_NA, :Masc, :Singular, :Person3, :TaSuff, "ʔus(s)uta"],
+	    [:_NA, :Fem, :Singular, :Person3, :LoSuff, "ʔes(s)elo"],
+	    [:_NA, :Common, :Singular, :Person2, :HeSuff, "kéhe"],
+	    [:_NA, :Common, :Singular, :Person1, :LoSuff, "yehelo"],
+	    [:_NA, :Fem, :Singular, :Person3, :TaSuff, "ʔes(s)eta"]]
     }
     {:label "aama:pdgmlabel arbore-PBoundSubject"
     :common {:morpheme :SUBJMARK,
@@ -2038,7 +2036,7 @@
 	    [:Plural, :Person2, "-n̅"],
 	    [:Plural, :Person1, "-na"],
 	    [:Singular, :Person3, "-y"],
-	    [:Singular, :Person2, "⊤"],
+	    [:Singular, :Person2, "∅"],
 	    [:Plural, :Person3, "-so"],
 	    [:Singular, :Person1, "-n̅"]]
     }
@@ -2061,7 +2059,7 @@
     :terms [[:number, :person, :token]  ;; schema
 	    [:Singular, :Person3, "-y ~ Ø"],
 	    [:Plural, :Person3, "-so"],
-	    [:_NULL, :Impersonal, "-na"],
+	    [:_NA, :Impersonal, "-na"],
 	    [:Singular, :Person2, "Ø ~ ʔam-"],
 	    [:Plural, :Person2, "-n̅ ~ ʔim-"],
 	    [:Plural, :Person1, "-na"],
@@ -2072,48 +2070,48 @@
 	    :pos :Pronoun,
 	    :selectorProClass :PreVerbSel_SubjMarkers}
     :terms [[:defClass, :mood, :number, :person, :polarity, :tam, :token]  ;; schema
-	    [:Definite, :Indicative, :Singular, :Person2, :Affirmative, :_NULL, "⊤"],
-	    [:Definite, :Indicative, :Plural, :Person1, :Affirmative, :_NULL, "ʔína"],
-	    [:Indefinite, :Indicative, :Impersonal, :_NULL, :Affirmative, :_NULL, "ʔaná / ná"],
-	    [:_NULL, :Non-indicative, :Singular, :Person1, :Affirmative, :Jussive, "ʔalɗun̅"],
-	    [:_NULL, :Non-indicative, :Plural, :Person3, :Negative, :_NULL, "máso"],
-	    [:_NULL, :Non-indicative, :Impersonal, :_NULL, :Affirmative, :Imperative, "⊤"],
-	    [:_NULL, :Non-indicative, :Plural, :Person3, :Affirmative, :Imperative, "⊤"],
-	    [:_NULL, :Indicative, :Plural, :Person1, :Negative, :_NULL, "mana"],
-	    [:_NULL, :Non-indicative, :Plural, :Person1, :Affirmative, :Jussive, "ʔalɗúna"],
-	    [:_NULL, :Non-indicative, :Plural, :Person3, :Affirmative, :Jussive, "ʔalɗúso"],
-	    [:Indefinite, :Indicative, :Plural, :Person2, :Affirmative, :_NULL, "ʔín̅"],
-	    [:_NULL, :Non-indicative, :Singular, :Person2, :Affirmative, :Jussive, "⊤"],
-	    [:Definite, :Indicative, :Singular, :Person3, :Affirmative, :_NULL, "ʔíy"],
-	    [:Indefinite, :Indicative, :Singular, :Person2, :Affirmative, :_NULL, "ʔa"],
-	    [:_NULL, :Non-indicative, :Singular, :Person3, :Affirmative, :Jussive, "ʔalɗúy"],
-	    [:_NULL, :Non-indicative, :Plural, :Person2, :Affirmative, :Imperative, "⊤"],
-	    [:_NULL, :Non-indicative, :Plural, :Person1, :Negative, :_NULL, "mána"],
-	    [:_NULL, :Indicative, :Singular, :Person1, :Negative, :_NULL, "ʔamma"],
-	    [:_NULL, :Non-indicative, :Plural, :Person2, :Negative, :_NULL, "mán̅"],
-	    [:_NULL, :Non-indicative, :Singular, :Person2, :Affirmative, :Imperative, "⊤"],
-	    [:Definite, :Indicative, :Plural, :Person2, :Affirmative, :_NULL, "ʔín̅"],
-	    [:_NULL, :Indicative, :Plural, :Person3, :Negative, :_NULL, "maso"],
-	    [:Indefinite, :Indicative, :Singular, :Person3, :Affirmative, :_NULL, "ʔay"],
-	    [:_NULL, :Non-indicative, :Plural, :Person2, :Affirmative, :Jussive, "⊤"],
-	    [:_NULL, :Indicative, :Singular, :Person3, :Negative, :_NULL, "ma"],
-	    [:_NULL, :Non-indicative, :Impersonal, :_NULL, :Affirmative, :Jussive, "ʔalɗúna"],
-	    [:_NULL, :Non-indicative, :Impersonal, :_NULL, :Negative, :_NULL, "mána"],
-	    [:_NULL, :Non-indicative, :Singular, :Person1, :Negative, :_NULL, "mán̅"],
-	    [:_NULL, :Non-indicative, :Singular, :Person1, :Affirmative, :Imperative, "⊤"],
-	    [:_NULL, :Non-indicative, :Singular, :Person3, :Negative, :_NULL, "máy"],
-	    [:Indefinite, :Indicative, :Plural, :Person1, :Affirmative, :_NULL, "ʔáná"],
-	    [:_NULL, :Non-indicative, :Singular, :Person3, :Affirmative, :Imperative, "⊤"],
-	    [:Indefinite, :Indicative, :Singular, :Person1, :Affirmative, :_NULL, "ʔán̅"],
-	    [:_NULL, :Indicative, :Plural, :Person2, :Negative, :_NULL, "ʔímma"],
-	    [:_NULL, :Non-indicative, :Plural, :Person1, :Affirmative, :Imperative, "⊤"],
-	    [:_NULL, :Indicative, :Impersonal, :_NULL, :Negative, :_NULL, "mana"],
-	    [:Indefinite, :Indicative, :Plural, :Person3, :Affirmative, :_NULL, "ʔáso"],
-	    [:Definite, :Indicative, :Impersonal, :_NULL, :Affirmative, :_NULL, "ʔína"],
-	    [:_NULL, :Indicative, :Singular, :Person2, :Negative, :_NULL, "ʔamma"],
-	    [:Definite, :Indicative, :Singular, :Person1, :Affirmative, :_NULL, "ʔín̅"],
-	    [:Definite, :Indicative, :Plural, :Person3, :Affirmative, :_NULL, "ʔíso"],
-	    [:_NULL, :Non-indicative, :Singular, :Person2, :Negative, :_NULL, "má"]]
+	    [:Definite, :Indicative, :Singular, :Person2, :Affirmative, :_NA, "∅"],
+	    [:Definite, :Indicative, :Plural, :Person1, :Affirmative, :_NA, "ʔína"],
+	    [:Indefinite, :Indicative, :Impersonal, :_NA, :Affirmative, :_NA, "ʔaná / ná"],
+	    [:_NA, :Non_indicative, :Singular, :Person1, :Affirmative, :Jussive, "ʔalɗun̅"],
+	    [:_NA, :Non_indicative, :Plural, :Person3, :Negative, :_NA, "máso"],
+	    [:_NA, :Non_indicative, :Impersonal, :_NA, :Affirmative, :Imperative, "∅"],
+	    [:_NA, :Non_indicative, :Plural, :Person3, :Affirmative, :Imperative, "∅"],
+	    [:_NA, :Indicative, :Plural, :Person1, :Negative, :_NA, "mana"],
+	    [:_NA, :Non_indicative, :Plural, :Person1, :Affirmative, :Jussive, "ʔalɗúna"],
+	    [:_NA, :Non_indicative, :Plural, :Person3, :Affirmative, :Jussive, "ʔalɗúso"],
+	    [:Indefinite, :Indicative, :Plural, :Person2, :Affirmative, :_NA, "ʔín̅"],
+	    [:_NA, :Non_indicative, :Singular, :Person2, :Affirmative, :Jussive, "∅"],
+	    [:Definite, :Indicative, :Singular, :Person3, :Affirmative, :_NA, "ʔíy"],
+	    [:Indefinite, :Indicative, :Singular, :Person2, :Affirmative, :_NA, "ʔa"],
+	    [:_NA, :Non_indicative, :Singular, :Person3, :Affirmative, :Jussive, "ʔalɗúy"],
+	    [:_NA, :Non_indicative, :Plural, :Person2, :Affirmative, :Imperative, "∅"],
+	    [:_NA, :Non_indicative, :Plural, :Person1, :Negative, :_NA, "mána"],
+	    [:_NA, :Indicative, :Singular, :Person1, :Negative, :_NA, "ʔamma"],
+	    [:_NA, :Non_indicative, :Plural, :Person2, :Negative, :_NA, "mán̅"],
+	    [:_NA, :Non_indicative, :Singular, :Person2, :Affirmative, :Imperative, "∅"],
+	    [:Definite, :Indicative, :Plural, :Person2, :Affirmative, :_NA, "ʔín̅"],
+	    [:_NA, :Indicative, :Plural, :Person3, :Negative, :_NA, "maso"],
+	    [:Indefinite, :Indicative, :Singular, :Person3, :Affirmative, :_NA, "ʔay"],
+	    [:_NA, :Non_indicative, :Plural, :Person2, :Affirmative, :Jussive, "∅"],
+	    [:_NA, :Indicative, :Singular, :Person3, :Negative, :_NA, "ma"],
+	    [:_NA, :Non_indicative, :Impersonal, :_NA, :Affirmative, :Jussive, "ʔalɗúna"],
+	    [:_NA, :Non_indicative, :Impersonal, :_NA, :Negative, :_NA, "mána"],
+	    [:_NA, :Non_indicative, :Singular, :Person1, :Negative, :_NA, "mán̅"],
+	    [:_NA, :Non_indicative, :Singular, :Person1, :Affirmative, :Imperative, "∅"],
+	    [:_NA, :Non_indicative, :Singular, :Person3, :Negative, :_NA, "máy"],
+	    [:Indefinite, :Indicative, :Plural, :Person1, :Affirmative, :_NA, "ʔáná"],
+	    [:_NA, :Non_indicative, :Singular, :Person3, :Affirmative, :Imperative, "∅"],
+	    [:Indefinite, :Indicative, :Singular, :Person1, :Affirmative, :_NA, "ʔán̅"],
+	    [:_NA, :Indicative, :Plural, :Person2, :Negative, :_NA, "ʔímma"],
+	    [:_NA, :Non_indicative, :Plural, :Person1, :Affirmative, :Imperative, "∅"],
+	    [:_NA, :Indicative, :Impersonal, :_NA, :Negative, :_NA, "mana"],
+	    [:Indefinite, :Indicative, :Plural, :Person3, :Affirmative, :_NA, "ʔáso"],
+	    [:Definite, :Indicative, :Impersonal, :_NA, :Affirmative, :_NA, "ʔína"],
+	    [:_NA, :Indicative, :Singular, :Person2, :Negative, :_NA, "ʔamma"],
+	    [:Definite, :Indicative, :Singular, :Person1, :Affirmative, :_NA, "ʔín̅"],
+	    [:Definite, :Indicative, :Plural, :Person3, :Affirmative, :_NA, "ʔíso"],
+	    [:_NA, :Non_indicative, :Singular, :Person2, :Negative, :_NA, "má"]]
     }
     {:label "aama:pdgmlabel arbore-PPossSuff"
     :common {:morpheme :PROPOSSSUFF,
@@ -2126,80 +2124,80 @@
 	    [:Fem, :Singular, :Person3, "-áset / -ásset"],
 	    [:Common, :Singular, :Person2, "-áako / -áakko"],
 	    [:Common, :Singular, :Person1, "-áw"],
-	    [:Common, :Plural, :Person2, "⊤"]]
+	    [:Common, :Plural, :Person2, "∅"]]
     }
     {:label "aama:pdgmlabel arbore-PPoss"
     :common {:morpheme :PROPOSS,
 	    :pos :Pronoun,
 	    :proClass :Possessive}
     :terms [[:case, :gender, :genderPoss, :numPoss, :number, :person, :token]  ;; schema
-	    [:Predicative, :Common, :Fem, :Singular, :Singular, :Person1, "táwa"],
-	    [:Predicative, :Common, :Common, :Plural, :Plural, :Person3, "tohasóta"],
-	    [:Predicative, :Common, :Fem, :Singular, :Plural, :Person2, "táñña"],
-	    [:Nominative, :Masc, :Masc, :Singular, :Singular, :Person3, "hásu"],
-	    [:Predicative, :Common, :Fem, :Singular, :Singular, :Person2, "táako"],
-	    [:Predicative, :Masc, :Masc, :Singular, :Singular, :Person3, "hasúta"],
-	    [:Nominative, :Fem, :Common, :Plural, :Singular, :Person3, "toháse"],
-	    [:Nominative, :Masc, :Fem, :Singular, :Singular, :Person3, "tásu"],
-	    [:Predicative, :Common, :Common, :Plural, :Plural, :Person1, "tohánno"],
-	    [:Nominative, :Common, :Common, :Plural, :Plural, :Person1, "tohánno"],
-	    [:Nominative, :Common, :Masc, :Singular, :Plural, :Person1, "hánno"],
-	    [:Nominative, :Common, :Masc, :Singular, :Singular, :Person1, "háw"],
-	    [:Predicative, :Common, :Masc, :Singular, :Singular, :Person2, "háako"],
-	    [:Predicative, :Common, :Masc, :Singular, :Plural, :Person3, "hasóta"],
-	    [:Predicative, :Common, :Masc, :Singular, :Plural, :Person2, "háñña"],
-	    [:Predicative, :Common, :Fem, :Singular, :Plural, :Person3, "tasóta"],
-	    [:Predicative, :Common, :Fem, :Singular, :Plural, :Person1, "tánno"],
-	    [:Nominative, :Common, :Fem, :Singular, :Plural, :Person3, "táso"],
-	    [:Predicative, :Common, :Masc, :Singular, :Plural, :Person1, "hánno"],
-	    [:Nominative, :Common, :Common, :Plural, :Plural, :Person3, "toháso"],
-	    [:Nominative, :Common, :Fem, :Singular, :Plural, :Person1, "tánno"],
-	    [:Predicative, :Common, :Common, :Plural, :Singular, :Person1, "toháwa"],
-	    [:Nominative, :Common, :Fem, :Singular, :Singular, :Person2, "táako"],
-	    [:Predicative, :Common, :Masc, :Singular, :Singular, :Person1, "háwa"],
-	    [:Nominative, :Fem, :Masc, :Singular, :Singular, :Person3, "háse"],
-	    [:Nominative, :Fem, :Fem, :Singular, :Singular, :Person3, "táse"],
-	    [:Nominative, :Common, :Fem, :Singular, :Plural, :Person2, "táñ"],
-	    [:Nominative, :Common, :Common, :Plural, :Plural, :Person2, "toháñ"],
-	    [:Nominative, :Common, :Fem, :Singular, :Singular, :Person1, "táw"],
-	    [:Nominative, :Common, :Masc, :Singular, :Singular, :Person2, "háako"],
-	    [:Predicative, :Fem, :Masc, :Singular, :Singular, :Person3, "haséta"],
-	    [:Nominative, :Common, :Common, :Plural, :Singular, :Person2, "toháako"],
-	    [:Predicative, :Masc, :Fem, :Singular, :Singular, :Person3, "tasúta"],
-	    [:Predicative, :Fem, :Common, :Plural, :Singular, :Person3, "tohaséta"],
-	    [:Predicative, :Masc, :Common, :Plural, :Singular, :Person3, "tohasúta"],
-	    [:Nominative, :Common, :Masc, :Singular, :Plural, :Person3, "háso"],
-	    [:Predicative, :Fem, :Fem, :Singular, :Singular, :Person3, "taséta"],
-	    [:Predicative, :Common, :Common, :Plural, :Singular, :Person2, "toháako"],
-	    [:Nominative, :Masc, :Common, :Plural, :Singular, :Person3, "tohásu"],
-	    [:Predicative, :Common, :Common, :Plural, :Plural, :Person2, "toháñña"],
-	    [:Nominative, :Common, :Masc, :Singular, :Plural, :Person2, "háñ"],
-	    [:Nominative, :Common, :Common, :Plural, :Singular, :Person1, "toháw"]]
+	    [:Predicative, :Common, :P_Fem, :P_Singular, :Singular, :Person1, "táwa"],
+	    [:Predicative, :Common, :P_Common, :P_Plural, :Plural, :Person3, "tohasóta"],
+	    [:Predicative, :Common, :P_Fem, :P_Singular, :Plural, :Person2, "táñña"],
+	    [:Nominative, :Masc, :P_Masc, :P_Singular, :Singular, :Person3, "hásu"],
+	    [:Predicative, :Common, :P_Fem, :P_Singular, :Singular, :Person2, "táako"],
+	    [:Predicative, :Masc, :P_Masc, :P_Singular, :Singular, :Person3, "hasúta"],
+	    [:Nominative, :Fem, :P_Common, :P_Plural, :Singular, :Person3, "toháse"],
+	    [:Nominative, :Masc, :P_Fem, :P_Singular, :Singular, :Person3, "tásu"],
+	    [:Predicative, :Common, :P_Common, :P_Plural, :Plural, :Person1, "tohánno"],
+	    [:Nominative, :Common, :P_Common, :P_Plural, :Plural, :Person1, "tohánno"],
+	    [:Nominative, :Common, :P_Masc, :P_Singular, :Plural, :Person1, "hánno"],
+	    [:Nominative, :Common, :P_Masc, :P_Singular, :Singular, :Person1, "háw"],
+	    [:Predicative, :Common, :P_Masc, :P_Singular, :Singular, :Person2, "háako"],
+	    [:Predicative, :Common, :P_Masc, :P_Singular, :Plural, :Person3, "hasóta"],
+	    [:Predicative, :Common, :P_Masc, :P_Singular, :Plural, :Person2, "háñña"],
+	    [:Predicative, :Common, :P_Fem, :P_Singular, :Plural, :Person3, "tasóta"],
+	    [:Predicative, :Common, :P_Fem, :P_Singular, :Plural, :Person1, "tánno"],
+	    [:Nominative, :Common, :P_Fem, :P_Singular, :Plural, :Person3, "táso"],
+	    [:Predicative, :Common, :P_Masc, :P_Singular, :Plural, :Person1, "hánno"],
+	    [:Nominative, :Common, :P_Common, :P_Plural, :Plural, :Person3, "toháso"],
+	    [:Nominative, :Common, :P_Fem, :P_Singular, :Plural, :Person1, "tánno"],
+	    [:Predicative, :Common, :P_Common, :P_Plural, :Singular, :Person1, "toháwa"],
+	    [:Nominative, :Common, :P_Fem, :P_Singular, :Singular, :Person2, "táako"],
+	    [:Predicative, :Common, :P_Masc, :P_Singular, :Singular, :Person1, "háwa"],
+	    [:Nominative, :Fem, :P_Masc, :P_Singular, :Singular, :Person3, "háse"],
+	    [:Nominative, :Fem, :P_Fem, :P_Singular, :Singular, :Person3, "táse"],
+	    [:Nominative, :Common, :P_Fem, :P_Singular, :Plural, :Person2, "táñ"],
+	    [:Nominative, :Common, :P_Common, :P_Plural, :Plural, :Person2, "toháñ"],
+	    [:Nominative, :Common, :P_Fem, :P_Singular, :Singular, :Person1, "táw"],
+	    [:Nominative, :Common, :P_Masc, :P_Singular, :Singular, :Person2, "háako"],
+	    [:Predicative, :Fem, :P_Masc, :P_Singular, :Singular, :Person3, "haséta"],
+	    [:Nominative, :Common, :P_Common, :P_Plural, :Singular, :Person2, "toháako"],
+	    [:Predicative, :Masc, :P_Fem, :P_Singular, :Singular, :Person3, "tasúta"],
+	    [:Predicative, :Fem, :P_Common, :P_Plural, :Singular, :Person3, "tohaséta"],
+	    [:Predicative, :Masc, :P_Common, :P_Plural, :Singular, :Person3, "tohasúta"],
+	    [:Nominative, :Common, :P_Masc, :P_Singular, :Plural, :Person3, "háso"],
+	    [:Predicative, :Fem, :P_Fem, :P_Singular, :Singular, :Person3, "taséta"],
+	    [:Predicative, :Common, :P_Common, :P_Plural, :Singular, :Person2, "toháako"],
+	    [:Nominative, :Masc, :P_Common, :P_Plural, :Singular, :Person3, "tohásu"],
+	    [:Predicative, :Common, :P_Common, :P_Plural, :Plural, :Person2, "toháñña"],
+	    [:Nominative, :Common, :P_Masc, :P_Singular, :Plural, :Person2, "háñ"],
+	    [:Nominative, :Common, :P_Common, :P_Plural, :Singular, :Person1, "toháw"]]
     }
     {:label "arbore-VTerminalVowel"
     :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a
             vowel.” (pref and suff largely identical) Hayward1984b p. 255"
     :common {:gender :Common,
 	    :morpheme :TERMINALVOWEL,
-	    :pdgmType :Exemplary,
+	    :pdgmType :Partial,
 	    :pos :Verb,
 	    :formType :Suffix}
     :terms [[:note, :number, :person, :polarity, :tam, :token]  ;; schema
-	    ["_NULL", :Singular, :Person1, :Affirmative, :Jussive, "-a"],
-	    ["in free variation with –e for mid1/2/3/4", :Plural, :Common, :Affirmative, :Imperative, "-a"],
-	    ["_NULL", :Plural, :Person1, :Affirmative, :Jussive, "-o"],
-	    ["_NULL", :Plural, :Person3, :Negative, :Imperfect, "-a"],
-	    ["_NULL", :Plural, :Person1, :Negative, :Imperfect, "-o"],
-	    ["_NULL", :Common, :Common, :Affirmative, :Imperfect, "-a"],
-	    ["_NULL", :Common, :Common, :Negative, :Perfect, "-i"],
-	    ["_NULL", :Plural, :Person2, :Negative, :Imperfect, "-a"],
-	    ["_NULL", :Common, :Common, :Negative, :Imperative, "-i"],
-	    ["mid1/2/3/4 and caus1", :Plural, :Common, :Affirmative, :Imperative, "-e"],
-	    ["_NULL", :Singular, :Person3, :Affirmative, :Jussive, "-o"],
-	    ["_NULL", :Plural, :Person3, :Affirmative, :Jussive, "-e"],
-	    ["_NULL", :Common, :Common, :Affirmative, :Perfect, "-e"],
-	    ["mid1/2/3/4", :Singular, :Common, :Affirmative, :Imperative, "-a"],
-	    ["_NULL", :Singular, :Common, :Negative, :Imperfect, "-o"],
-	    ["_NULL", :Common, :Common, :Negative, :Jussive, "-i"]]
+	    ["∅", :Singular, :Person1, :Affirmative, :Jussive, "-a"],
+	    ["in free variation with –e for mid1/2/3/4", :Plural, :_NA, :Affirmative, :Imperative, "-a"],
+	    ["∅", :Plural, :Person1, :Affirmative, :Jussive, "-o"],
+	    ["∅", :Plural, :Person3, :Negative, :Imperfect, "-a"],
+	    ["∅", :Plural, :Person1, :Negative, :Imperfect, "-o"],
+	    ["∅", :_NA, :_NA, :Affirmative, :Imperfect, "-a"],
+	    ["∅", :_NA, :_NA, :Negative, :Perfect, "-i"],
+	    ["∅", :Plural, :Person2, :Negative, :Imperfect, "-a"],
+	    ["∅", :_NA, :_NA, :Negative, :Imperative, "-i"],
+	    ["mid1/2/3/4 and caus1", :Plural, :_NA, :Affirmative, :Imperative, "-e"],
+	    ["∅", :Singular, :Person3, :Affirmative, :Jussive, "-o"],
+	    ["∅", :Plural, :Person3, :Affirmative, :Jussive, "-e"],
+	    ["∅", :_NA, :_NA, :Affirmative, :Perfect, "-e"],
+	    ["mid1/2/3/4", :Singular, :_NA, :Affirmative, :Imperative, "-a"],
+	    ["∅", :Singular, :_NA, :Negative, :Imperfect, "-o"],
+	    ["∅", :_NA, :_NA, :Negative, :Jussive, "-i"]]
     }}
 }
