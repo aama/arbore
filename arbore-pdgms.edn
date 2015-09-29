@@ -1,6 +1,9 @@
 {
 :lang :arbore
 :sgpref "abr"
+:datasource "Hayward1984a"
+:geodemoURL "http://www.ethnologue.com/language/arv"
+:geodemoTXT "Varieties and subdialects of the Western Omo-Tana language Arbore are spoken near Lake Stefanie."
 :schemata {
 :case [:Absolutive, :Nominative, :Predicative, ]
 	  :clauseType [:Main, :Relative]
@@ -104,7 +107,7 @@
   :ʔilʔe_noɗ {:gloss "[x]", :lemma "[y]", }
 }
 :lxterms #{
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegImprtv-eld"
+    {:label "arbore-VPrefMainPattern2NegImprtv-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :gender :Common,
@@ -118,7 +121,7 @@
 	    [:Plural, "Y", "mán̅", "ḳiʔ", "mán̅ Y-ḳiʔ", "∅"],
 	    [:Singular, "Y", "má", "ellí", "má Y-ellí", "∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffImperf-rakkadd"
+    {:label "arbore-VSuffMainMiddle4AffImperf-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -135,7 +138,7 @@
 	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tta", "ʔín̅ rakka-tta"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "rákka", "ɗɗa", "ʔan̅ rákka-ɗɗa"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1NegJuss-hariyad"
+    {:label "arbore-VSuffMainMiddle1NegJuss-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -150,7 +153,7 @@
 	    [:Common, :Singular, :Person1, "mán̅", "hariy", "∅", "mán̅ hariy-∅"],
 	    [:Common, :Plural, :Person3, "máso", "hariy", "tí", "máso hariy-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffPluperf-raf"
+    {:label "arbore-VSuffMainBaseAffPluperf-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -168,7 +171,7 @@
 	    [:Fem, :Singular, :Person3, "ʔay", "ráf", "te", "ʔay ráf-te"],
 	    [:Common, :Singular, :Person1, "ʔan̅", "ráf", "e", "ʔan̅ ráf-e"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1AffImperf-nyooris"
+    {:label "arbore-VSuffMainCausative1AffImperf-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -201,7 +204,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "igisa", "ʔalɗún̅ ʔ-igisa"],
 	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "aḳasó", "ʔalɗúy Y-aḳasó"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1AffJuss-nyooris"
+    {:label "arbore-VSuffMainCausative1AffJuss-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -216,7 +219,7 @@
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "ñoors", "a", "ʔalɗún̅ ñoors-a"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "ñooris", "∅", "ʔalɗúy ñooris-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffPluperf-wannohad"
+    {:label "arbore-VSuffMainMiddle2AffPluperf-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -233,7 +236,7 @@
 	    [:Masc, :Singular, :Person3, "ʔay", "wáñño", "te", "ʔay wáñño-te"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hate", "ʔín̅ wañño-hate"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern1TenseFormation-ikkin"
+    {:label "arbore-VPrefMainPattern1TenseFormation-ikkin"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :ikkin,
@@ -276,7 +279,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "igis", "ʔ-igis"],
 	    [:Common, :Plural, :Person3, "Y", "eḳes", "∅", "Y-eḳes-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegPerf-eld"
+    {:label "arbore-VPrefMainPattern2NegPerf-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -293,7 +296,7 @@
 	    [:Common, :Plural, :Person3, "ʔ", "maso", "∅", "∅", "maso ʔ-∅"],
 	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "élɗí", "∅", "ʔamma ʔ-élɗí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegImperf-beekow"
+    {:label "arbore-VSuffMainInchoativeNegImperf-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -328,7 +331,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "igise", "ʔín̅ ʔ-igise"],
 	    [:Common, :Plural, :Person3, "Y", "ʔíso", "eḳese", "ʔíso Y-eḳese"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffPerf-hariyad"
+    {:label "arbore-VSuffMainMiddle1AffPerf-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -345,7 +348,7 @@
 	    [:Common, :Singular, :Person2, "ʔ", "hariy", "ate", "Common hariy-ate"],
 	    [:Fem, :Singular, :Person3, "ʔíy", "hariy", "ate", "ʔíy hariy-ate"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1AffPluperf-nyooris"
+    {:label "arbore-VSuffMainCausative1AffPluperf-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -362,7 +365,7 @@
 	    [:Common, :Plural, :Person2, "ʔín̅", "ñooris", "e", "ʔín̅ ñooris-e"],
 	    [:Fem, :Singular, :Person3, "ʔay", "ñóoris", "e", "ʔay ñóoris-e"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2NegImprtv-wannohad"
+    {:label "arbore-VSuffMainMiddle2NegImprtv-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -377,7 +380,7 @@
 	    [:Singular, "má", "wáñño", "má wáñño"],
 	    [:Plural, "mán̅", "wañño", "mán̅ wañño"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegImperf-eld"
+    {:label "arbore-VPrefMainPattern2NegImperf-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -411,7 +414,7 @@
 	    [:Common, :Singular, :Person1, "e", "ráf", "ráf-e"],
 	    [:Common, :Plural, :Person2, "te", "ráf", "ráf-te"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffPluperf-kumahadd"
+    {:label "arbore-VSuffMainMiddle3AffPluperf-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -446,7 +449,7 @@
 	    [:Masc, :Singular, :Person3, "Y", "éḳes", "e", "Y-éḳes-e"],
 	    [:Common, :Singular, :Person2, "T", "éḳes", "e", "T-éḳes-e"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffPluperf-eld"
+    {:label "arbore-VPrefMainPattern2AffPluperf-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -481,7 +484,7 @@
 	    [:Common, :Singular, :Person2, "T", "ʔa", "áḳasa", "ʔa T-áḳasa"],
 	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ígisa", "ʔan̅ ʔ-ígisa"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegJuss-raf"
+    {:label "arbore-VSuffMainBaseNegJuss-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -497,7 +500,7 @@
 	    [:Masc, :Singular, :Person3, "máy", "raf", "∅", "máy raf-∅"],
 	    [:Common, :Singular, :Person1, "mán̅", "raf", "∅", "mán̅ raf-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegImperf-rakkadd"
+    {:label "arbore-VSuffMainMiddle4NegImperf-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -514,7 +517,7 @@
 	    [:Common, :Plural, :Person3, "maso", "rakka", "ata", "maso rakka-ata"],
 	    [:Common, :Plural, :Person1, "mana", "rákka", "anno", "mana rákka-anno"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegPerf-zeren"
+    {:label "arbore-VSuffMainBaseNegPerf-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -567,7 +570,7 @@
 	    [:Common, :Singular, :Person2, "T", "ʔa", "én̅ḅet[e", "ʔa T-én̅ḅet[e"],
 	    [:Common, :Plural, :Person3, "Y", "ʔasó", "én̅ḅet[e", "ʔasó Y-én̅ḅet[e"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2TenseFormation-eecc"
+    {:label "arbore-VPrefMainPattern2TenseFormation-eecc"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eecc,
@@ -587,7 +590,7 @@
 	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔalɗúso", :Ee_Stem, :Jussive, "eeččé", "ʔalɗúso Y-eeččé"],
 	    [:Common, :Plural, :Person2, :Affirmative, "T", "ʔín̅", :Ee_Stem, :Perfect, "eečče", "ʔín̅ T-eečče"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffPluperf-hariyad"
+    {:label "arbore-VSuffMainMiddle1AffPluperf-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -621,7 +624,7 @@
 	    [:Common, :Singular, :Person1, "ʔamma", "wáñño", "ɗo", "ʔamma wáñño-ɗo"],
 	    [:Fem, :Singular, :Person3, "Ma", "wáñño", "hato", "Ma wáñño-hato"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3NegPerf-kumahadd"
+    {:label "arbore-VSuffMainMiddle3NegPerf-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -639,7 +642,7 @@
 	    [:Fem, :Singular, :Person3, "Ma", "kúm", "tí", "Ma kúm-tí"],
 	    [:Common, :Plural, :Person2, "ʔímma", "kúm", "tí", "ʔímma kúm-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImperf-zeren"
+    {:label "arbore-VSuffMainBaseNegImperf-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -657,7 +660,7 @@
 	    [:Masc, :Singular, :Person3, "Ma", "zérn", "o", "Ma zérn-o"],
 	    [:Common, :Plural, :Person1, "mana", "zéren", "no", "mana zéren-no"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImprtv-zeren"
+    {:label "arbore-VSuffMainBaseNegImprtv-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -672,7 +675,7 @@
 	    [:Plural, "mán̅", "zern", "∅", "mán̅ zern-∅"],
 	    [:Singular, "má", "zern", "∅", "má zern-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImprtv-raf"
+    {:label "arbore-VSuffMainBaseNegImprtv-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -704,7 +707,7 @@
 	    [:Common, :Singular, :Person2, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"],
 	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffImperf-beekow"
+    {:label "arbore-VSuffMainInchoativeAffImperf-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -775,7 +778,7 @@
 	    ["swallow", :ʔIkkIn, "∅", :Pattern1],
 	    ["step, tread on", :inbit, "conj:pref Causative:ʔin̅ḅisiis- (imprtv1 sg indicative) ~ -en̅ḅes- (all other)", :Pattern1]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffJuss-kumahadd"
+    {:label "arbore-VSuffMainMiddle3AffJuss-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -790,7 +793,7 @@
 	    [:Common, :Plural, :Person3, "ʔalɗúso", "kum", "té", "ʔalɗúso kum-té"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "kum", "aható", "ʔalɗúy kum-aható"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1NegJuss-nyooris"
+    {:label "arbore-VSuffMainCausative1NegJuss-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -805,7 +808,7 @@
 	    [:Common, :Plural, :Person3, "máso", "ñoors", "∅", "máso ñoors-∅"],
 	    [:Masc, :Singular, :Person3, "máy", "ñoors", "∅", "máy ñoors-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffImprtv-zeren"
+    {:label "arbore-VSuffMainBaseAffImprtv-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -820,7 +823,7 @@
 	    [:Singular, "ʔ", "zerén", "∅", "ʔ zerén-∅"],
 	    [:Plural, "ʔ", "zern", "∅", "ʔ zern-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffPerf-eld"
+    {:label "arbore-VPrefMainPattern2AffPerf-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -837,7 +840,7 @@
 	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "∅", "ʔín̅ ʔ-∅", "te", "ʔín̅ ʔ-∅-te"],
 	    [:Common, :Plural, :Person3, "ʔ", "ʔíso", "∅", "ʔíso ʔ-∅", "∅", "ʔíso ʔ-∅-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffPerf-wannohad"
+    {:label "arbore-VSuffMainMiddle2AffPerf-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -872,7 +875,7 @@
 	    [:Fem, :Singular, :Person3, "T", "áḳas", "o", "T-áḳas-o"],
 	    [:Common, :Plural, :Person1, "Neut", "áḳas", "o", "Neut-áḳas-o"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffPluperf-beekow"
+    {:label "arbore-VSuffMainInchoativeAffPluperf-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -889,7 +892,7 @@
 	    [:Common, :Singular, :Person2, "ʔa", "béeḳo", "te", "ʔa béeḳo-te"],
 	    [:Common, :Plural, :Person3, "ʔasó", "beeḳo", "we", "ʔasó beeḳo-we"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffJuss-rakkadd"
+    {:label "arbore-VSuffMainMiddle4AffJuss-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -905,7 +908,7 @@
 	    [:Common, :Plural, :Person3, "ʔalɗúso", "rakka", "té", "ʔalɗúso rakka-té"],
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "rakka", "nnó", "ʔalɗúna rakka-nnó"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffPerf-zeren"
+    {:label "arbore-VSuffMainBaseAffPerf-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -923,7 +926,7 @@
 	    [:Common, :Plural, :Person1, "ʔína", "zéren", "ne", "ʔína zéren-ne"],
 	    [:Common, :Plural, :Person3, "ʔíso", "zern", "e", "ʔíso zern-e"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffPerf-raf"
+    {:label "arbore-VSuffMainBaseAffPerf-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -941,7 +944,7 @@
 	    [:Common, :Singular, :Person2, "ʔ", "raf", "te", "Common raf-te"],
 	    [:Masc, :Singular, :Person3, "ʔíy", "raf", "e", "ʔíy raf-e"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffPerf-kumahadd"
+    {:label "arbore-VSuffMainMiddle3AffPerf-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -958,7 +961,7 @@
 	    [:Masc, :Singular, :Person3, "ʔíy", "kum", "te", "ʔíy kum-te"],
 	    [:Common, :Singular, :Person1, "ʔín̅", "kum", "ɗe", "ʔín̅ kum-ɗe"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffImperf-hariyad"
+    {:label "arbore-VSuffMainMiddle1AffImperf-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -992,7 +995,7 @@
 	    [:Common, :Plural, :Person3, "raf", "∅", "raf-∅"],
 	    [:Masc, :Singular, :Person3, "raf", "∅", "raf-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffPerf-rakkadd"
+    {:label "arbore-VSuffMainMiddle4AffPerf-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1009,7 +1012,7 @@
 	    [:Fem, :Singular, :Person3, "ʔíy", "rakka", "tte", "ʔíy rakka-tte"],
 	    [:Masc, :Singular, :Person3, "ʔíy", "rakka", "te", "ʔíy rakka-te"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3NegImprtv-kumahadd"
+    {:label "arbore-VSuffMainMiddle3NegImprtv-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1024,7 +1027,7 @@
 	    [:Singular, "má", "kúm", "má kúm"],
 	    [:Plural, "mán̅", "kum", "mán̅ kum"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffImprtv-rakkadd"
+    {:label "arbore-VSuffMainMiddle4AffImprtv-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1038,7 +1041,7 @@
 	    [:Singular, "ʔ", "rákka", "ta", "ʔ rákka-ta"],
 	    [:Plural, "ʔ", "rakka", "∅", "ʔ rakka-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffImperf-eld"
+    {:label "arbore-VPrefMainPattern2AffImperf-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1055,7 +1058,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "álɗa", "ʔan̅ ʔ-álɗa", "∅", "ʔan̅ ʔ-álɗa-∅"],
 	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "∅", "ʔasó ʔ-ḳeʔ-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffJuss-eld"
+    {:label "arbore-VPrefMainPattern2AffJuss-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1085,7 +1088,7 @@
 	    [:Singular, "Y", "má", "en̅ḅetí", "má Y-en̅ḅetí"],
 	    [:Plural, "Y", "mán̅", "en̅ḅetí", "mán̅ Y-en̅ḅetí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2NegPerf"
+    {:label "arbore-VSuffMainMiddle2NegPerf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1102,7 +1105,7 @@
 	    [:Fem, :Singular, :Person3, "Ma", "wáññó", "tí", "Ma wáññó-tí"],
 	    [:Common, :Plural, :Person1, "mana", "wáññó", "tí", "mana wáññó-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffImperf-raf"
+    {:label "arbore-VSuffMainBaseAffImperf-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1120,7 +1123,7 @@
 	    [:Masc, :Singular, :Person3, "ʔay", "ráf", "a", "ʔay ráf-a"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "raf", "ta", "ʔín̅ raf-ta"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffPerf-beekow"
+    {:label "arbore-VSuffMainInchoativeAffPerf-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1137,7 +1140,7 @@
 	    [:Fem, :Singular, :Person3, "ʔíy", "beeḳo", "te", "ʔíy beeḳo-te"],
 	    [:Common, :Singular, :Person1, "ʔín̅", "beeḳo", "we", "ʔín̅ beeḳo-we"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegPerf-raf"
+    {:label "arbore-VSuffMainBaseNegPerf-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1171,7 +1174,7 @@
 	    [:haadAƊ- , :sgOnlySuppletivePl, "suppletive has full pdgm as ‘run away’", "baḳAƊ- (or ʔorj-)"],
 	    [:hil, :sgOnlySuppletivePl, "∅", "faʔm-"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegPerf-beekow"
+    {:label "arbore-VSuffMainInchoativeNegPerf-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1188,7 +1191,7 @@
 	    [:Fem, :Singular, :Person3, "Ma", "béeḳó", "wí", "Ma béeḳó-wí"],
 	    [:Common, :Plural, :Person1, "mana", "béeḳó", "wí", "mana béeḳó-wí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4AffPluperf-rakkadd"
+    {:label "arbore-VSuffMainMiddle4AffPluperf-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1205,7 +1208,7 @@
 	    [:Masc, :Singular, :Person3, "ʔay", "rákka", "te", "ʔay rákka-te"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tte", "ʔín̅ rakka-tte"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffImprtv-raf"
+    {:label "arbore-VSuffMainBaseAffImprtv-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1220,7 +1223,7 @@
 	    [:Plural, "ʔ", "raf", "∅", "ʔ raf-∅"],
 	    [:Singular, "ʔ", "ráf", "∅", "ʔ ráf-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegJuss-rakkadd"
+    {:label "arbore-VSuffMainMiddle4NegJuss-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1235,7 +1238,7 @@
 	    [:Common, :Singular, :Person1, "mán̅", "rakka", "∅", "mán̅ rakka-∅"],
 	    [:Common, :Plural, :Person3, "máso", "rakka", "tí", "máso rakka-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegImprtv-rakkadd"
+    {:label "arbore-VSuffMainMiddle4NegImprtv-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1250,7 +1253,7 @@
 	    [:Plural, "mán̅", "rakka", "mán̅ rakka"],
 	    [:Singular, "má", "rákka", "má rákka"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffJuss-zeren"
+    {:label "arbore-VSuffMainBaseAffJuss-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1266,7 +1269,7 @@
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "zern", "a", "ʔalɗún̅ zern-a"],
 	    [:Masc, :Singular, :Person3, "ʔalɗúy", "zeren", "∅", "ʔalɗúy zeren-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffJuss-beekow"
+    {:label "arbore-VSuffMainInchoativeAffJuss-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1308,7 +1311,7 @@
 	    [:T1, "dress oneself", :bol-ɗ, :Ad_Class, "-ɗ ~ -t ~ -a"],
 	    [:T2, "become old", :waññ-oɗ, :Had_Class, "-o + (-ɗ ~ -t ~ -ha)"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffJuss-hariyad"
+    {:label "arbore-VSuffMainMiddle1AffJuss-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1323,7 +1326,7 @@
 	    [:Common, :Plural, :Person1, "ʔalɗúna", "hariy", "anó", "ʔalɗúna hariy-anó"],
 	    [:Fem, :Singular, :Person3, "ʔalɗúy", "hariy", "ató", "ʔalɗúy hariy-ató"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3NegJuss-kumahadd"
+    {:label "arbore-VSuffMainMiddle3NegJuss-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1338,7 +1341,7 @@
 	    [:Fem, :Singular, :Person3, "máy", "kum", "tí", "máy kum-tí"],
 	    [:Common, :Plural, :Person1, "mána", "kum", "tí", "mána kum-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegImprtv-beekow"
+    {:label "arbore-VSuffMainInchoativeNegImprtv-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1353,7 +1356,7 @@
 	    [:Plural, "mán̅", "beeḳo", "mán̅ beeḳo"],
 	    [:Singular, "má", "beeḳó", "má beeḳó"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1AffImprtv-hariyad"
+    {:label "arbore-VSuffMainMiddle1AffImprtv-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1367,7 +1370,7 @@
 	    [:Singular, "ʔ", "háriy", "a", "ʔ háriy-a"],
 	    [:Plural, "ʔ", "hariy", "∅", "ʔ hariy-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1NegPerf-hariyad"
+    {:label "arbore-VSuffMainMiddle1NegPerf-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1384,7 +1387,7 @@
 	    [:Common, :Plural, :Person1, "mana", "háríy", "tí", "mana háríy-tí"],
 	    [:Fem, :Singular, :Person3, "Ma", "háríy", "tí", "Ma háríy-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3NegImperf-kumahadd"
+    {:label "arbore-VSuffMainMiddle3NegImperf-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1401,7 +1404,7 @@
 	    [:Common, :Plural, :Person1, "mana", "kúm", "ahano", "mana kúm-ahano"],
 	    [:Common, :Singular, :Person1, "ʔamma", "kum", "ɗo", "ʔamma kum-ɗo"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffPluperf-zeren"
+    {:label "arbore-VSuffMainBaseAffPluperf-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1453,7 +1456,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "in̅ḅite", "ʔan̅ ʔ-in̅ḅite"],
 	    [:Masc, :Singular, :Person3, "Y", "ʔay", "en̅bite", "ʔay Y-en̅bite"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1NegImprtv-hariyad"
+    {:label "arbore-VSuffMainMiddle1NegImprtv-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1467,7 +1470,7 @@
 	    [:Singular, "má", "háriy", "tí", "má háriy-tí"],
 	    [:Plural, "mán̅", "hariy", "tí", "mán̅ hariy-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2AffImprtv-eld"
+    {:label "arbore-VPrefMainPattern2AffImprtv-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :gender :Common,
@@ -1481,7 +1484,7 @@
 	    [:Singular, "ʔ", "ʔ", "ál", "∅", "ʔ ʔ-ál-∅"],
 	    [:Plural, "ʔ", "ʔ", "ḳeʔ", "∅", "ʔ ʔ-ḳeʔ-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffImprtv-wannohad"
+    {:label "arbore-VSuffMainMiddle2AffImprtv-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1495,7 +1498,7 @@
 	    [:Plural, "ʔ", "wañño", "∅", "ʔ wañño-∅"],
 	    [:Singular, "ʔ", "wáñño", "ha", "ʔ wáñño-ha"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle4NegPerf-rakkadd"
+    {:label "arbore-VSuffMainMiddle4NegPerf-rakkadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1550,7 +1553,7 @@
 	    [:Prefix, "cause to stand", :ʔIssIl, "yesselúm"],
 	    [:Prefix, "swallow", :ʔIkkIn, "yekkenúm"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegJuss-zeren"
+    {:label "arbore-VSuffMainBaseNegJuss-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1566,7 +1569,7 @@
 	    [:Common, :Plural, :Person3, "máso", "zern", "∅", "máso zern-∅"],
 	    [:Masc, :Singular, :Person3, "máy", "zern", "∅", "máy zern-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseNegImperf-raf"
+    {:label "arbore-VSuffMainBaseNegImperf-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1584,7 +1587,7 @@
 	    [:Common, :Singular, :Person1, "ʔamma", "o", "ráf", "ʔamma ráf-o"],
 	    [:Masc, :Singular, :Person3, "Ma", "o", "ráf", "Ma ráf-o"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffImperf-zeren"
+    {:label "arbore-VSuffMainBaseAffImperf-zeren"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1602,7 +1605,7 @@
 	    [:Common, :Singular, :Person2, "ʔa", "zéren", "ta", "ʔa zéren-ta"],
 	    [:Common, :Plural, :Person2, "ʔín̅", "zeren", "ta", "ʔín̅ zeren-ta"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1AffPerf-nyooris"
+    {:label "arbore-VSuffMainCausative1AffPerf-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1634,7 +1637,7 @@
 	    [:Plural, "ʔ", "ʔ", "in̅ḅitá", "ʔ ʔ-in̅ḅitá"],
 	    [:Singular, "ʔ", "ʔ", "in̅ḅít", "ʔ ʔ-in̅ḅít"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeNegJuss-beekow"
+    {:label "arbore-VSuffMainInchoativeNegJuss-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1665,7 +1668,7 @@
 	    [:Masc, :Singular, :Person3, "Y", "máy", "en̅ḅetí", "máy Y-en̅ḅetí"],
 	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "in̅ḅití", "mán̅ ʔ-in̅ḅití"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffImperf-kumahadd"
+    {:label "arbore-VSuffMainMiddle3AffImperf-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1754,7 +1757,7 @@
 	    [:Fem, :Singular, :Person3, "Y", "máy", "eḳesí", "máy Y-eḳesí"],
 	    [:Common, :Plural, :Person3, "Y", "máso", "eḳesí", "máso Y-eḳesí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffJuss-wannohad"
+    {:label "arbore-VSuffMainMiddle2AffJuss-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1769,7 +1772,7 @@
 	    [:Common, :Singular, :Person1, "ʔalɗún̅", "wañño", "ɗa", "ʔalɗún̅ wañño-ɗa"],
 	    [:Common, :Plural, :Person3, "ʔalɗúso", "wañño", "té", "ʔalɗúso wañño-té"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1AffImprtv-nyooris"
+    {:label "arbore-VSuffMainCausative1AffImprtv-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1783,7 +1786,7 @@
 	    [:Singular, "ʔ", "ñoorís", "∅", "ʔ ñoorís-∅"],
 	    [:Plural, "ʔ", "ñoors", "∅", "ʔ ñoors-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VPrefMainPattern2NegJuss-eld"
+    {:label "arbore-VPrefMainPattern2NegJuss-eld"
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1816,7 +1819,7 @@
 	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "ín̅ḅito", "ʔamma ʔ-ín̅ḅito"],
 	    [:Common, :Plural, :Person1, "N", "mana", "én̅ḅeto", "mana N-én̅ḅeto"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2NegJuss-wannohad"
+    {:label "arbore-VSuffMainMiddle2NegJuss-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1831,7 +1834,7 @@
 	    [:Common, :Singular, :Person1, "mán̅", "wañño", "∅", "mán̅ wañño-∅"],
 	    [:Common, :Plural, :Person3, "máso", "wañño", "tí", "máso wañño-tí"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainInchoativeAffImprtv-beekow"
+    {:label "arbore-VSuffMainInchoativeAffImprtv-beekow"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1845,7 +1848,7 @@
 	    [:Plural, "ʔ", "beeḳo", "wá", "ʔ beeḳo-wá"],
 	    [:Singular, "ʔ", "beeḳó", "w", "ʔ beeḳó-w"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainCausative1NegImperf-nyooris"
+    {:label "arbore-VSuffMainCausative1NegImperf-nyooris"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1864,7 +1867,7 @@
 	    [:Common, :Plural, :Person3, "maso", "ñóors", "a", "maso ñóors-a"],
 	    [:Common, :Singular, :Person2, "má", "ñoors", "∅", "má ñoors-∅"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle2AffImperf-wannohad"
+    {:label "arbore-VSuffMainMiddle2AffImperf-wannohad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1881,7 +1884,7 @@
 	    [:Common, :Singular, :Person1, "ʔan̅", "wáñño", "ɗa", "ʔan̅ wáñño-ɗa"],
 	    [:Common, :Singular, :Person2, "ʔa", "wáñño", "hata", "ʔa wáñño-hata"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle1NegImperf-hariyad"
+    {:label "arbore-VSuffMainMiddle1NegImperf-hariyad"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1898,7 +1901,7 @@
 	    [:Common, :Plural, :Person2, "ʔímma", "háriy", "ata", "ʔímma háriy-ata"],
 	    [:Common, :Plural, :Person3, "maso", "háriy", "ta", "maso háriy-ta"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainBaseAffJuss-raf"
+    {:label "arbore-VSuffMainBaseAffJuss-raf"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1929,7 +1932,7 @@
 	    [:Singular, "ʔ", "ʔ", "igís", "ʔ ʔ-igís"],
 	    [:Plural, "ʔ", "ʔ", "igisá", "ʔ ʔ-igisá"]]
     }
-    {:label "aama:pdgmlabel arbore-VRelClauseVsMainClause"
+    {:label "arbore-VRelClauseVsMainClause"
     :common {:gender :Masc,
 	    :lexeme :raf,
 	    :number :Singular,
@@ -1964,7 +1967,7 @@
 	    [:Masc, :Singular, :Person3, "Y", "ʔay", "éḳese", "ʔay Y-éḳese"],
 	    [:Common, :Singular, :Person2, "T", "ʔa", "éḳese", "ʔa T-éḳese"]]
     }
-    {:label "aama:pdgmlabel arbore-VSuffMainMiddle3AffImprtv-kumahadd"
+    {:label "arbore-VSuffMainMiddle3AffImprtv-kumahadd"
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1979,7 +1982,7 @@
 	    [:Plural, "ʔ", "kum", "∅", "ʔ kum-∅"]]
     }}
 :muterms #{
-    {:label "aama:pdgmlabel arbore-PReflEmph"
+    {:label "arbore-PReflEmph"
     :common {:morpheme :PROREFL,
 	    :pos :Pronoun,
 	    :proClass :ReflEmph}
@@ -1992,7 +1995,7 @@
 	    [:Common, :Singular, :Person1, "yétta"],
 	    [:Common, :Plural, :Person3, "ʔosótta"]]
     }
-    {:label "aama:pdgmlabel arbore-PInd"
+    {:label "arbore-PInd"
     :common {:morpheme :PROIND,
 	    :pos :Pronoun,
 	    :proClass :Independent}
@@ -2028,7 +2031,7 @@
 	    [:_NA, :Common, :Singular, :Person1, :LoSuff, "yehelo"],
 	    [:_NA, :Fem, :Singular, :Person3, :TaSuff, "ʔes(s)eta"]]
     }
-    {:label "aama:pdgmlabel arbore-PBoundSubject"
+    {:label "arbore-PBoundSubject"
     :common {:morpheme :SUBJMARK,
 	    :pos :Pronoun,
 	    :proClass :BoundSubject}
@@ -2040,7 +2043,7 @@
 	    [:Plural, :Person3, "-so"],
 	    [:Singular, :Person1, "-n̅"]]
     }
-    {:label "aama:pdgmlabel arbore-PDeictic"
+    {:label "arbore-PDeictic"
     :common {:morpheme :DEM,
 	    :pos :Pronoun,
 	    :proClass :Deictic}
@@ -2052,7 +2055,7 @@
 	    [:Far, :Fem, :Singular, "tátto"],
 	    [:Near, :Common, :Plural, "tólo"]]
     }
-    {:label "aama:pdgmlabel arbore-PPreVerbSelSubjAffixes"
+    {:label "arbore-PPreVerbSelSubjAffixes"
     :common {:morpheme :SELSUBJAFFIXES,
 	    :pos :Pronoun,
 	    :selectorProClass :PreVerbSelSubjMarkers}
@@ -2065,7 +2068,7 @@
 	    [:Plural, :Person1, "-na"],
 	    [:Singular, :Person1, "-n̅ ~ ʔam-"]]
     }
-    {:label "aama:pdgmlabel arbore-PPreVerbSel_SubjMarkers"
+    {:label "arbore-PPreVerbSel_SubjMarkers"
     :common {:morpheme :SELSUBJMARKERS,
 	    :pos :Pronoun,
 	    :selectorProClass :PreVerbSel_SubjMarkers}
@@ -2113,7 +2116,7 @@
 	    [:Definite, :Indicative, :Plural, :Person3, :Affirmative, :_NA, "ʔíso"],
 	    [:_NA, :Non_indicative, :Singular, :Person2, :Negative, :_NA, "má"]]
     }
-    {:label "aama:pdgmlabel arbore-PPossSuff"
+    {:label "arbore-PPossSuff"
     :common {:morpheme :PROPOSSSUFF,
 	    :pos :Pronoun,
 	    :proClass :PossSuff}
@@ -2126,7 +2129,7 @@
 	    [:Common, :Singular, :Person1, "-áw"],
 	    [:Common, :Plural, :Person2, "∅"]]
     }
-    {:label "aama:pdgmlabel arbore-PPoss"
+    {:label "arbore-PPoss"
     :common {:morpheme :PROPOSS,
 	    :pos :Pronoun,
 	    :proClass :Possessive}
