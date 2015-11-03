@@ -108,6 +108,7 @@
 }
 :lxterms #{
     {:label "arbore-VPrefMainPattern2NegImprtv-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :gender :Common,
@@ -117,11 +118,12 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix]  ;; schema
-	    [:Plural, "Y", "mán̅", "ḳiʔ", "mán̅ Y-ḳiʔ", "∅"],
-	    [:Singular, "Y", "má", "ellí", "má Y-ellí", "∅"]]
+    :terms [[:number, :token-note-template, :token]  ;; schema
+	    [:Plural, "Y + mán̅ + ḳiʔ + ∅", "mán̅ Y-ḳiʔ"],
+	    [:Singular, "Y + má + ellí + ∅", "má Y-ellí"]]
     }
     {:label "arbore-VSuffMainMiddle4AffImperf-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -129,16 +131,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔaná", "rakka", "nna", "ʔaná rakka-nna"],
-	    [:Common, :Plural, :Person3, "ʔasó", "rakka", "ta", "ʔasó rakka-ta"],
-	    [:Fem, :Singular, :Person3, "ʔay", "rákka", "tta", "ʔay rákka-tta"],
-	    [:Common, :Singular, :Person2, "ʔa", "rákka", "tta", "ʔa rákka-tta"],
-	    [:Masc, :Singular, :Person3, "ʔay", "rákka", "ta", "ʔay rákka-ta"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tta", "ʔín̅ rakka-tta"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "rákka", "ɗɗa", "ʔan̅ rákka-ɗɗa"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔaná + rakka + nna", "ʔaná rakka-nna"],
+	    [:Common, :Plural, :Person3, "ʔasó + rakka + ta", "ʔasó rakka-ta"],
+	    [:Fem, :Singular, :Person3, "ʔay + rákka + tta", "ʔay rákka-tta"],
+	    [:Common, :Singular, :Person2, "ʔa + rákka + tta", "ʔa rákka-tta"],
+	    [:Masc, :Singular, :Person3, "ʔay + rákka + ta", "ʔay rákka-ta"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + rakka + tta", "ʔín̅ rakka-tta"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + rákka + ɗɗa", "ʔan̅ rákka-ɗɗa"]]
     }
     {:label "arbore-VSuffMainMiddle1NegJuss-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -146,14 +149,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "máy", "hariy", "tí", "máy hariy-tí"],
-	    [:Common, :Plural, :Person1, "mána", "hariy", "tí", "mána hariy-tí"],
-	    [:Fem, :Singular, :Person3, "máy", "hariy", "tí", "máy hariy-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "hariy", "∅", "mán̅ hariy-∅"],
-	    [:Common, :Plural, :Person3, "máso", "hariy", "tí", "máso hariy-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "máy + hariy + tí", "máy hariy-tí"],
+	    [:Common, :Plural, :Person1, "mána + hariy + tí", "mána hariy-tí"],
+	    [:Fem, :Singular, :Person3, "máy + hariy + tí", "máy hariy-tí"],
+	    [:Common, :Singular, :Person1, "mán̅ + hariy + ∅", "mán̅ hariy-∅"],
+	    [:Common, :Plural, :Person3, "máso + hariy + tí", "máso hariy-tí"]]
     }
     {:label "arbore-VSuffMainBaseAffPluperf-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -162,16 +166,17 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "raf", "te", "ʔín̅ raf-te"],
-	    [:Common, :Plural, :Person1, "ʔaná", "raf", "ne", "ʔaná raf-ne"],
-	    [:Common, :Plural, :Person3, "ʔasó", "raf", "e", "ʔasó raf-e"],
-	    [:Common, :Singular, :Person2, "ʔa", "ráf", "te", "ʔa ráf-te"],
-	    [:Masc, :Singular, :Person3, "ʔay", "ráf", "e", "ʔay ráf-e"],
-	    [:Fem, :Singular, :Person3, "ʔay", "ráf", "te", "ʔay ráf-te"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "ráf", "e", "ʔan̅ ráf-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + raf + te", "ʔín̅ raf-te"],
+	    [:Common, :Plural, :Person1, "ʔaná + raf + ne", "ʔaná raf-ne"],
+	    [:Common, :Plural, :Person3, "ʔasó + raf + e", "ʔasó raf-e"],
+	    [:Common, :Singular, :Person2, "ʔa + ráf + te", "ʔa ráf-te"],
+	    [:Masc, :Singular, :Person3, "ʔay + ráf + e", "ʔay ráf-e"],
+	    [:Fem, :Singular, :Person3, "ʔay + ráf + te", "ʔay ráf-te"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + ráf + e", "ʔan̅ ráf-e"]]
     }
     {:label "arbore-VSuffMainCausative1AffImperf-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -179,17 +184,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "ʔa", "ñóoris", "a", "ʔa ñóoris-a"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "ñóors", "a", "ʔan̅ ñóors-a"],
-	    [:Common, :Plural, :Person1, "ʔaná", "ñoori", "na", "ʔaná ñoori-na"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "ñooris", "ta", "ʔín̅ ñooris-ta"],
-	    [:Common, :Plural, :Person3, "ʔasó", "ñoors", "a", "ʔasó ñoors-a"],
-	    [:Masc, :Singular, :Person3, "ʔay", "ñóors", "a", "ʔay ñóors-a"],
-	    [:Fem, :Singular, :Person3, "ʔay", "ñóoris", "ta", "ʔay ñóoris-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "ʔa + ñóoris + a", "ʔa ñóoris-a"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + ñóors + a", "ʔan̅ ñóors-a"],
+	    [:Common, :Plural, :Person1, "ʔaná + ñoori + na", "ʔaná ñoori-na"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + ñooris + ta", "ʔín̅ ñooris-ta"],
+	    [:Common, :Plural, :Person3, "ʔasó + ñoors + a", "ʔasó ñoors-a"],
+	    [:Masc, :Singular, :Person3, "ʔay + ñóors + a", "ʔay ñóors-a"],
+	    [:Fem, :Singular, :Person3, "ʔay + ñóoris + ta", "ʔay ñóoris-ta"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffJuss-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -197,14 +202,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "aḳasó", "ʔalɗúy Y-aḳasó"],
-	    [:Common, :Plural, :Person3, "Y", "ʔalɗúso", "aḳasé", "ʔalɗúso Y-aḳasé"],
-	    [:Common, :Plural, :Person1, "N", "ʔalɗúna", "aḳasó", "ʔalɗúna N-aḳasó"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "igisa", "ʔalɗún̅ ʔ-igisa"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "aḳasó", "ʔalɗúy Y-aḳasó"]]
+    :terms [[:gender, :number, :person, :token-note-sel3, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Y + ʔalɗúy + aḳasó", "ʔalɗúy Y-aḳasó"],
+	    [:Common, :Plural, :Person3, "Y + ʔalɗúso + aḳasé", "ʔalɗúso Y-aḳasé"],
+	    [:Common, :Plural, :Person1, "N + ʔalɗúna + aḳasó", "ʔalɗúna N-aḳasó"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔalɗún̅ + igisa", "ʔalɗún̅ ʔ-igisa"],
+	    [:Masc, :Singular, :Person3, "Y + ʔalɗúy + aḳasó", "ʔalɗúy Y-aḳasó"]]
     }
     {:label "arbore-VSuffMainCausative1AffJuss-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -212,14 +218,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "ñoors", "∅", "ʔalɗúso ñoors-∅"],
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "ñoori", "nó", "ʔalɗúna ñoori-nó"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "ñoors", "∅", "ʔalɗúy ñoors-∅"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "ñoors", "a", "ʔalɗún̅ ñoors-a"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "ñooris", "∅", "ʔalɗúy ñooris-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "ʔalɗúso + ñoors + ∅", "ʔalɗúso ñoors-∅"],
+	    [:Common, :Plural, :Person1, "ʔalɗúna + ñoori + nó", "ʔalɗúna ñoori-nó"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + ñoors + ∅", "ʔalɗúy ñoors-∅"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + ñoors + a", "ʔalɗún̅ ñoors-a"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + ñooris + ∅", "ʔalɗúy ñooris-∅"]]
     }
     {:label "arbore-VSuffMainMiddle2AffPluperf-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -227,42 +234,43 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔaná", "wañño", "hane", "ʔaná wañño-hane"],
-	    [:Fem, :Singular, :Person3, "ʔay", "wáñño", "hate", "ʔay wáñño-hate"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "wáñño", "ɗe", "ʔan̅ wáñño-ɗe"],
-	    [:Common, :Plural, :Person3, "ʔasó", "wañño", "te", "ʔasó wañño-te"],
-	    [:Common, :Singular, :Person2, "ʔa", "wáñño", "hate", "ʔa wáñño-hate"],
-	    [:Masc, :Singular, :Person3, "ʔay", "wáñño", "te", "ʔay wáñño-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hate", "ʔín̅ wañño-hate"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔaná + wañño + hane", "ʔaná wañño-hane"],
+	    [:Fem, :Singular, :Person3, "ʔay + wáñño + hate", "ʔay wáñño-hate"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + wáñño + ɗe", "ʔan̅ wáñño-ɗe"],
+	    [:Common, :Plural, :Person3, "ʔasó + wañño + te", "ʔasó wañño-te"],
+	    [:Common, :Singular, :Person2, "ʔa + wáñño + hate", "ʔa wáñño-hate"],
+	    [:Masc, :Singular, :Person3, "ʔay + wáñño + te", "ʔay wáñño-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + wañño + hate", "ʔín̅ wañño-hate"]]
     }
     {:label "arbore-VPrefMainPattern1TenseFormation-ikkin"
+     :note "Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :ikkin,
 	    :patternClass :Pattern1,
 	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:gender, :number, :person, :polarity, :token_prefGroup, :token_selGroup, :stemClass, :tam, :token_stem, :token, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "mán̅", :I_Stem, :Jussive, "ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní", "mán̅ ʔ-ʔik(k)iní"],
-	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :e_Stem, :Jussive, "ek(k)enó", "ʔalɗúy Y-ek(k)enó", "ʔalɗúy Y-ek(k)enó"],
-	    [:Common, :Singular, :Person2, :Affirmative, "ʔ", "ʔ", :I_Stem, :Imperative, "ʔik(k)ín", "Common ʔ-ʔik(k)ín"],
-	    [:Common, :Plural, :Person1, :Negative, "N", "mana", :e_Stem, :Imperfect, "ék(k)eno", "mana N-ék(k)eno"],
-	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔí", :I_Stem, :Perfect, "ek(k)ene", "ʔí T-ek(k)ene"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I_Stem, :Imperfect, "ʔík(k)ino", "ʔamma ʔ-ʔík(k)ino"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :I_Stem, :Jussive, "ʔik(k)ina", "ʔalɗún̅ ʔ-ʔik(k)ina"],
-	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :I_Stem, :Imperative, "ʔik(k)iná", "Common ʔ-ʔik(k)iná"],
-	    [:Masc, :Singular, :Person3, :Negative, "Y", "Ma", :e_Stem, :Perfect, "ék(k)éní", "Ma Y-ék(k)éní"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔan̅", :I_Stem, :Imperfect, "ʔík(k)ina", "ʔan̅ ʔ-ʔík(k)ina"],
-	    [:Common, :Plural, :Person2, :Negative, "Y", "má", :e_Stem, :Imperative, "ek(k)ení", "má Y-ek(k)ení"],
-	    [:Fem, :Singular, :Person3, :Negative, "Y", "máy", :e_Stem, :Jussive, "ek(k)ení", "máy Y-ek(k)ení"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :I_Stem, :Perfect, "ʔik(k)ine", "ʔín̅ ʔ-ʔik(k)ine"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "ʔamma", :I_Stem, :Perfect, "ʔík(k)íní", "ʔamma ʔ-ʔík(k)íní"],
-	    [:Common, :Singular, :Person2, :Negative, "Y", "mán̅", :e_Stem, :Imperative, "ek(k)ení]S]}", "mán̅ Y-ek(k)ení]S]}"],
-	    [:Fem, :Singular, :Person3, :Affirmative, "T", "ʔay", :e_Stem, :Imperfect, "ék(k)ene", "ʔay T-ék(k)ene"]]
+    :terms [[:gender, :number, :person, :polarity, :token-note-sel4, :stemClass, :tam, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Negative, "ʔ + mán̅ + ʔik(k)iní", :I_Stem, :Jussive, "mán̅ ʔ-ʔik(k)iní"],
+	    [:Masc, :Singular, :Person3, :Affirmative, "Y + ʔalɗúy + ek(k)enó", :e_Stem, :Jussive, "ʔalɗúy Y-ek(k)enó"],
+	    [:Common, :Singular, :Person2, :Affirmative, "ʔ + ʔ + ʔik(k)ín", :I_Stem, :Imperative, "Common ʔ-ʔik(k)ín"],
+	    [:Common, :Plural, :Person1, :Negative, "N + mana + ék(k)eno", :e_Stem, :Imperfect, "mana N-ék(k)eno"],
+	    [:Common, :Singular, :Person2, :Affirmative, "T + ʔí + ek(k)ene", :I_Stem, :Perfect, "ʔí T-ek(k)ene"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ + ʔamma + ʔík(k)ino", :I_Stem, :Imperfect, "ʔamma ʔ-ʔík(k)ino"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ + ʔalɗún̅ + ʔik(k)ina", :I_Stem, :Jussive, "ʔalɗún̅ ʔ-ʔik(k)ina"],
+	    [:Common, :Plural, :Person2, :Affirmative, "ʔ + ʔ + ʔik(k)iná", :I_Stem, :Imperative, "Common ʔ-ʔik(k)iná"],
+	    [:Masc, :Singular, :Person3, :Negative, "Y + Ma + ék(k)éní", :e_Stem, :Perfect, "Ma Y-ék(k)éní"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ + ʔan̅ + ʔík(k)ina", :I_Stem, :Imperfect, "ʔan̅ ʔ-ʔík(k)ina"],
+	    [:Common, :Plural, :Person2, :Negative, "Y + má + ek(k)ení", :e_Stem, :Imperative, "má Y-ek(k)ení"],
+	    [:Fem, :Singular, :Person3, :Negative, "Y + máy + ek(k)ení", :e_Stem, :Jussive, "máy Y-ek(k)ení"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ + ʔín̅ + ʔik(k)ine", :I_Stem, :Perfect, "ʔín̅ ʔ-ʔik(k)ine"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ + ʔamma + ʔík(k)íní", :I_Stem, :Perfect, "ʔamma ʔ-ʔík(k)íní"],
+	    [:Common, :Singular, :Person2, :Negative, "Y + mán̅ + ek(k)ení]S]}", :e_Stem, :Imperative, "mán̅ Y-ek(k)ení]S]}"],
+	    [:Fem, :Singular, :Person3, :Affirmative, "T + ʔay + ék(k)ene", :e_Stem, :Imperfect, "ʔay T-ék(k)ene"]]
     }
     {:label "arbore-VPrefRelativeNegGeneral-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -270,16 +278,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :General}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "T", "eḳes", "∅", "T-eḳes-∅"],
-	    [:Masc, :Singular, :Person3, "Y", "eḳes", "∅", "Y-eḳes-∅"],
-	    [:Common, :Plural, :Person1, "Neut", "eḳes", "∅", "Neut-eḳes-∅"],
-	    [:Common, :Singular, :Person2, "T", "eḳes", "∅", "T-eḳes-∅"],
-	    [:Common, :Plural, :Person2, "T", "eḳes", "∅", "T-eḳes-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "igis", "ʔ-igis"],
-	    [:Common, :Plural, :Person3, "Y", "eḳes", "∅", "Y-eḳes-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel5, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "T + eḳes + ∅", "T-eḳes-∅"],
+	    [:Masc, :Singular, :Person3, "Y + eḳes + ∅", "Y-eḳes-∅"],
+	    [:Common, :Plural, :Person1, "Neut + eḳes + ∅", "Neut-eḳes-∅"],
+	    [:Common, :Singular, :Person2, "T + eḳes + ∅", "T-eḳes-∅"],
+	    [:Common, :Plural, :Person2, "T + eḳes + ∅", "T-eḳes-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + igis + ∅", "ʔ-igis"],
+	    [:Common, :Plural, :Person3, "Y + eḳes + ∅", "Y-eḳes-∅"]]
     }
-    {:label "arbore-VPrefMainPattern2NegPerf-eld"
+    {:label "arbore-VPrefMainPattern2NegPerf-eld" 
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -287,16 +296,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "éllí", "∅", "Ma Y-éllí"],
-	    [:Common, :Singular, :Person2, "Y", "ʔamma", "éllí", "∅", "ʔamma Y-éllí"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "∅", "∅", "ʔímma ʔ-∅"],
-	    [:Common, :Plural, :Person1, "ʔ", "mana", "∅", "∅", "mana ʔ-∅"],
-	    [:Fem, :Singular, :Person3, "Y", "Ma", "éllí", "∅", "Ma Y-éllí"],
-	    [:Common, :Plural, :Person3, "ʔ", "maso", "∅", "∅", "maso ʔ-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "élɗí", "∅", "ʔamma ʔ-élɗí"]]
+    :terms [[:gender, :number, :person, :token-note-sel6, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y + Ma + éllí + ∅", "Ma Y-éllí"],
+	    [:Common, :Singular, :Person2, "Y + ʔamma + éllí + ∅", "ʔamma Y-éllí"],
+	    [:Common, :Plural, :Person2, "ʔ + ʔímma + ∅ + ∅", "ʔímma ʔ-∅"],
+	    [:Common, :Plural, :Person1, "ʔ + mana + ∅ + ∅", "mana ʔ-∅"],
+	    [:Fem, :Singular, :Person3, "Y + Ma + éllí + ∅", "Ma Y-éllí"],
+	    [:Common, :Plural, :Person3, "ʔ + maso + ∅ + ∅", "maso ʔ-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔamma + élɗí + ∅", "ʔamma ʔ-élɗí"]]
     }
     {:label "arbore-VSuffMainInchoativeNegImperf-beekow"
+     :note "Template: selGroup + suffix + stem."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -304,17 +314,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_suffix, :token_stem, :token, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mana", "no", "béeḳo", "1 béeḳo-no", "mana béeḳo-no"],
-	    [:Common, :Plural, :Person3, "maso", "wa", "béeḳo", "1 béeḳo-wa", "maso béeḳo-wa"],
-	    [:Common, :Singular, :Person2, "ʔamma", "to", "béeḳo", "1 béeḳo-to", "ʔamma béeḳo-to"],
-	    [:Fem, :Singular, :Person3, "Ma", "to", "béeḳo", "1 béeḳo-to", "Ma béeḳo-to"],
-	    [:Common, :Singular, :Person1, "ʔamma", "o ~ oo", "béeḳo", "1 béeḳo-o ~ oo", "ʔamma béeḳo-o ~ oo"],
-	    [:Common, :Plural, :Person2, "ʔimma", "ta", "béeḳo", "1 béeḳo-ta", "ʔímma béeḳo-ta"],
-	    [:Masc, :Singular, :Person3, "Ma", "o ~ oo", "béeḳo", "1 béeḳo-o ~ oo", "Ma béeḳo-o ~ oo"]]
+    :terms [[:gender, :number, :person, :token-note-sel7, :token, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mana + no + béeḳo", "mana béeḳo-no"],
+	    [:Common, :Plural, :Person3, "maso + wa + béeḳo", "maso béeḳo-wa"],
+	    [:Common, :Singular, :Person2, "ʔamma + to + béeḳo", "ʔamma béeḳo-to"],
+	    [:Fem, :Singular, :Person3, "Ma + to + béeḳo", "Ma béeḳo-to"],
+	    [:Common, :Singular, :Person1, "ʔamma + o ~ oo + béeḳo", "ʔamma béeḳo-o ~ oo"],
+	    [:Common, :Plural, :Person2, "ʔimma + ta + béeḳo", "ʔímma béeḳo-ta"],
+	    [:Masc, :Singular, :Person3, "Ma + o ~ oo + béeḳo", "Ma béeḳo-o ~ oo"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffPerf-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem.Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -322,16 +332,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "T", "ʔíy", "eḳese", "ʔíy T-eḳese"],
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "eḳese", "ʔín̅ T-eḳese"],
-	    [:Common, :Plural, :Person1, "N", "ʔína", "éḳese", "ʔína N-éḳese"],
-	    [:Common, :Singular, :Person2, "T", "ʔ", "eḳese", "Common T-eḳese"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "eḳese", "ʔíy Y-eḳese"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "igise", "ʔín̅ ʔ-igise"],
-	    [:Common, :Plural, :Person3, "Y", "ʔíso", "eḳese", "ʔíso Y-eḳese"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "T + ʔíy + eḳese", "ʔíy T-eḳese"],
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + eḳese", "ʔín̅ T-eḳese"],
+	    [:Common, :Plural, :Person1, "N + ʔína + éḳese", "ʔína N-éḳese"],
+	    [:Common, :Singular, :Person2, "T + ʔ + eḳese", "Common T-eḳese"],
+	    [:Masc, :Singular, :Person3, "Y + ʔíy + eḳese", "ʔíy Y-eḳese"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔín̅ + igise", "ʔín̅ ʔ-igise"],
+	    [:Common, :Plural, :Person3, "Y + ʔíso + eḳese", "ʔíso Y-eḳese"]]
     }
     {:label "arbore-VSuffMainMiddle1AffPerf-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -339,16 +350,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ate", "ʔín̅ hariy-ate"],
-	    [:Common, :Plural, :Person3, "ʔíso", "hariy", "te", "ʔíso hariy-te"],
-	    [:Common, :Plural, :Person1, "ʔína", "háriy", "ane", "ʔína háriy-ane"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "hariy", "te", "ʔíy hariy-te"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "hariy", "ɗe", "ʔín̅ hariy-ɗe"],
-	    [:Common, :Singular, :Person2, "ʔ", "hariy", "ate", "Common hariy-ate"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "hariy", "ate", "ʔíy hariy-ate"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + hariy + ate", "ʔín̅ hariy-ate"],
+	    [:Common, :Plural, :Person3, "ʔíso + hariy + te", "ʔíso hariy-te"],
+	    [:Common, :Plural, :Person1, "ʔína + háriy + ane", "ʔína háriy-ane"],
+	    [:Masc, :Singular, :Person3, "ʔíy + hariy + te", "ʔíy hariy-te"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + hariy + ɗe", "ʔín̅ hariy-ɗe"],
+	    [:Common, :Singular, :Person2, "ʔ + hariy + ate", "Common hariy-ate"],
+	    [:Fem, :Singular, :Person3, "ʔíy + hariy + ate", "ʔíy hariy-ate"]]
     }
     {:label "arbore-VSuffMainCausative1AffPluperf-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -356,16 +368,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "ʔasó", "ñoors", "e", "ʔasó ñoors-e"],
-	    [:Masc, :Singular, :Person3, "ʔay", "ñóors", "e", "ʔay ñóors-e"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "ñóors", "e", "ʔan̅ ñóors-e"],
-	    [:Common, :Plural, :Person1, "ʔaná", "ñoori", "ne", "ʔaná ñoori-ne"],
-	    [:Common, :Singular, :Person2, "ʔa", "ñóoris", "e", "ʔa ñóoris-e"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "ñooris", "e", "ʔín̅ ñooris-e"],
-	    [:Fem, :Singular, :Person3, "ʔay", "ñóoris", "e", "ʔay ñóoris-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "ʔasó + ñoors + e", "ʔasó ñoors-e"],
+	    [:Masc, :Singular, :Person3, "ʔay + ñóors + e", "ʔay ñóors-e"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + ñóors + e", "ʔan̅ ñóors-e"],
+	    [:Common, :Plural, :Person1, "ʔaná + ñoori + ne", "ʔaná ñoori-ne"],
+	    [:Common, :Singular, :Person2, "ʔa + ñóoris + e", "ʔa ñóoris-e"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + ñooris + e", "ʔín̅ ñooris-e"],
+	    [:Fem, :Singular, :Person3, "ʔay + ñóoris + e", "ʔay ñóoris-e"]]
     }
     {:label "arbore-VSuffMainMiddle2NegImprtv-wannohad"
+     :note "Template: selGroup + stem + suffix [CHECK!]."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -374,13 +387,13 @@
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token_suffix :tí}
-    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Singular, "má", "wáñño", "má wáñño"],
-	    [:Plural, "mán̅", "wañño", "mán̅ wañño"]]
+	    :tam :Imperative}
+    :terms [[:number, :token-note-sel8, :token]  ;; schema
+	    [:Singular, "má + wáñño + tí", "má wáñño"],
+	    [:Plural, "mán̅ + wañño + tí", "mán̅ wañño"]]
     }
     {:label "arbore-VPrefMainPattern2NegImperf-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -388,33 +401,34 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "T", "ʔamma", "állo", "ʔamma T-állo", "∅", "ʔamma T-állo-∅"],
-	    [:Fem, :Singular, :Person3, "T", "Ma", "állo", "Ma T-állo", "∅", "Ma T-állo-∅"],
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "állo", "Ma Y-állo", "∅", "Ma Y-állo-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "álɗo", "ʔamma ʔ-álɗo", "∅", "ʔamma ʔ-álɗo-∅"],
-	    [:Common, :Plural, :Person1, "ʔ", "mana", "∅", "mana ʔ-∅", "no", "mana ʔ-∅-no"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔímma", "∅", "ʔímma ʔ-∅", "[e", "ʔímma ʔ-∅-[e"],
-	    [:Common, :Plural, :Person3, "ʔ", "maso", "∅", "maso ʔ-∅", "∅", "maso ʔ-∅-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel9 :token]  ;; schema
+	    [:Common, :Singular, :Person2, "T + ʔamma + állo + ∅", "ʔamma T-állo-∅"],
+	    [:Fem, :Singular, :Person3, "T + Ma + állo + ∅", "Ma T-állo-∅"],
+	    [:Masc, :Singular, :Person3, "Y + Ma + állo + ∅", "Ma Y-állo-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔamma + álɗo + ∅", "ʔamma ʔ-álɗo-∅"],
+	    [:Common, :Plural, :Person1, "ʔ + mana + ∅ + no", "mana ʔ-∅-no"],
+	    [:Common, :Plural, :Person2, "ʔ + ʔímma + ∅ + [e", "ʔímma ʔ-∅-[e"],
+	    [:Common, :Plural, :Person3, "ʔ + maso + ∅ + ∅", "maso ʔ-∅-∅"]]
     }
     {:label "arbore-VSuffRelativeAffPerf-raf"
-    :note "Only three tams:perf imperf gen"
+    :note "Only three tams:perf imperf gen. Template: suffix + stem."
     :common {:clauseType :Relative,
 	    :conjClass :Suffix,
 	    :lexeme :raf,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_suffix, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "e", "ráf", "ráf-e"],
-	    [:Common, :Plural, :Person1, "ne", "ráf", "ráf-ne"],
-	    [:Masc, :Singular, :Person3, "e", "ráf", "ráf-e"],
-	    [:Common, :Singular, :Person2, "te", "ráf", "ráf-te"],
-	    [:Fem, :Singular, :Person3, "te", "ráf", "ráf-te"],
-	    [:Common, :Singular, :Person1, "e", "ráf", "ráf-e"],
-	    [:Common, :Plural, :Person2, "te", "ráf", "ráf-te"]]
+    :terms [[:gender, :number, :person, :token-note-sel10, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "e + ráf", "ráf-e"],
+	    [:Common, :Plural, :Person1, "ne + ráf", "ráf-ne"],
+	    [:Masc, :Singular, :Person3, "e + ráf", "ráf-e"],
+	    [:Common, :Singular, :Person2, "te + ráf", "ráf-te"],
+	    [:Fem, :Singular, :Person3, "te + ráf", "ráf-te"],
+	    [:Common, :Singular, :Person1, "e + ráf", "ráf-e"],
+	    [:Common, :Plural, :Person2, "te + ráf", "ráf-te"]]
     }
     {:label "arbore-VSuffMainMiddle3AffPluperf-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -422,17 +436,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔaná", "kum", "ahane", "ʔaná kum-ahane"],
-	    [:Common, :Plural, :Person3, "ʔasó", "kum", "te", "ʔasó kum-te"],
-	    [:Masc, :Singular, :Person3, "ʔay", "kúm", "te", "ʔay kúm-te"],
-	    [:Fem, :Singular, :Person3, "ʔay", "kúm", "ahate", "ʔay kúm-ahate"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "kúm", "ɗe", "ʔan̅ kúm-ɗe"],
-	    [:Common, :Singular, :Person2, "ʔa", "kúm", "ahate", "ʔa kúm-ahate"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "kum", "ahate", "ʔín̅ kum-ahate"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔaná + kum + ahane", "ʔaná kum-ahane"],
+	    [:Common, :Plural, :Person3, "ʔasó + kum + te", "ʔasó kum-te"],
+	    [:Masc, :Singular, :Person3, "ʔay + kúm + te", "ʔay kúm-te"],
+	    [:Fem, :Singular, :Person3, "ʔay + kúm + ahate", "ʔay kúm-ahate"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + kúm + ɗe", "ʔan̅ kúm-ɗe"],
+	    [:Common, :Singular, :Person2, "ʔa + kúm + ahate", "ʔa kúm-ahate"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + kum + ahate", "ʔín̅ kum-ahate"]]
     }
     {:label "arbore-VPrefRelativeAffPerf-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -440,16 +454,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "Neut", "éḳes", "e", "Neut-éḳes-e"],
-	    [:Fem, :Singular, :Person3, "T", "éḳes", "e", "T-éḳes-e"],
-	    [:Common, :Plural, :Person2, "T", "éḳes", "e", "T-éḳes-e"],
-	    [:Common, :Plural, :Person3, "Y", "éḳes", "e", "Y-éḳes-e"],
-	    [:Common, :Singular, :Person1, "ʔ", "ígis", "e", "ʔ-ígis-e"],
-	    [:Masc, :Singular, :Person3, "Y", "éḳes", "e", "Y-éḳes-e"],
-	    [:Common, :Singular, :Person2, "T", "éḳes", "e", "T-éḳes-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel5, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "Neut + éḳes + e", "Neut-éḳes-e"],
+	    [:Fem, :Singular, :Person3, "T + éḳes + e", "T-éḳes-e"],
+	    [:Common, :Plural, :Person2, "T + éḳes + e", "T-éḳes-e"],
+	    [:Common, :Plural, :Person3, "Y + éḳes + e", "Y-éḳes-e"],
+	    [:Common, :Singular, :Person1, "ʔ + ígis + e", "ʔ-ígis-e"],
+	    [:Masc, :Singular, :Person3, "Y + éḳes + e", "Y-éḳes-e"],
+	    [:Common, :Singular, :Person2, "T + éḳes + e", "T-éḳes-e"]]
     }
     {:label "arbore-VPrefMainPattern2AffPluperf-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -457,17 +472,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "élle", "ʔay Y-élle", "∅", "ʔay Y-élle-∅"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "∅", "ʔasó ʔ-ḳeʔ-∅"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "ḳeʔ", "ʔín̅ ʔ-ḳeʔ", "te", "ʔín̅ ʔ-ḳeʔ-te"],
-	    [:Common, :Plural, :Person1, "ʔ", "ʔaná", "ḳeʔ", "ʔaná ʔ-ḳeʔ", "ne", "ʔaná ʔ-ḳeʔ-ne"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "élɗe", "ʔan̅ ʔ-élɗe", "∅", "ʔan̅ ʔ-élɗe-∅"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "élle", "ʔay T-élle", "∅", "ʔay T-élle-∅"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "élle", "ʔa T-élle", "∅", "ʔa T-élle-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel11, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y + ʔay + élle + ∅", "ʔay Y-élle-∅"],
+	    [:Common, :Plural, :Person3, "ʔ + ʔasó + ḳeʔ + ∅", "ʔasó ʔ-ḳeʔ-∅"],
+	    [:Common, :Plural, :Person2, "ʔ + ʔín̅ + ḳeʔ + te", "ʔín̅ ʔ-ḳeʔ-te"],
+	    [:Common, :Plural, :Person1, "ʔ + ʔaná + ḳeʔ + ne", "ʔaná ʔ-ḳeʔ-ne"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + élɗe + ∅", "ʔan̅ ʔ-élɗe-∅"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + élle + ∅", "ʔay T-élle-∅"],
+	    [:Common, :Singular, :Person2, "T + ʔa + élle + ∅", "ʔa T-élle-∅"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffImperf-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -475,16 +490,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "aḳasa", "ʔín̅ T-aḳasa"],
-	    [:Common, :Plural, :Person3, "Y", "ʔasó", "aḳasa", "ʔasó Y-aḳasa"],
-	    [:Common, :Plural, :Person1, "N", "ʔaná", "aḳasa", "ʔaná N-aḳasa"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "áḳasa", "ʔay T-áḳasa"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "áḳasa", "ʔay Y-áḳasa"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "áḳasa", "ʔa T-áḳasa"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ígisa", "ʔan̅ ʔ-ígisa"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + aḳasa", "ʔín̅ T-aḳasa"],
+	    [:Common, :Plural, :Person3, "Y + ʔasó + aḳasa", "ʔasó Y-aḳasa"],
+	    [:Common, :Plural, :Person1, "N + ʔaná + aḳasa", "ʔaná N-aḳasa"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + áḳasa", "ʔay T-áḳasa"],
+	    [:Masc, :Singular, :Person3, "Y + ʔay + áḳasa", "ʔay Y-áḳasa"],
+	    [:Common, :Singular, :Person2, "T + ʔa + áḳasa", "ʔa T-áḳasa"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + ígisa", "ʔan̅ ʔ-ígisa"]]
     }
     {:label "arbore-VSuffMainBaseNegJuss-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -493,14 +509,15 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mána", "raf", "∅", "mána raf-∅"],
-	    [:Common, :Plural, :Person3, "máso", "raf", "∅", "máso raf-∅"],
-	    [:Fem, :Singular, :Person3, "máy", "raf", "∅", "máy raf-∅"],
-	    [:Masc, :Singular, :Person3, "máy", "raf", "∅", "máy raf-∅"],
-	    [:Common, :Singular, :Person1, "mán̅", "raf", "∅", "mán̅ raf-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mána + raf + ∅", "mána raf-∅"],
+	    [:Common, :Plural, :Person3, "máso + raf + ∅", "máso raf-∅"],
+	    [:Fem, :Singular, :Person3, "máy + raf + ∅", "máy raf-∅"],
+	    [:Masc, :Singular, :Person3, "máy + raf + ∅", "máy raf-∅"],
+	    [:Common, :Singular, :Person1, "mán̅ + raf + ∅", "mán̅ raf-∅"]]
     }
     {:label "arbore-VSuffMainMiddle4NegImperf-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -508,16 +525,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Ma", "rakka", "atto", "Ma rakka-atto"],
-	    [:Common, :Singular, :Person2, "ʔamma", "rakka", "atto", "ʔamma rakka-atto"],
-	    [:Masc, :Singular, :Person3, "Ma", "rakka", "ato", "Ma rakka-ato"],
-	    [:Common, :Plural, :Person2, "ʔímma", "rakka", "atta", "ʔímma rakka-atta"],
-	    [:Common, :Singular, :Person1, "ʔamma", "rakka", "ɗɗo", "ʔamma rakka-ɗɗo"],
-	    [:Common, :Plural, :Person3, "maso", "rakka", "ata", "maso rakka-ata"],
-	    [:Common, :Plural, :Person1, "mana", "rákka", "anno", "mana rákka-anno"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Ma + rakka + atto", "Ma rakka-atto"],
+	    [:Common, :Singular, :Person2, "ʔamma + rakka + atto", "ʔamma rakka-atto"],
+	    [:Masc, :Singular, :Person3, "Ma + rakka + ato", "Ma rakka-ato"],
+	    [:Common, :Plural, :Person2, "ʔímma + rakka + atta", "ʔímma rakka-atta"],
+	    [:Common, :Singular, :Person1, "ʔamma + rakka + ɗɗo", "ʔamma rakka-ɗɗo"],
+	    [:Common, :Plural, :Person3, "maso + rakka + ata", "maso rakka-ata"],
+	    [:Common, :Plural, :Person1, "mana + rákka + anno", "mana rákka-anno"]]
     }
     {:label "arbore-VSuffMainBaseNegPerf-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -526,34 +544,34 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Ma", "zérn", "∅", "Ma zérn-∅"],
-	    [:Common, :Plural, :Person2, "ʔímma", "zérn", "∅", "ʔímma zérn-∅"],
-	    [:Common, :Plural, :Person3, "maso", "zérn", "∅", "maso zérn-∅"],
-	    [:Common, :Plural, :Person1, "mana", "zérn", "∅", "mana zérn-∅"],
-	    [:Common, :Singular, :Person2, "ʔamma", "zérn", "∅", "ʔamma zérn-∅"],
-	    [:Fem, :Singular, :Person3, "Ma", "zérn", "∅", "Ma zérn-∅"],
-	    [:Common, :Singular, :Person1, "ʔamma", "zérn", "∅", "ʔamma zérn-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Ma + zérn + ∅", "Ma zérn-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma + zérn + ∅", "ʔímma zérn-∅"],
+	    [:Common, :Plural, :Person3, "maso + zérn + ∅", "maso zérn-∅"],
+	    [:Common, :Plural, :Person1, "mana + zérn + ∅", "mana zérn-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma + zérn + ∅", "ʔamma zérn-∅"],
+	    [:Fem, :Singular, :Person3, "Ma + zérn + ∅", "Ma zérn-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma + zérn + ∅", "ʔamma zérn-∅"]]
     }
     {:label "arbore-VSuffRelativeAffImperf-raf"
-    :note "Only three tams:perf imperf gen"
+    :note "Only three tams:perf imperf gen. Template: suffix + stem."
     :common {:clauseType :Relative,
 	    :conjClass :Suffix,
 	    :lexeme :raf,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_suffix, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "a", "ráf", "ráf-a"],
-	    [:Common, :Singular, :Person2, "to", "ráf", "ráf-to"],
-	    [:Common, :Singular, :Person1, "o", "ráf", "ráf-o"],
-	    [:Common, :Plural, :Person2, "ta", "ráf", "ráf-ta"],
-	    [:Common, :Plural, :Person1, "no", "ráf", "ráf-no"],
-	    [:Fem, :Singular, :Person3, "to", "ráf", "ráf-to"],
-	    [:Masc, :Singular, :Person3, "o", "ráf", "ráf-o"]]
+    :terms [[:gender, :number, :person, :token-note-sel10, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "a + ráf", "ráf-a"],
+	    [:Common, :Singular, :Person2, "to + ráf", "ráf-to"],
+	    [:Common, :Singular, :Person1, "o + ráf", "ráf-o"],
+	    [:Common, :Plural, :Person2, "ta + ráf", "ráf-ta"],
+	    [:Common, :Plural, :Person1, "no + ráf", "ráf-no"],
+	    [:Fem, :Singular, :Person3, "to + ráf", "ráf-to"],
+	    [:Masc, :Singular, :Person3, "o + ráf", "ráf-o"]]
     }
     {:label "arbore-VPrefMainPattern1AffImperf-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -561,36 +579,38 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "én̅ḅet[e", "ʔín̅ T-én̅ḅet[e"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ín̅ḅita", "ʔan̅ ʔ-ín̅ḅita"],
-	    [:Common, :Plural, :Person1, "N", "ʔaná", "én̅ḅet[e", "ʔaná N-én̅ḅet[e"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "én̅ḅet[e", "ʔay Y-én̅ḅet[e"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "én̅ḅet[e", "ʔay T-én̅ḅet[e"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "én̅ḅet[e", "ʔa T-én̅ḅet[e"],
-	    [:Common, :Plural, :Person3, "Y", "ʔasó", "én̅ḅet[e", "ʔasó Y-én̅ḅet[e"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + én̅ḅet[e", "ʔín̅ T-én̅ḅet[e"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + ín̅ḅita", "ʔan̅ ʔ-ín̅ḅita"],
+	    [:Common, :Plural, :Person1, "N + ʔaná + én̅ḅet[e", "ʔaná N-én̅ḅet[e"],
+	    [:Masc, :Singular, :Person3, "Y + ʔay + én̅ḅet[e", "ʔay Y-én̅ḅet[e"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + én̅ḅet[e", "ʔay T-én̅ḅet[e"],
+	    [:Common, :Singular, :Person2, "T + ʔa + én̅ḅet[e", "ʔa T-én̅ḅet[e"],
+	    [:Common, :Plural, :Person3, "Y + ʔasó + én̅ḅet[e", "ʔasó Y-én̅ḅet[e"]]
     }
     {:label "arbore-VPrefMainPattern2TenseFormation-eecc"
+     :note "Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eecc,
 	    :patternClass :Pattern2,
 	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:gender, :number, :person, :polarity, :token_prefGroup, :token_selGroup, :stemClass, :tam, :token_stem, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔín̅", :Ee_Stem, :Perfect, "ʔeečče", "ʔín̅ ʔ-ʔeečče"],
-	    [:Common, :Singular, :Person1, :Affirmative, "ʔ", "ʔalɗún̅", :aa_Stem, :Jussive, "ʔaačča", "ʔalɗún̅ ʔ-ʔaačča"],
-	    [:Common, :Plural, :Person1, :Negative, "Y", "mána", :Ee_Stem, :Jussive, "eeččí", "mána Y-eeččí"],
-	    [:Common, :Singular, :Person2, :Affirmative, "T", "ʔa", :aa_Stem, :Imperfect, "áačča", "ʔa T-áačča"],
-	    [:Common, :Singular, :Person1, :Negative, "ʔ", "amma", :Ee_Stem, :Perfect, "ʔéeččí", "amma ʔ-ʔéeččí"],
-	    [:Common, :Singular, :Person2, :Negative, "Y", "má", :Ee_Stem, :Imperative, "eeččí", "má Y-eeččí"],
-	    [:Masc, :Singular, :Person3, :Affirmative, "Y", "ʔalɗúy", :aa_Stem, :Jussive, "aaččó", "ʔalɗúy Y-aaččó"],
-	    [:Common, :Plural, :Person2, :Affirmative, "ʔ", "ʔ", :aa_Stem, :Imperative, "maaččá", "Common ʔ-maaččá"],
-	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔasó", :aa_Stem, :Imperfect, "aačč", "ʔasó Y-aačč"],
-	    [:Common, :Plural, :Person3, :Affirmative, "Y", "ʔalɗúso", :Ee_Stem, :Jussive, "eeččé", "ʔalɗúso Y-eeččé"],
-	    [:Common, :Plural, :Person2, :Affirmative, "T", "ʔín̅", :Ee_Stem, :Perfect, "eečče", "ʔín̅ T-eečče"]]
+    :terms [[:gender, :number, :person, :polarity, :token-note-sel12, :stemClass, :tam, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ + ʔín̅ + ʔeečče", :Ee_Stem, :Perfect, "ʔín̅ ʔ-ʔeečče"],
+	    [:Common, :Singular, :Person1, :Affirmative, "ʔ + ʔalɗún̅ + ʔaačča", :aa_Stem, :Jussive, "ʔalɗún̅ ʔ-ʔaačča"],
+	    [:Common, :Plural, :Person1, :Negative, "Y + mána + eeččí", :Ee_Stem, :Jussive, "mána Y-eeččí"],
+	    [:Common, :Singular, :Person2, :Affirmative, "T + ʔa + áačča", :aa_Stem, :Imperfect, "ʔa T-áačča"],
+	    [:Common, :Singular, :Person1, :Negative, "ʔ + amma + ʔéeččí", :Ee_Stem, :Perfect, "amma ʔ-ʔéeččí"],
+	    [:Common, :Singular, :Person2, :Negative, "Y + má + eeččí", :Ee_Stem, :Imperative, "má Y-eeččí"],
+	    [:Masc, :Singular, :Person3, :Affirmative, "Y + ʔalɗúy + aaččó", :aa_Stem, :Jussive, "ʔalɗúy Y-aaččó"],
+	    [:Common, :Plural, :Person2, :Affirmative, "ʔ + ʔ + maaččá", :aa_Stem, :Imperative, "Common ʔ-maaččá"],
+	    [:Common, :Plural, :Person3, :Affirmative, "Y + ʔasó + aačč", :aa_Stem, :Imperfect, "ʔasó Y-aačč"],
+	    [:Common, :Plural, :Person3, :Affirmative, "Y + ʔalɗúso + eeččé", :Ee_Stem, :Jussive, "ʔalɗúso Y-eeččé"],
+	    [:Common, :Plural, :Person2, :Affirmative, "T + ʔín̅ + eečče", :Ee_Stem, :Perfect, "ʔín̅ T-eečče"]]
     }
     {:label "arbore-VSuffMainMiddle1AffPluperf-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -598,16 +618,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "ʔay", "háriy", "ate", "ʔay háriy-ate"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "háriy", "ɗe", "ʔan̅ háriy-ɗe"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ate", "ʔín̅ hariy-ate"],
-	    [:Common, :Plural, :Person3, "ʔasó", "hariy", "te", "ʔasó hariy-te"],
-	    [:Common, :Singular, :Person2, "ʔa", "háriy", "ate", "ʔa háriy-ate"],
-	    [:Common, :Plural, :Person1, "ʔaná", "hariy", "ane", "ʔaná hariy-ane"],
-	    [:Masc, :Singular, :Person3, "ʔay", "háriy", "te", "ʔay háriy-te"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "ʔay + háriy + ate", "ʔay háriy-ate"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + háriy + ɗe", "ʔan̅ háriy-ɗe"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + hariy + ate", "ʔín̅ hariy-ate"],
+	    [:Common, :Plural, :Person3, "ʔasó + hariy + te", "ʔasó hariy-te"],
+	    [:Common, :Singular, :Person2, "ʔa + háriy + ate", "ʔa háriy-ate"],
+	    [:Common, :Plural, :Person1, "ʔaná + hariy + ane", "ʔaná hariy-ane"],
+	    [:Masc, :Singular, :Person3, "ʔay + háriy + te", "ʔay háriy-te"]]
     }
     {:label "arbore-VSuffMainMiddle2NegImperf-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -615,34 +636,35 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔímma", "wáñño", "hata", "ʔímma wáñño-hata"],
-	    [:Masc, :Singular, :Person3, "Ma", "wáñño", "to", "Ma wáñño-to"],
-	    [:Common, :Singular, :Person2, "ʔamma", "wáñño", "hato", "ʔamma wáñño-hato"],
-	    [:Common, :Plural, :Person1, "mana", "hano", "mana-hano"],
-	    [:Common, :Plural, :Person3, "maso", "wáñño", "ta", "maso wáñño-ta"],
-	    [:Common, :Singular, :Person1, "ʔamma", "wáñño", "ɗo", "ʔamma wáñño-ɗo"],
-	    [:Fem, :Singular, :Person3, "Ma", "wáñño", "hato", "Ma wáñño-hato"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔímma + wáñño + hata", "ʔímma wáñño-hata"],
+	    [:Masc, :Singular, :Person3, "Ma + wáñño + to", "Ma wáñño-to"],
+	    [:Common, :Singular, :Person2, "ʔamma + wáñño + hato", "ʔamma wáñño-hato"],
+	    [:Common, :Plural, :Person1, "mana + hano +", " mana-hano"],
+	    [:Common, :Plural, :Person3, "maso + wáñño + ta", "maso wáñño-ta"],
+	    [:Common, :Singular, :Person1, "ʔamma + wáñño + ɗo", "ʔamma wáñño-ɗo"],
+	    [:Fem, :Singular, :Person3, "Ma + wáñño + hato", "Ma wáñño-hato"]]
     }
     {:label "arbore-VSuffMainMiddle3NegPerf-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
 	    :lexeme :kumahadd,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Perfect,
-	    :token_stem :kúm}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "ʔamma", "kúm", "tí", "ʔamma kúm-tí"],
-	    [:Common, :Plural, :Person1, "mana", "kúm", "tí", "mana kúm-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "kúm", "∅", "ʔamma kúm-∅"],
-	    [:Common, :Plural, :Person3, "maso", "kúm", "tí", "maso kúm-tí"],
-	    [:Masc, :Singular, :Person3, "Ma", "kúm", "tí", "Ma kúm-tí"],
-	    [:Fem, :Singular, :Person3, "Ma", "kúm", "tí", "Ma kúm-tí"],
-	    [:Common, :Plural, :Person2, "ʔímma", "kúm", "tí", "ʔímma kúm-tí"]]
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "ʔamma + kúm + tí", "ʔamma kúm-tí"],
+	    [:Common, :Plural, :Person1, "mana + kúm + tí", "mana kúm-tí"],
+	    [:Common, :Singular, :Person1, "ʔamma + kúm + ∅", "ʔamma kúm-∅"],
+	    [:Common, :Plural, :Person3, "maso + kúm + tí", "maso kúm-tí"],
+	    [:Masc, :Singular, :Person3, "Ma + kúm + tí", "Ma kúm-tí"],
+	    [:Fem, :Singular, :Person3, "Ma + kúm + tí", "Ma kúm-tí"],
+	    [:Common, :Plural, :Person2, "ʔímma + kúm + tí", "ʔímma kúm-tí"]]
     }
     {:label "arbore-VSuffMainBaseNegImperf-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -651,16 +673,17 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Ma", "zéren", "to", "Ma zéren-to"],
-	    [:Common, :Singular, :Person2, "ʔamma", "zéren", "to", "ʔamma zéren-to"],
-	    [:Common, :Plural, :Person3, "maso", "zérn", "a", "maso zérn-a"],
-	    [:Common, :Plural, :Person2, "ʔímma", "zéren", "ta", "ʔímma zéren-ta"],
-	    [:Common, :Singular, :Person1, "ʔamma", "zérn", "o", "ʔamma zérn-o"],
-	    [:Masc, :Singular, :Person3, "Ma", "zérn", "o", "Ma zérn-o"],
-	    [:Common, :Plural, :Person1, "mana", "zéren", "no", "mana zéren-no"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Ma + zéren + to", "Ma zéren-to"],
+	    [:Common, :Singular, :Person2, "ʔamma + zéren + to", "ʔamma zéren-to"],
+	    [:Common, :Plural, :Person3, "maso + zérn + a", "maso zérn-a"],
+	    [:Common, :Plural, :Person2, "ʔímma + zéren + ta", "ʔímma zéren-ta"],
+	    [:Common, :Singular, :Person1, "ʔamma + zérn + o", "ʔamma zérn-o"],
+	    [:Masc, :Singular, :Person3, "Ma + zérn + o", "Ma zérn-o"],
+	    [:Common, :Plural, :Person1, "mana + zéren + no", "mana zéren-no"]]
     }
     {:label "arbore-VSuffMainBaseNegImprtv-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -671,11 +694,12 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Plural, "mán̅", "zern", "∅", "mán̅ zern-∅"],
-	    [:Singular, "má", "zern", "∅", "má zern-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Plural, "mán̅ + zern + ∅", "mán̅ zern-∅"],
+	    [:Singular, "má + zern + ∅", "má zern-∅"]]
     }
     {:label "arbore-VSuffMainBaseNegImprtv-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -686,11 +710,12 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "má", "raf", "∅", "má raf-∅"],
-	    [:Plural, "mán̅", "raf", "∅", "mán̅ raf-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "má + raf + ∅", "má raf-∅"],
+	    [:Plural, "mán̅ + raf + ∅", "mán̅ raf-∅"]]
     }
     {:label "arbore-VSuffMainCausative1NegPerf-nyooris"
+     :note "Template: stem + suffix + selGroup."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -698,16 +723,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_stem, :token_suffix, :token_selGroup, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "ñóors", "∅", "Ma", "Ma ñóors-∅"],
-	    [:Common, :Plural, :Person1, "mana", "ñóors", "∅", "mana ñóors-∅"],
-	    [:Common, :Plural, :Person2, "ʔímma", "ñóors", "∅", "ʔímma ñóors-∅"],
-	    [:Fem, :Singular, :Person3, "Ma", "ñóors", "∅", "Ma ñóors-∅"],
-	    [:Common, :Plural, :Person3, "maso", "ñóors", "∅", "maso ñóors-∅"],
-	    [:Common, :Singular, :Person2, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"],
-	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "∅", "ʔamma ñóors-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel13, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "ñóors + ∅ + Ma", "Ma ñóors-∅"],
+	    [:Common, :Plural, :Person1, "mana + ñóors + ∅", "mana ñóors-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma + ñóors + ∅", "ʔímma ñóors-∅"],
+	    [:Fem, :Singular, :Person3, "Ma + ñóors + ∅", "Ma ñóors-∅"],
+	    [:Common, :Plural, :Person3, "maso + ñóors + ∅", "maso ñóors-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma + ñóors + ∅", "ʔamma ñóors-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma + ñóors + ∅", "ʔamma ñóors-∅"]]
     }
     {:label "arbore-VSuffMainInchoativeAffImperf-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -715,17 +741,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "ʔa", "béeḳo", "ta", "ʔa béeḳo-ta"],
-	    [:Masc, :Singular, :Person3, "ʔay", "béeḳo", "wa", "ʔay béeḳo-wa"],
-	    [:Common, :Plural, :Person1, "ʔaná", "beeḳo", "na", "ʔaná beeḳo-na"],
-	    [:Common, :Plural, :Person3, "ʔasó", "beeḳo", "wa", "ʔasó beeḳo-wa"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "béeḳo", "wa", "ʔan̅ béeḳo-wa"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "beeḳo", "ta", "ʔín̅ beeḳo-ta"],
-	    [:Fem, :Singular, :Person3, "ʔay", "béeḳo", "ta", "ʔay béeḳo-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "ʔa + béeḳo + ta", "ʔa béeḳo-ta"],
+	    [:Masc, :Singular, :Person3, "ʔay + béeḳo + wa", "ʔay béeḳo-wa"],
+	    [:Common, :Plural, :Person1, "ʔaná + beeḳo + na", "ʔaná beeḳo-na"],
+	    [:Common, :Plural, :Person3, "ʔasó + beeḳo + wa", "ʔasó beeḳo-wa"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + béeḳo + wa", "ʔan̅ béeḳo-wa"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + beeḳo + ta", "ʔín̅ beeḳo-ta"],
+	    [:Fem, :Singular, :Person3, "ʔay + béeḳo + ta", "ʔay béeḳo-ta"]]
     }
     {:label "arbore-VPrefMainPattern1AffPerf-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -733,14 +759,14 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "en̅bite", "ʔíy Y-en̅bite"],
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "en̅bite", "ʔín̅ T-en̅bite"],
-	    [:Fem, :Singular, :Person3, "T", "ʔíy", "en̅bite", "ʔíy T-en̅bite"],
-	    [:Common, :Singular, :Person2, "T", "ʔ", "en̅bite", "Common T-en̅bite"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "in̅ḅite", "ʔín̅ ʔ-in̅ḅite"],
-	    [:Common, :Plural, :Person3, "Y", "ʔíso", "en̅bite", "ʔíso Y-en̅bite"],
-	    [:Common, :Plural, :Person1, "N", "ʔína", "en̅bite", "ʔína N-en̅bite"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y + ʔíy + en̅bite", "ʔíy Y-en̅bite"],
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + en̅bite", "ʔín̅ T-en̅bite"],
+	    [:Fem, :Singular, :Person3, "T + ʔíy + en̅bite", "ʔíy T-en̅bite"],
+	    [:Common, :Singular, :Person2, "T + ʔ + en̅bite", "Common T-en̅bite"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔín̅ + in̅ḅite", "ʔín̅ ʔ-in̅ḅite"],
+	    [:Common, :Plural, :Person3, "Y + ʔíso + en̅bite", "ʔíso Y-en̅bite"],
+	    [:Common, :Plural, :Person1, "N + ʔína + en̅bite", "ʔína N-en̅bite"]]
     }
     {:label "arbore-VPrefMainPattern1-2NegPerf-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
@@ -751,23 +777,22 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Y", "Ma", "éḳésí", "Ma Y-éḳésí"],
-	    [:Common, :Singular, :Person2, "Y", "ʔamma", "éḳésí", "ʔamma Y-éḳésí"],
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "éḳésí", "Ma Y-éḳésí"],
-	    [:Common, :Plural, :Person2, "Y", "ʔímma", "éḳésí", "ʔímma Y-éḳésí"],
-	    [:Common, :Plural, :Person1, "Y", "mana", "éḳésí", "mana Y-éḳésí"],
-	    [:Common, :Plural, :Person3, "Y", "maso", "éḳésí", "maso Y-éḳésí"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "ígísí", "ʔamma ʔ-ígísí"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Y + Ma + éḳésí", "Ma Y-éḳésí"],
+	    [:Common, :Singular, :Person2, "Y + ʔamma + éḳésí", "ʔamma Y-éḳésí"],
+	    [:Masc, :Singular, :Person3, "Y + Ma + éḳésí", "Ma Y-éḳésí"],
+	    [:Common, :Plural, :Person2, "Y + ʔímma + éḳésí", "ʔímma Y-éḳésí"],
+	    [:Common, :Plural, :Person1, "Y + mana + éḳésí", "mana Y-éḳésí"],
+	    [:Common, :Plural, :Person3, "Y + maso + éḳésí", "maso Y-éḳésí"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔamma + ígísí", "ʔamma ʔ-ígísí"]]
     }
     {:label "arbore-VPrefPatternClasses"
-    :note "There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the
-            infinitive paradigm."
+    :note "There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the infinitive paradigm."
     :common {:conjClass :Prefix,
 	    :morphClass :PrefPatternClasses,
 	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:gloss, :lexeme, :token, :patternClass]  ;; schema
+    :terms [[:token-note, :lexeme, :token, :patternClass]  ;; schema
 	    ["know", :ʔIttIg, "∅", :Pattern1],
 	    ["kill", :ʔEḳEs-  , "alt. in 1 sg and imprtv aff", :Pattern2],
 	    ["go", :ʔIʔIt, "Irregular Imperative:sg ʔíit pl ʔiitá", :Pattern1],
@@ -786,14 +811,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "kum", "ahanó", "ʔalɗúna kum-ahanó"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "kum", "ɗa", "ʔalɗún̅ kum-ɗa"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "kum", "tó", "ʔalɗúy kum-tó"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "kum", "té", "ʔalɗúso kum-té"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "kum", "aható", "ʔalɗúy kum-aható"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔalɗúna + kum + ahanó", "ʔalɗúna kum-ahanó"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + kum + ɗa", "ʔalɗún̅ kum-ɗa"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + kum + tó", "ʔalɗúy kum-tó"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + kum + té", "ʔalɗúso kum-té"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + kum + aható", "ʔalɗúy kum-aható"]]
     }
     {:label "arbore-VSuffMainCausative1NegJuss-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -801,14 +827,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "máy", "ñoors", "∅", "máy ñoors-∅"],
-	    [:Common, :Singular, :Person1, "mán̅", "ñoors", "∅", "mán̅ ñoors-∅"],
-	    [:Common, :Plural, :Person1, "mána", "ñoors", "∅", "mána ñoors-∅"],
-	    [:Common, :Plural, :Person3, "máso", "ñoors", "∅", "máso ñoors-∅"],
-	    [:Masc, :Singular, :Person3, "máy", "ñoors", "∅", "máy ñoors-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "máy + ñoors + ∅", "máy ñoors-∅"],
+	    [:Common, :Singular, :Person1, "mán̅ + ñoors + ∅", "mán̅ ñoors-∅"],
+	    [:Common, :Plural, :Person1, "mána + ñoors + ∅", "mána ñoors-∅"],
+	    [:Common, :Plural, :Person3, "máso + ñoors + ∅", "máso ñoors-∅"],
+	    [:Masc, :Singular, :Person3, "máy + ñoors + ∅", "máy ñoors-∅"]]
     }
     {:label "arbore-VSuffMainBaseAffImprtv-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -819,11 +846,12 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "zerén", "∅", "ʔ zerén-∅"],
-	    [:Plural, "ʔ", "zern", "∅", "ʔ zern-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "ʔ + zerén + ∅", "ʔ zerén-∅"],
+	    [:Plural, "ʔ + zern + ∅", "ʔ zern-∅"]]
     }
     {:label "arbore-VPrefMainPattern2AffPerf-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -831,16 +859,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "T", "ʔ", "elle", "Common T-elle", "∅", "Common T-elle-∅"],
-	    [:Fem, :Singular, :Person3, "T", "ʔíy", "elle", "ʔíy T-elle", "∅", "ʔíy T-elle-∅"],
-	    [:Common, :Plural, :Person1, "ʔ", "ʔína", "∅", "ʔína ʔ-∅", "ne", "ʔína ʔ-∅-ne"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔín̅", "elɗe", "ʔín̅ ʔ-elɗe", "∅", "ʔín̅ ʔ-elɗe-∅"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔíy", "elle", "ʔíy Y-elle", "∅", "ʔíy Y-elle-∅"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "∅", "ʔín̅ ʔ-∅", "te", "ʔín̅ ʔ-∅-te"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔíso", "∅", "ʔíso ʔ-∅", "∅", "ʔíso ʔ-∅-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel14 :token]  ;; schema
+	    [:Common, :Singular, :Person2, "T + ʔ + elle + ∅", "Common T-elle-∅"],
+	    [:Fem, :Singular, :Person3, "T + ʔíy + elle + ∅", "ʔíy T-elle-∅"],
+	    [:Common, :Plural, :Person1, "ʔ + ʔína + ∅ + ne", "ʔína ʔ-∅-ne"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔín̅ + elɗe + ∅", "ʔín̅ ʔ-elɗe-∅"],
+	    [:Masc, :Singular, :Person3, "Y + ʔíy + elle + ∅", "ʔíy Y-elle-∅"],
+	    [:Common, :Plural, :Person2, "ʔ + ʔín̅ + ∅ + te", "ʔín̅ ʔ-∅-te"],
+	    [:Common, :Plural, :Person3, "ʔ + ʔíso + ∅ + ∅", "ʔíso ʔ-∅-∅"]]
     }
     {:label "arbore-VSuffMainMiddle2AffPerf-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -848,17 +877,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hate", "ʔín̅ wañño-hate"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "wañño", "te", "ʔíy wañño-te"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "wañño", "hate", "ʔíy wañño-hate"],
-	    [:Common, :Plural, :Person3, "ʔíso", "wañño", "te", "ʔíso wañño-te"],
-	    [:Common, :Singular, :Person2, "ʔ", "wañño", "hate", "Common wañño-hate"],
-	    [:Common, :Plural, :Person1, "ʔína", "wáñño", "hane", "ʔína wáñño-hane"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "wañño", "ɗe", "ʔín̅ wañño-ɗe"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + wañño + hate", "ʔín̅ wañño-hate"],
+	    [:Masc, :Singular, :Person3, "ʔíy + wañño + te", "ʔíy wañño-te"],
+	    [:Fem, :Singular, :Person3, "ʔíy + wañño + hate", "ʔíy wañño-hate"],
+	    [:Common, :Plural, :Person3, "ʔíso + wañño + te", "ʔíso wañño-te"],
+	    [:Common, :Singular, :Person2, "ʔ + wañño + hate", "Common wañño-hate"],
+	    [:Common, :Plural, :Person1, "ʔína + wáñño + hane", "ʔína wáñño-hane"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + wañño + ɗe", "ʔín̅ wañño-ɗe"]]
     }
     {:label "arbore-VPrefRelativeAffImperf-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf ... 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf ... 267f. Template: prefGroup + stem + suffix."
     :common {:clauseType :Relative,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -866,16 +895,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "T", "áḳas", "a", "T-áḳas-a"],
-	    [:Common, :Plural, :Person3, "Y", "áḳas", "a", "Y-áḳas-a"],
-	    [:Common, :Singular, :Person2, "T", "áḳas", "o", "T-áḳas-o"],
-	    [:Masc, :Singular, :Person3, "Y", "áḳas", "o", "Y-áḳas-o"],
-	    [:Common, :Singular, :Person1, "ʔ", "ígis", "o", "ʔ-ígis-o"],
-	    [:Fem, :Singular, :Person3, "T", "áḳas", "o", "T-áḳas-o"],
-	    [:Common, :Plural, :Person1, "Neut", "áḳas", "o", "Neut-áḳas-o"]]
+    :terms [[:gender, :number, :person, :token-note-sel5, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "T + áḳas + a", "T-áḳas-a"],
+	    [:Common, :Plural, :Person3, "Y + áḳas + a", "Y-áḳas-a"],
+	    [:Common, :Singular, :Person2, "T + áḳas + o", "T-áḳas-o"],
+	    [:Masc, :Singular, :Person3, "Y + áḳas + o", "Y-áḳas-o"],
+	    [:Common, :Singular, :Person1, "ʔ + ígis + o", "ʔ-ígis-o"],
+	    [:Fem, :Singular, :Person3, "T + áḳas + o", "T-áḳas-o"],
+	    [:Common, :Plural, :Person1, "Neut + áḳas + o", "Neut-áḳas-o"]]
     }
     {:label "arbore-VSuffMainInchoativeAffPluperf-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -883,32 +913,33 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔan̅", "béeḳo", "we", "ʔan̅ béeḳo-we"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "beeḳo", "te", "ʔín̅ beeḳo-te"],
-	    [:Masc, :Singular, :Person3, "ʔay", "béeḳo", "we", "ʔay béeḳo-we"],
-	    [:Fem, :Singular, :Person3, "ʔay", "béeḳo", "te", "ʔay béeḳo-te"],
-	    [:Common, :Plural, :Person1, "ʔaná", "beeḳo", "ne", "ʔaná beeḳo-ne"],
-	    [:Common, :Singular, :Person2, "ʔa", "béeḳo", "te", "ʔa béeḳo-te"],
-	    [:Common, :Plural, :Person3, "ʔasó", "beeḳo", "we", "ʔasó beeḳo-we"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔan̅ + béeḳo + we", "ʔan̅ béeḳo-we"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + beeḳo + te", "ʔín̅ beeḳo-te"],
+	    [:Masc, :Singular, :Person3, "ʔay + béeḳo + we", "ʔay béeḳo-we"],
+	    [:Fem, :Singular, :Person3, "ʔay + béeḳo + te", "ʔay béeḳo-te"],
+	    [:Common, :Plural, :Person1, "ʔaná + beeḳo + ne", "ʔaná beeḳo-ne"],
+	    [:Common, :Singular, :Person2, "ʔa + béeḳo + te", "ʔa béeḳo-te"],
+	    [:Common, :Plural, :Person3, "ʔasó + beeḳo + we", "ʔasó beeḳo-we"]]
     }
     {:label "arbore-VSuffMainMiddle4AffJuss-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
 	    :lexeme :rakkadd,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :Jussive,
-	    :token_stem :rakka}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "rakka", "tó", "ʔalɗúy rakka-tó"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "rakka", "ttó", "ʔalɗúy rakka-ttó"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "rakka", "ɗɗa", "ʔalɗún̅ rakka-ɗɗa"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "rakka", "té", "ʔalɗúso rakka-té"],
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "rakka", "nnó", "ʔalɗúna rakka-nnó"]]
+	    :tam :Jussive}
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + rakka + tó", "ʔalɗúy rakka-tó"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + rakka + ttó", "ʔalɗúy rakka-ttó"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + rakka + ɗɗa", "ʔalɗún̅ rakka-ɗɗa"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + rakka + té", "ʔalɗúso rakka-té"],
+	    [:Common, :Plural, :Person1, "ʔalɗúna + rakka + nnó", "ʔalɗúna rakka-nnó"]]
     }
     {:label "arbore-VSuffMainBaseAffPerf-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -917,16 +948,17 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "ʔíy", "zeren", "te", "ʔíy zeren-te"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "zern", "e", "ʔíy zern-e"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "zern", "e", "ʔín̅ zern-e"],
-	    [:Common, :Singular, :Person2, "ʔ", "zeren", "te", "Common zeren-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "zeren", "te", "ʔín̅ zeren-te"],
-	    [:Common, :Plural, :Person1, "ʔína", "zéren", "ne", "ʔína zéren-ne"],
-	    [:Common, :Plural, :Person3, "ʔíso", "zern", "e", "ʔíso zern-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "ʔíy + zeren + te", "ʔíy zeren-te"],
+	    [:Masc, :Singular, :Person3, "ʔíy + zern + e", "ʔíy zern-e"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + zern + e", "ʔín̅ zern-e"],
+	    [:Common, :Singular, :Person2, "ʔ + zeren + te", "Common zeren-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + zeren + te", "ʔín̅ zeren-te"],
+	    [:Common, :Plural, :Person1, "ʔína + zéren + ne", "ʔína zéren-ne"],
+	    [:Common, :Plural, :Person3, "ʔíso + zern + e", "ʔíso zern-e"]]
     }
     {:label "arbore-VSuffMainBaseAffPerf-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -935,16 +967,17 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔína", "ráf", "ne", "ʔína ráf-ne"],
-	    [:Common, :Plural, :Person3, "ʔíso", "raf", "e", "ʔíso raf-e"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "raf", "te", "ʔíy raf-te"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "raf", "e", "ʔín̅ raf-e"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "raf", "te", "ʔín̅ raf-te"],
-	    [:Common, :Singular, :Person2, "ʔ", "raf", "te", "Common raf-te"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "raf", "e", "ʔíy raf-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔína + ráf + ne", "ʔína ráf-ne"],
+	    [:Common, :Plural, :Person3, "ʔíso + raf + e", "ʔíso raf-e"],
+	    [:Fem, :Singular, :Person3, "ʔíy + raf + te", "ʔíy raf-te"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + raf + e", "ʔín̅ raf-e"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + raf + te", "ʔín̅ raf-te"],
+	    [:Common, :Singular, :Person2, "ʔ + raf + te", "Common raf-te"],
+	    [:Masc, :Singular, :Person3, "ʔíy + raf + e", "ʔíy raf-e"]]
     }
     {:label "arbore-VSuffMainMiddle3AffPerf-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -952,16 +985,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "ʔíy", "kum", "ahate", "ʔíy kum-ahate"],
-	    [:Common, :Plural, :Person3, "ʔíso", "kum", "te", "ʔíso kum-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "kum", "ahate", "ʔín̅ kum-ahate"],
-	    [:Common, :Plural, :Person1, "ʔína", "kúm", "ahane", "ʔína kúm-ahane"],
-	    [:Common, :Singular, :Person2, "ʔ", "kum", "ahate", "Common kum-ahate"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "kum", "te", "ʔíy kum-te"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "kum", "ɗe", "ʔín̅ kum-ɗe"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "ʔíy + kum + ahate", "ʔíy kum-ahate"],
+	    [:Common, :Plural, :Person3, "ʔíso + kum + te", "ʔíso kum-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + kum + ahate", "ʔín̅ kum-ahate"],
+	    [:Common, :Plural, :Person1, "ʔína + kúm + ahane", "ʔína kúm-ahane"],
+	    [:Common, :Singular, :Person2, "ʔ + kum + ahate", "Common kum-ahate"],
+	    [:Masc, :Singular, :Person3, "ʔíy + kum + te", "ʔíy kum-te"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + kum + ɗe", "ʔín̅ kum-ɗe"]]
     }
     {:label "arbore-VSuffMainMiddle1AffImperf-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -969,14 +1003,14 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "hariy", "ata", "ʔín̅ hariy-ata"],
-	    [:Common, :Plural, :Person1, "ʔaná", "hariy", "ana", "ʔaná hariy-ana"],
-	    [:Common, :Plural, :Person3, "ʔasó", "hariy", "ta", "ʔasó hariy-ta"],
-	    [:Fem, :Singular, :Person3, "ʔay", "háriy", "ata", "ʔay háriy-ata"],
-	    [:Common, :Singular, :Person2, "ʔa", "háriy", "ata", "ʔa háriy-ata"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "háriy", "ɗa", "ʔan̅ háriy-ɗa"],
-	    [:Masc, :Singular, :Person3, "ʔay", "háriy", "ta", "ʔay háriy-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + hariy + ata", "ʔín̅ hariy-ata"],
+	    [:Common, :Plural, :Person1, "ʔaná + hariy + ana", "ʔaná hariy-ana"],
+	    [:Common, :Plural, :Person3, "ʔasó + hariy + ta", "ʔasó hariy-ta"],
+	    [:Fem, :Singular, :Person3, "ʔay + háriy + ata", "ʔay háriy-ata"],
+	    [:Common, :Singular, :Person2, "ʔa + háriy + ata", "ʔa háriy-ata"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + háriy + ɗa", "ʔan̅ háriy-ɗa"],
+	    [:Masc, :Singular, :Person3, "ʔay + háriy + ta", "ʔay háriy-ta"]]
     }
     {:label "arbore-VSuffRelativeNegGeneral"
     :note "Only three tams:perf imperf gen;neg general is invariant (pp. 316f)"
@@ -986,16 +1020,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :General}
-    :terms [[:gender, :number, :person, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "raf", "∅", "raf-∅"],
-	    [:Common, :Singular, :Person1, "raf", "∅", "raf-∅"],
-	    [:Common, :Singular, :Person2, "raf", "∅", "raf-∅"],
-	    [:Fem, :Singular, :Person3, "raf", "∅", "raf-∅"],
-	    [:Common, :Plural, :Person1, "raf", "∅", "raf-∅"],
-	    [:Common, :Plural, :Person3, "raf", "∅", "raf-∅"],
-	    [:Masc, :Singular, :Person3, "raf", "∅", "raf-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel14, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "raf + ∅", "raf-∅"],
+	    [:Common, :Singular, :Person1, "raf + ∅", "raf-∅"],
+	    [:Common, :Singular, :Person2, "raf + ∅", "raf-∅"],
+	    [:Fem, :Singular, :Person3, "raf + ∅", "raf-∅"],
+	    [:Common, :Plural, :Person1, "raf + ∅", "raf-∅"],
+	    [:Common, :Plural, :Person3, "raf + ∅", "raf-∅"],
+	    [:Masc, :Singular, :Person3, "raf + ∅", "raf-∅"]]
     }
     {:label "arbore-VSuffMainMiddle4AffPerf-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1003,16 +1038,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tte", "ʔín̅ rakka-tte"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "rakka", "ɗɗe", "ʔín̅ rakka-ɗɗe"],
-	    [:Common, :Singular, :Person2, "ʔ", "rakka", "tte", "Common rakka-tte"],
-	    [:Common, :Plural, :Person3, "ʔíso", "rakka", "te", "ʔíso rakka-te"],
-	    [:Common, :Plural, :Person1, "ʔína", "rákka", "nne", "ʔína rákka-nne"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "rakka", "tte", "ʔíy rakka-tte"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "rakka", "te", "ʔíy rakka-te"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + rakka + tte", "ʔín̅ rakka-tte"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + rakka + ɗɗe", "ʔín̅ rakka-ɗɗe"],
+	    [:Common, :Singular, :Person2, "ʔ + rakka + tte", "Common rakka-tte"],
+	    [:Common, :Plural, :Person3, "ʔíso + rakka + te", "ʔíso rakka-te"],
+	    [:Common, :Plural, :Person1, "ʔína + rákka + nne", "ʔína rákka-nne"],
+	    [:Fem, :Singular, :Person3, "ʔíy + rakka + tte", "ʔíy rakka-tte"],
+	    [:Masc, :Singular, :Person3, "ʔíy + rakka + te", "ʔíy rakka-te"]]
     }
     {:label "arbore-VSuffMainMiddle3NegImprtv-kumahadd"
+     :note "Template: selGroup + stem + suffix [CHECK!]."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1021,13 +1057,13 @@
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token_suffix :tí}
-    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Singular, "má", "kúm", "má kúm"],
-	    [:Plural, "mán̅", "kum", "mán̅ kum"]]
+	    :tam :Imperative}
+    :terms [[:number, :token-note-sel8, :token]  ;; schema
+	    [:Singular, "má + kúm", "má kúm"],
+	    [:Plural, "mán̅ + kum", "mán̅ kum"]]
     }
     {:label "arbore-VSuffMainMiddle4AffImprtv-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1037,11 +1073,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "rákka", "ta", "ʔ rákka-ta"],
-	    [:Plural, "ʔ", "rakka", "∅", "ʔ rakka-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "ʔ + rákka + ta", "ʔ rákka-ta"],
+	    [:Plural, "ʔ + rakka + ∅", "ʔ rakka-∅"]]
     }
     {:label "arbore-VPrefMainPattern2AffImperf-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1049,16 +1086,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "álla", "ʔay Y-álla", "∅", "ʔay Y-álla-∅"],
-	    [:Common, :Plural, :Person1, "ʔ", "ʔaná", "ḳeʔ", "ʔaná ʔ-ḳeʔ", "ne", "ʔaná ʔ-ḳeʔ-ne"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "álla", "ʔa T-álla", "∅", "ʔa T-álla-∅"],
-	    [:Common, :Plural, :Person2, "ʔ", "ʔín̅", "ḳeʔ", "ʔín̅ ʔ-ḳeʔ", "te", "ʔín̅ ʔ-ḳeʔ-te"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "álla", "ʔay T-álla", "∅", "ʔay T-álla-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "álɗa", "ʔan̅ ʔ-álɗa", "∅", "ʔan̅ ʔ-álɗa-∅"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔasó", "ḳeʔ", "ʔasó ʔ-ḳeʔ", "∅", "ʔasó ʔ-ḳeʔ-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel14, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y + ʔay + álla + ∅", "ʔay Y-álla-∅"],
+	    [:Common, :Plural, :Person1, "ʔ + ʔaná + ḳeʔ + ne", "ʔaná ʔ-ḳeʔ-ne"],
+	    [:Common, :Singular, :Person2, "T + ʔa + álla + ∅", "ʔa T-álla-∅"],
+	    [:Common, :Plural, :Person2, "ʔ + ʔín̅ + ḳeʔ + te", "ʔín̅ ʔ-ḳeʔ-te"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + álla + ∅", "ʔay T-álla-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + álɗa + ∅", "ʔan̅ ʔ-álɗa-∅"],
+	    [:Common, :Plural, :Person3, "ʔ + ʔasó + ḳeʔ + ∅", "ʔasó ʔ-ḳeʔ-∅"]]
     }
     {:label "arbore-VPrefMainPattern2AffJuss-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1066,12 +1104,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "∅", "ʔalɗúy Y-alló-∅"],
-	    [:Common, :Plural, :Person3, "ʔ", "ʔalɗúso", "ḳeʔ", "ʔalɗúso ʔ-ḳeʔ", "∅", "ʔalɗúso ʔ-ḳeʔ-∅"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "alló", "ʔalɗúy Y-alló", "∅", "ʔalɗúy Y-alló-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "alɗa", "ʔalɗún̅ ʔ-alɗa", "∅", "ʔalɗún̅ ʔ-alɗa-∅"],
-	    [:Common, :Plural, :Person1, "ʔ", "ʔalɗúna", "ḳeʔ", "ʔalɗúna ʔ-ḳeʔ", "nó", "ʔalɗúna ʔ-ḳeʔ-nó"]]
+    :terms [[:gender, :number, :person, :token-note-sel14, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Y + ʔalɗúy + alló + ∅", "ʔalɗúy Y-alló-∅"],
+	    [:Common, :Plural, :Person3, "ʔ + ʔalɗúso + ḳeʔ + ∅", "ʔalɗúso ʔ-ḳeʔ-∅"],
+	    [:Masc, :Singular, :Person3, "Y + ʔalɗúy + alló + ∅", "ʔalɗúy Y-alló-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔalɗún̅ + alɗa + ∅", "ʔalɗún̅ ʔ-alɗa-∅"],
+	    [:Common, :Plural, :Person1, "ʔ + ʔalɗúna + ḳeʔ + nó", "ʔalɗúna ʔ-ḳeʔ-nó"]]
     }
     {:label "arbore-VPrefMainPattern1NegImprtv-inbit"
     :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
@@ -1084,11 +1122,12 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Singular, "Y", "má", "en̅ḅetí", "má Y-en̅ḅetí"],
-	    [:Plural, "Y", "mán̅", "en̅ḅetí", "mán̅ Y-en̅ḅetí"]]
+    :terms [[:number, :token-note-sel2, :token]  ;; schema
+	    [:Singular, "Y + má + en̅ḅetí", "má Y-en̅ḅetí"],
+	    [:Plural, "Y + mán̅ + en̅ḅetí", "mán̅ Y-en̅ḅetí"]]
     }
     {:label "arbore-VSuffMainMiddle2NegPerf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1096,16 +1135,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔímma", "wáññó", "tí", "ʔímma wáññó-tí"],
-	    [:Masc, :Singular, :Person3, "Ma", "wáññó", "tí", "Ma wáññó-tí"],
-	    [:Common, :Plural, :Person3, "maso", "wáññó", "tí", "maso wáññó-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "wáññó", "∅", "ʔamma wáññó-∅"],
-	    [:Common, :Singular, :Person2, "ʔamma", "wáññó", "tí", "ʔamma wáññó-tí"],
-	    [:Fem, :Singular, :Person3, "Ma", "wáññó", "tí", "Ma wáññó-tí"],
-	    [:Common, :Plural, :Person1, "mana", "wáññó", "tí", "mana wáññó-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔímma + wáññó + tí", "ʔímma wáññó-tí"],
+	    [:Masc, :Singular, :Person3, "Ma + wáññó + tí", "Ma wáññó-tí"],
+	    [:Common, :Plural, :Person3, "maso + wáññó + tí", "maso wáññó-tí"],
+	    [:Common, :Singular, :Person1, "ʔamma + wáññó + ∅", "ʔamma wáññó-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma + wáññó + tí", "ʔamma wáññó-tí"],
+	    [:Fem, :Singular, :Person3, "Ma + wáññó + tí", "Ma wáññó-tí"],
+	    [:Common, :Plural, :Person1, "mana + wáññó + tí", "mana wáññó-tí"]]
     }
     {:label "arbore-VSuffMainBaseAffImperf-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1114,16 +1154,17 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔan̅", "ráf", "a", "ʔan̅ ráf-a"],
-	    [:Common, :Singular, :Person2, "ʔa", "ráf", "ta", "ʔa ráf-ta"],
-	    [:Common, :Plural, :Person3, "ʔasó", "raf", "a", "ʔasó raf-a"],
-	    [:Common, :Plural, :Person1, "ʔaná", "raf", "na", "ʔaná raf-na"],
-	    [:Fem, :Singular, :Person3, "ʔay", "ráf", "ta", "ʔay ráf-ta"],
-	    [:Masc, :Singular, :Person3, "ʔay", "ráf", "a", "ʔay ráf-a"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "raf", "ta", "ʔín̅ raf-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔan̅ + ráf + a", "ʔan̅ ráf-a"],
+	    [:Common, :Singular, :Person2, "ʔa + ráf + ta", "ʔa ráf-ta"],
+	    [:Common, :Plural, :Person3, "ʔasó + raf + a", "ʔasó raf-a"],
+	    [:Common, :Plural, :Person1, "ʔaná + raf + na", "ʔaná raf-na"],
+	    [:Fem, :Singular, :Person3, "ʔay + ráf + ta", "ʔay ráf-ta"],
+	    [:Masc, :Singular, :Person3, "ʔay + ráf + a", "ʔay ráf-a"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + raf + ta", "ʔín̅ raf-ta"]]
     }
     {:label "arbore-VSuffMainInchoativeAffPerf-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1131,16 +1172,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "ʔíy", "beeḳo", "we", "ʔíy beeḳo-we"],
-	    [:Common, :Singular, :Person2, "ʔ", "beeḳo", "te", "Common beeḳo-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "beeḳo", "te", "ʔín̅ beeḳo-te"],
-	    [:Common, :Plural, :Person1, "ʔína", "béeḳo", "ne", "ʔína béeḳo-ne"],
-	    [:Common, :Plural, :Person3, "ʔíso", "beeḳo", "we", "ʔíso beeḳo-we"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "beeḳo", "te", "ʔíy beeḳo-te"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "beeḳo", "we", "ʔín̅ beeḳo-we"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "ʔíy + beeḳo + we", "ʔíy beeḳo-we"],
+	    [:Common, :Singular, :Person2, "ʔ + beeḳo + te", "Common beeḳo-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + beeḳo + te", "ʔín̅ beeḳo-te"],
+	    [:Common, :Plural, :Person1, "ʔína + béeḳo + ne", "ʔína béeḳo-ne"],
+	    [:Common, :Plural, :Person3, "ʔíso + beeḳo + we", "ʔíso beeḳo-we"],
+	    [:Fem, :Singular, :Person3, "ʔíy + beeḳo + te", "ʔíy beeḳo-te"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + beeḳo + we", "ʔín̅ beeḳo-we"]]
     }
     {:label "arbore-VSuffMainBaseNegPerf-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1149,14 +1191,14 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Ma", "ráf", "∅", "Ma ráf-∅"],
-	    [:Common, :Plural, :Person3, "maso", "ráf", "∅", "maso ráf-∅"],
-	    [:Common, :Plural, :Person1, "mana", "ráf", "∅", "mana ráf-∅"],
-	    [:Common, :Plural, :Person2, "ʔímma", "ráf", "∅", "ʔímma ráf-∅"],
-	    [:Common, :Singular, :Person2, "ʔamma", "ráf", "∅", "ʔamma ráf-∅"],
-	    [:Fem, :Singular, :Person3, "Ma", "ráf", "∅", "Ma ráf-∅"],
-	    [:Common, :Singular, :Person1, "ʔamma", "ráf", "∅", "ʔamma ráf-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Ma + ráf + ∅", "Ma ráf-∅"],
+	    [:Common, :Plural, :Person3, "maso + ráf + ∅", "maso ráf-∅"],
+	    [:Common, :Plural, :Person1, "mana + ráf + ∅", "mana ráf-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma + ráf + ∅", "ʔímma ráf-∅"],
+	    [:Common, :Singular, :Person2, "ʔamma + ráf + ∅", "ʔamma ráf-∅"],
+	    [:Fem, :Singular, :Person3, "Ma + ráf + ∅", "Ma ráf-∅"],
+	    [:Common, :Singular, :Person1, "ʔamma + ráf + ∅", "ʔamma ráf-∅"]]
     }
     {:label "arbore-VSuffSuppletivePdgms"
     :note "Note also referfence to “26 sufix verbs showing some sort of irregularity” and
@@ -1165,7 +1207,7 @@
 	    :morphClass :SuppletivePdgms,
 	    :pdgmType :Partial,
 	    :pos :Verb}
-    :terms [[:lexeme, :morphoSynEnv, :note, :token]  ;; schema
+    :terms [[:lexeme, :morphoSynEnv, :token-note, :token]  ;; schema
 	    [:ʔaarg, :sgOnlySuppletivePl, "suppletive has full pdgm as ‘look at’", "dooy-"],
 	    [:beh, :sgOnlySuppletivePl, "∅", "huym-"],
 	    [:guudaHAƊ, :sgOnlySuppletivePl, "∅", "guɗɗaHAƊ-"],
@@ -1175,6 +1217,7 @@
 	    [:hil, :sgOnlySuppletivePl, "∅", "faʔm-"]]
     }
     {:label "arbore-VSuffMainInchoativeNegPerf-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1182,16 +1225,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔamma", "béeḳó", "wí", "ʔamma béeḳó-wí"],
-	    [:Common, :Plural, :Person2, "ʔímma", "béeḳó", "wí", "ʔímma béeḳó-wí"],
-	    [:Common, :Singular, :Person2, "ʔamma", "béeḳó", "wí", "ʔamma béeḳó-wí"],
-	    [:Common, :Plural, :Person3, "maso", "béeḳó", "wí", "maso béeḳó-wí"],
-	    [:Masc, :Singular, :Person3, "Ma", "béeḳó", "wí", "Ma béeḳó-wí"],
-	    [:Fem, :Singular, :Person3, "Ma", "béeḳó", "wí", "Ma béeḳó-wí"],
-	    [:Common, :Plural, :Person1, "mana", "béeḳó", "wí", "mana béeḳó-wí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔamma + béeḳó + wí", "ʔamma béeḳó-wí"],
+	    [:Common, :Plural, :Person2, "ʔímma + béeḳó + wí", "ʔímma béeḳó-wí"],
+	    [:Common, :Singular, :Person2, "ʔamma + béeḳó + wí", "ʔamma béeḳó-wí"],
+	    [:Common, :Plural, :Person3, "maso + béeḳó + wí", "maso béeḳó-wí"],
+	    [:Masc, :Singular, :Person3, "Ma + béeḳó + wí", "Ma béeḳó-wí"],
+	    [:Fem, :Singular, :Person3, "Ma + béeḳó + wí", "Ma béeḳó-wí"],
+	    [:Common, :Plural, :Person1, "mana + béeḳó + wí", "mana béeḳó-wí"]]
     }
     {:label "arbore-VSuffMainMiddle4AffPluperf-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1199,16 +1243,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔan̅", "rákka", "ɗɗe", "ʔan̅ rákka-ɗɗe"],
-	    [:Common, :Singular, :Person2, "ʔa", "rákka", "tte", "ʔa rákka-tte"],
-	    [:Common, :Plural, :Person1, "ʔaná", "rakka", "nne", "ʔaná rakka-nne"],
-	    [:Fem, :Singular, :Person3, "ʔay", "rákka", "tte", "ʔay rákka-tte"],
-	    [:Common, :Plural, :Person3, "ʔasó", "rakka", "te", "ʔasó rakka-te"],
-	    [:Masc, :Singular, :Person3, "ʔay", "rákka", "te", "ʔay rákka-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "rakka", "tte", "ʔín̅ rakka-tte"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔan̅ + rákka + ɗɗe", "ʔan̅ rákka-ɗɗe"],
+	    [:Common, :Singular, :Person2, "ʔa + rákka + tte", "ʔa rákka-tte"],
+	    [:Common, :Plural, :Person1, "ʔaná + rakka + nne", "ʔaná rakka-nne"],
+	    [:Fem, :Singular, :Person3, "ʔay + rákka + tte", "ʔay rákka-tte"],
+	    [:Common, :Plural, :Person3, "ʔasó + rakka + te", "ʔasó rakka-te"],
+	    [:Masc, :Singular, :Person3, "ʔay + rákka + te", "ʔay rákka-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + rakka + tte", "ʔín̅ rakka-tte"]]
     }
     {:label "arbore-VSuffMainBaseAffImprtv-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1219,11 +1264,12 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Plural, "ʔ", "raf", "∅", "ʔ raf-∅"],
-	    [:Singular, "ʔ", "ráf", "∅", "ʔ ráf-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Plural, "ʔ + raf + ∅", "ʔ raf-∅"],
+	    [:Singular, "ʔ + ráf + ∅", "ʔ ráf-∅"]]
     }
     {:label "arbore-VSuffMainMiddle4NegJuss-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1231,14 +1277,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "máy", "rakka", "tí", "máy rakka-tí"],
-	    [:Fem, :Singular, :Person3, "máy", "rakka", "tí", "máy rakka-tí"],
-	    [:Common, :Plural, :Person1, "mána", "rakka", "tí", "mána rakka-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "rakka", "∅", "mán̅ rakka-∅"],
-	    [:Common, :Plural, :Person3, "máso", "rakka", "tí", "máso rakka-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "máy + rakka + tí", "máy rakka-tí"],
+	    [:Fem, :Singular, :Person3, "máy + rakka + tí", "máy rakka-tí"],
+	    [:Common, :Plural, :Person1, "mána + rakka + tí", "mána rakka-tí"],
+	    [:Common, :Singular, :Person1, "mán̅ + rakka + ∅", "mán̅ rakka-∅"],
+	    [:Common, :Plural, :Person3, "máso + rakka + tí", "máso rakka-tí"]]
     }
     {:label "arbore-VSuffMainMiddle4NegImprtv-rakkadd"
+     :note "Template: selGroup + stem + suffix [CHECK!]."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1247,13 +1294,13 @@
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token_suffix :tí}
-    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Plural, "mán̅", "rakka", "mán̅ rakka"],
-	    [:Singular, "má", "rákka", "má rákka"]]
+	    :tam :Imperative}
+    :terms [[:number, :token-note-sel8, :token]  ;; schema
+	    [:Plural, "mán̅ + rakka + ", "mán̅ rakka"],
+	    [:Singular, "má + rákka + ", "má rákka"]]
     }
     {:label "arbore-VSuffMainBaseAffJuss-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1262,14 +1309,15 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "zeren", "nó", "ʔalɗúna zeren-nó"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "zern", "∅", "ʔalɗúso zern-∅"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "zern", "tó", "ʔalɗúy zern-tó"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "zern", "a", "ʔalɗún̅ zern-a"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "zeren", "∅", "ʔalɗúy zeren-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔalɗúna + zeren + nó", "ʔalɗúna zeren-nó"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + zern + ∅", "ʔalɗúso zern-∅"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + zern + tó", "ʔalɗúy zern-tó"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + zern + a", "ʔalɗún̅ zern-a"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + zeren + ∅", "ʔalɗúy zeren-∅"]]
     }
     {:label "arbore-VSuffMainInchoativeAffJuss-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1277,21 +1325,19 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "beeḳo", "nó", "ʔalɗúna beeḳo-nó"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "beeḳ", "ó ~ óo", "ʔalɗúy beeḳ-ó ~ óo"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "beeḳo", "wé", "ʔalɗúso beeḳo-wé"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "beeḳo", "tó", "ʔalɗúy beeḳo-tó"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "beeḳo", "wa", "ʔalɗún̅ beeḳo-wa"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔalɗúna + beeḳo + nó", "ʔalɗúna beeḳo-nó"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + beeḳ + ó ~ óo", "ʔalɗúy beeḳ-ó ~ óo"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + beeḳo + wé", "ʔalɗúso beeḳo-wé"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + beeḳo + tó", "ʔalɗúy beeḳo-tó"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + beeḳo + wa", "ʔalɗún̅ beeḳo-wa"]]
     }
     {:label "arbore-VRadicalExt"
-    :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p.
-            304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na
-            enclitic,pp. 304-308)."
+    :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p. 304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na enclitic,pp. 304-308)."
     :common {:pdgmType :Partial,
 	    :morphClass :VRadicalExt,
 	    :pos :Verb}
-    :terms [[:derivedStem, :gloss, :lexeme, :stemAltClass, :token]  ;; schema
+    :terms [[:derivedStem, :token-note, :lexeme, :stemAltClass, :token]  ;; schema
 	    [:S2, "blacken", :watt-os, :S_Class, "-o + -s"],
 	    [:T3, "bow", :kum-ɗ, :Ahad_Class, "-ɗ ~ -t ~ -aha ~ -a"],
 	    [:M, "be scattered", :fur-m, :M_Class, "-m"],
@@ -1312,6 +1358,7 @@
 	    [:T2, "become old", :waññ-oɗ, :Had_Class, "-o + (-ɗ ~ -t ~ -ha)"]]
     }
     {:label "arbore-VSuffMainMiddle1AffJuss-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1319,14 +1366,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "hariy", "té", "ʔalɗúso hariy-té"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "hariy", "ɗa", "ʔalɗún̅ hariy-ɗa"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "hariy", "to", "ʔalɗúy hariy-to"],
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "hariy", "anó", "ʔalɗúna hariy-anó"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "hariy", "ató", "ʔalɗúy hariy-ató"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "ʔalɗúso + hariy + té", "ʔalɗúso hariy-té"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + hariy + ɗa", "ʔalɗún̅ hariy-ɗa"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + hariy + to", "ʔalɗúy hariy-to"],
+	    [:Common, :Plural, :Person1, "ʔalɗúna + hariy + anó", "ʔalɗúna hariy-anó"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + hariy + ató", "ʔalɗúy hariy-ató"]]
     }
     {:label "arbore-VSuffMainMiddle3NegJuss-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1334,14 +1382,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "mán̅", "kum", "∅", "mán̅ kum-∅"],
-	    [:Common, :Plural, :Person3, "máso", "kum", "tí", "máso kum-tí"],
-	    [:Masc, :Singular, :Person3, "máy", "kum", "tí", "máy kum-tí"],
-	    [:Fem, :Singular, :Person3, "máy", "kum", "tí", "máy kum-tí"],
-	    [:Common, :Plural, :Person1, "mána", "kum", "tí", "mána kum-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "mán̅ + kum + ∅", "mán̅ kum-∅"],
+	    [:Common, :Plural, :Person3, "máso + kum + tí", "máso kum-tí"],
+	    [:Masc, :Singular, :Person3, "máy + kum + tí", "máy kum-tí"],
+	    [:Fem, :Singular, :Person3, "máy + kum + tí", "máy kum-tí"],
+	    [:Common, :Plural, :Person1, "mána + kum + tí", "mána kum-tí"]]
     }
     {:label "arbore-VSuffMainInchoativeNegImprtv-beekow"
+     :note "Template: selGroup + stem + suffix [CHECK!]."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1350,13 +1399,13 @@
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :Imperative,
-	    :token_suffix :wí}
-    :terms [[:number, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Plural, "mán̅", "beeḳo", "mán̅ beeḳo"],
-	    [:Singular, "má", "beeḳó", "má beeḳó"]]
+	    :tam :Imperative}
+    :terms [[:number, :token-note-sel8, :token]  ;; schema
+	    [:Plural, "mán̅ + beeḳo + wí", "mán̅ beeḳo"],
+	    [:Singular, "má + beeḳó + wí", "má beeḳó"]]
     }
     {:label "arbore-VSuffMainMiddle1AffImprtv-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1366,11 +1415,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "háriy", "a", "ʔ háriy-a"],
-	    [:Plural, "ʔ", "hariy", "∅", "ʔ hariy-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "ʔ + háriy + a", "ʔ háriy-a"],
+	    [:Plural, "ʔ + hariy + ∅", "ʔ hariy-∅"]]
     }
     {:label "arbore-VSuffMainMiddle1NegPerf-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1378,16 +1428,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "ʔamma", "háríy", "tí", "ʔamma háríy-tí"],
-	    [:Common, :Plural, :Person2, "ʔímma", "háríy", "tí", "ʔímma háríy-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "háríy", "∅", "ʔamma háríy-∅"],
-	    [:Common, :Plural, :Person3, "maso", "háríy", "tí", "maso háríy-tí"],
-	    [:Masc, :Singular, :Person3, "Ma", "háríy", "tí", "Ma háríy-tí"],
-	    [:Common, :Plural, :Person1, "mana", "háríy", "tí", "mana háríy-tí"],
-	    [:Fem, :Singular, :Person3, "Ma", "háríy", "tí", "Ma háríy-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "ʔamma + háríy + tí", "ʔamma háríy-tí"],
+	    [:Common, :Plural, :Person2, "ʔímma + háríy + tí", "ʔímma háríy-tí"],
+	    [:Common, :Singular, :Person1, "ʔamma + háríy + ∅", "ʔamma háríy-∅"],
+	    [:Common, :Plural, :Person3, "maso + háríy + tí", "maso háríy-tí"],
+	    [:Masc, :Singular, :Person3, "Ma + háríy + tí", "Ma háríy-tí"],
+	    [:Common, :Plural, :Person1, "mana + háríy + tí", "mana háríy-tí"],
+	    [:Fem, :Singular, :Person3, "Ma + háríy + tí", "Ma háríy-tí"]]
     }
     {:label "arbore-VSuffMainMiddle3NegImperf-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1395,16 +1446,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Ma", "kum", "to", "Ma kum-to"],
-	    [:Fem, :Singular, :Person3, "Ma", "kum", "ahato", "Ma kum-ahato"],
-	    [:Common, :Singular, :Person2, "ʔamma", "kum", "ahato", "ʔamma kum-ahato"],
-	    [:Common, :Plural, :Person3, "maso", "kum", "ta", "maso kum-ta"],
-	    [:Common, :Plural, :Person2, "ʔímma", "kum", "ahata", "ʔímma kum-ahata"],
-	    [:Common, :Plural, :Person1, "mana", "kúm", "ahano", "mana kúm-ahano"],
-	    [:Common, :Singular, :Person1, "ʔamma", "kum", "ɗo", "ʔamma kum-ɗo"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Ma + kum + to", "Ma kum-to"],
+	    [:Fem, :Singular, :Person3, "Ma + kum + ahato", "Ma kum-ahato"],
+	    [:Common, :Singular, :Person2, "ʔamma + kum + ahato", "ʔamma kum-ahato"],
+	    [:Common, :Plural, :Person3, "maso + kum + ta", "maso kum-ta"],
+	    [:Common, :Plural, :Person2, "ʔímma + kum + ahata", "ʔímma kum-ahata"],
+	    [:Common, :Plural, :Person1, "mana + kúm + ahano", "mana kúm-ahano"],
+	    [:Common, :Singular, :Person1, "ʔamma + kum + ɗo", "ʔamma kum-ɗo"]]
     }
     {:label "arbore-VSuffMainBaseAffPluperf-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1413,14 +1465,14 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔaná", "zeren", "ne", "ʔaná zeren-ne"],
-	    [:Masc, :Singular, :Person3, "ʔay", "zérn", "e", "ʔay zérn-e"],
-	    [:Fem, :Singular, :Person3, "ʔay", "zéren", "te", "ʔay zéren-te"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "zérn", "e", "ʔan̅ zérn-e"],
-	    [:Common, :Plural, :Person3, "ʔasó", "zern", "e", "ʔasó zern-e"],
-	    [:Common, :Singular, :Person2, "ʔa", "zéren", "te", "ʔa zéren-te"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "zeren", "te", "ʔín̅ zeren-te"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔaná + zeren + ne", "ʔaná zeren-ne"],
+	    [:Masc, :Singular, :Person3, "ʔay + zérn + e", "ʔay zérn-e"],
+	    [:Fem, :Singular, :Person3, "ʔay + zéren + te", "ʔay zéren-te"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + zérn + e", "ʔan̅ zérn-e"],
+	    [:Common, :Plural, :Person3, "ʔasó + zern + e", "ʔasó zern-e"],
+	    [:Common, :Singular, :Person2, "ʔa + zéren + te", "ʔa zéren-te"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + zeren + te", "ʔín̅ zeren-te"]]
     }
     {:label "arbore-VPrefMainPattern1AffJuss-inbit"
     :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
@@ -1431,15 +1483,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "N", "ʔalɗúna", "en̅ḅitó", "ʔalɗúna N-en̅ḅitó"],
-	    [:Fem, :Singular, :Person3, "Y", "ʔalɗúy", "en̅ḅitó", "ʔalɗúy Y-en̅ḅitó"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔalɗún̅", "in̅ḅita", "ʔalɗún̅ ʔ-in̅ḅita"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔalɗúy", "en̅ḅitó", "ʔalɗúy Y-en̅ḅitó"],
-	    [:Common, :Plural, :Person3, "Y", "ʔalɗúso", "en̅ḅité", "ʔalɗúso Y-en̅ḅité"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "N + ʔalɗúna + en̅ḅitó", "ʔalɗúna N-en̅ḅitó"],
+	    [:Fem, :Singular, :Person3, "Y + ʔalɗúy + en̅ḅitó", "ʔalɗúy Y-en̅ḅitó"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔalɗún̅ + in̅ḅita", "ʔalɗún̅ ʔ-in̅ḅita"],
+	    [:Masc, :Singular, :Person3, "Y + ʔalɗúy + en̅ḅitó", "ʔalɗúy Y-en̅ḅitó"],
+	    [:Common, :Plural, :Person3, "Y + ʔalɗúso + en̅ḅité", "ʔalɗúso Y-en̅ḅité"]]
     }
     {:label "arbore-VPrefMainPattern1AffPluperf-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -1447,16 +1499,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "en̅bite", "ʔín̅ T-en̅bite"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "en̅bite", "ʔa T-en̅bite"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "en̅bite", "ʔay T-en̅bite"],
-	    [:Common, :Plural, :Person1, "N", "ʔaná", "en̅bite", "ʔaná N-en̅bite"],
-	    [:Common, :Plural, :Person3, "Y", "ʔasó", "en̅bite", "ʔasó Y-en̅bite"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "in̅ḅite", "ʔan̅ ʔ-in̅ḅite"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "en̅bite", "ʔay Y-en̅bite"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + en̅bite", "ʔín̅ T-en̅bite"],
+	    [:Common, :Singular, :Person2, "T + ʔa + en̅bite", "ʔa T-en̅bite"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + en̅bite", "ʔay T-en̅bite"],
+	    [:Common, :Plural, :Person1, "N + ʔaná + en̅bite", "ʔaná N-en̅bite"],
+	    [:Common, :Plural, :Person3, "Y + ʔasó + en̅bite", "ʔasó Y-en̅bite"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + in̅ḅite", "ʔan̅ ʔ-in̅ḅite"],
+	    [:Masc, :Singular, :Person3, "Y + ʔay + en̅bite", "ʔay Y-en̅bite"]]
     }
     {:label "arbore-VSuffMainMiddle1NegImprtv-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1466,11 +1519,12 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "má", "háriy", "tí", "má háriy-tí"],
-	    [:Plural, "mán̅", "hariy", "tí", "mán̅ hariy-tí"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "má + háriy + tí", "má háriy-tí"],
+	    [:Plural, "mán̅ + hariy + tí", "mán̅ hariy-tí"]]
     }
     {:label "arbore-VPrefMainPattern2AffImprtv-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :gender :Common,
@@ -1480,11 +1534,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "ʔ", "ál", "∅", "ʔ ʔ-ál-∅"],
-	    [:Plural, "ʔ", "ʔ", "ḳeʔ", "∅", "ʔ ʔ-ḳeʔ-∅"]]
+    :terms [[:number, :token-note-sel14, :token]  ;; schema
+	    [:Singular, "ʔ + ʔ + ál + ∅", "ʔ ʔ-ál-∅"],
+	    [:Plural, "ʔ + ʔ + ḳeʔ + ∅", "ʔ ʔ-ḳeʔ-∅"]]
     }
     {:label "arbore-VSuffMainMiddle2AffImprtv-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1494,11 +1549,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Plural, "ʔ", "wañño", "∅", "ʔ wañño-∅"],
-	    [:Singular, "ʔ", "wáñño", "ha", "ʔ wáñño-ha"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Plural, "ʔ + wañño + ∅", "ʔ wañño-∅"],
+	    [:Singular, "ʔ + wáñño + ha", "ʔ wáñño-ha"]]
     }
     {:label "arbore-VSuffMainMiddle4NegPerf-rakkadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T4,
@@ -1506,14 +1562,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mana", "rákká", "tí", "mana rákká-tí"],
-	    [:Common, :Singular, :Person1, "ʔamma", "rákká", "∅", "ʔamma rákká-∅"],
-	    [:Common, :Plural, :Person2, "ʔímma", "rákká", "tí", "ʔímma rákká-tí"],
-	    [:Fem, :Singular, :Person3, "Ma", "rákká", "tí", "Ma rákká-tí"],
-	    [:Common, :Singular, :Person2, "ʔamma", "rákká", "tí", "ʔamma rákká-tí"],
-	    [:Masc, :Singular, :Person3, "Ma", "rákká", "tí", "Ma rákká-tí"],
-	    [:Common, :Plural, :Person3, "maso", "rákká", "tí", "maso rákká-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mana + rákká + tí", "mana rákká-tí"],
+	    [:Common, :Singular, :Person1, "ʔamma + rákká + ∅", "ʔamma rákká-∅"],
+	    [:Common, :Plural, :Person2, "ʔímma + rákká + tí", "ʔímma rákká-tí"],
+	    [:Fem, :Singular, :Person3, "Ma + rákká + tí", "Ma rákká-tí"],
+	    [:Common, :Singular, :Person2, "ʔamma + rákká + tí", "ʔamma rákká-tí"],
+	    [:Masc, :Singular, :Person3, "Ma + rákká + tí", "Ma rákká-tí"],
+	    [:Common, :Plural, :Person3, "maso + rákká + tí", "maso rákká-tí"]]
     }
     {:label "arbore-VInfinitive-um"
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
@@ -1523,7 +1579,7 @@
 	    :morphClass :Infinitive_um,
 	    :nonFiniteForm :Infinitive,
 	    :pos :Verb}
-    :terms [[:conjClass, :gloss, :lexeme, :token]  ;; schema
+    :terms [[:conjClass, :token-note, :lexeme, :token]  ;; schema
 	    [:Prefix, "leak", :ʔehen, "yehenúm"],
 	    [:Suffix, "climb", :tiir, "tiirúm"],
 	    [:Prefix, "stand", :ʔElɗ- , "yellúm"],
@@ -1554,6 +1610,7 @@
 	    [:Prefix, "swallow", :ʔIkkIn, "yekkenúm"]]
     }
     {:label "arbore-VSuffMainBaseNegJuss-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1562,14 +1619,15 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "mána", "zern", "∅", "mána zern-∅"],
-	    [:Common, :Singular, :Person1, "mán̅", "zern", "∅", "mán̅ zern-∅"],
-	    [:Fem, :Singular, :Person3, "máy", "zern", "∅", "máy zern-∅"],
-	    [:Common, :Plural, :Person3, "máso", "zern", "∅", "máso zern-∅"],
-	    [:Masc, :Singular, :Person3, "máy", "zern", "∅", "máy zern-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "mána + zern + ∅", "mána zern-∅"],
+	    [:Common, :Singular, :Person1, "mán̅ + zern + ∅", "mán̅ zern-∅"],
+	    [:Fem, :Singular, :Person3, "máy + zern + ∅", "máy zern-∅"],
+	    [:Common, :Plural, :Person3, "máso + zern + ∅", "máso zern-∅"],
+	    [:Masc, :Singular, :Person3, "máy + zern + ∅", "máy zern-∅"]]
     }
     {:label "arbore-VSuffMainBaseNegImperf-raf"
+     :note "Template: selGroup + suffix + stem."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1578,16 +1636,17 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_suffix, :token_stem, :token, :token]  ;; schema
-	    [:Common, :Singular, :Person2, "ʔamma", "to", "ráf", "ráf-to", "ʔamma ráf-to"],
-	    [:Common, :Plural, :Person3, "maso", "a", "ráf", "maso ráf-a"],
-	    [:Fem, :Singular, :Person3, "Ma", "to", "ráf", "Ma ráf-to"],
-	    [:Common, :Plural, :Person1, "mana", "no", "ráf", "mana ráf-no"],
-	    [:Common, :Plural, :Person2, "ʔimma", "ta", "ráf", "ʔímma ráf-ta"],
-	    [:Common, :Singular, :Person1, "ʔamma", "o", "ráf", "ʔamma ráf-o"],
-	    [:Masc, :Singular, :Person3, "Ma", "o", "ráf", "Ma ráf-o"]]
+    :terms [[:gender, :number, :person, :token-note-sel7, :token, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "ʔamma + to + ráf", "ʔamma ráf-to"],
+	    [:Common, :Plural, :Person3, "maso + a + ráf", "maso ráf-a"],
+	    [:Fem, :Singular, :Person3, "Ma + to + ráf", "Ma ráf-to"],
+	    [:Common, :Plural, :Person1, "mana + no + ráf", "mana ráf-no"],
+	    [:Common, :Plural, :Person2, "ʔimma + ta + ráf", "ʔímma ráf-ta"],
+	    [:Common, :Singular, :Person1, "ʔamma + o + ráf", "ʔamma ráf-o"],
+	    [:Masc, :Singular, :Person3, "Ma + o + ráf", "Ma ráf-o"]]
     }
     {:label "arbore-VSuffMainBaseAffImperf-zeren"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1596,16 +1655,17 @@
 	    :pos :Verb,
 	    :subconjClass :Contracting,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔaná", "zeren", "na", "ʔaná zeren-na"],
-	    [:Common, :Plural, :Person3, "ʔasó", "zern", "a", "ʔasó zern-a"],
-	    [:Masc, :Singular, :Person3, "ʔay", "zérn", "a", "ʔay zérn-a"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "zérn", "a", "ʔan̅ zérn-a"],
-	    [:Fem, :Singular, :Person3, "ʔay", "zéren", "ta", "ʔay zéren-ta"],
-	    [:Common, :Singular, :Person2, "ʔa", "zéren", "ta", "ʔa zéren-ta"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "zeren", "ta", "ʔín̅ zeren-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔaná + zeren + na", "ʔaná zeren-na"],
+	    [:Common, :Plural, :Person3, "ʔasó + zern + a", "ʔasó zern-a"],
+	    [:Masc, :Singular, :Person3, "ʔay + zérn + a", "ʔay zérn-a"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + zérn + a", "ʔan̅ zérn-a"],
+	    [:Fem, :Singular, :Person3, "ʔay + zéren + ta", "ʔay zéren-ta"],
+	    [:Common, :Singular, :Person2, "ʔa + zéren + ta", "ʔa zéren-ta"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + zeren + ta", "ʔín̅ zeren-ta"]]
     }
     {:label "arbore-VSuffMainCausative1AffPerf-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1613,14 +1673,14 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "ʔíso", "ñoors", "e", "ʔíso ñoors-e"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "ñooris", "e", "ʔín̅ ñooris-e"],
-	    [:Common, :Singular, :Person1, "ʔín̅", "ñoors", "e", "ʔín̅ ñoors-e"],
-	    [:Common, :Plural, :Person1, "ʔína", "ñóori", "ne", "ʔína ñóori-ne"],
-	    [:Masc, :Singular, :Person3, "ʔíy", "ñoors", "e", "ʔíy ñoors-e"],
-	    [:Common, :Singular, :Person2, "ʔ", "ñooris", "e", "Common ñooris-e"],
-	    [:Fem, :Singular, :Person3, "ʔíy", "ñooris", "e", "ʔíy ñooris-e"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "ʔíso + ñoors + e", "ʔíso ñoors-e"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + ñooris + e", "ʔín̅ ñooris-e"],
+	    [:Common, :Singular, :Person1, "ʔín̅ + ñoors + e", "ʔín̅ ñoors-e"],
+	    [:Common, :Plural, :Person1, "ʔína + ñóori + ne", "ʔína ñóori-ne"],
+	    [:Masc, :Singular, :Person3, "ʔíy + ñoors + e", "ʔíy ñoors-e"],
+	    [:Common, :Singular, :Person2, "ʔ + ñooris + e", "Common ñooris-e"],
+	    [:Fem, :Singular, :Person3, "ʔíy + ñooris + e", "ʔíy ñooris-e"]]
     }
     {:label "arbore-VPrefMainPattern1AffImprtv-inbit"
     :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
@@ -1633,11 +1693,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Plural, "ʔ", "ʔ", "in̅ḅitá", "ʔ ʔ-in̅ḅitá"],
-	    [:Singular, "ʔ", "ʔ", "in̅ḅít", "ʔ ʔ-in̅ḅít"]]
+    :terms [[:number, :token-note-sel2, :token]  ;; schema
+	    [:Plural, "ʔ + ʔ + in̅ḅitá", "ʔ ʔ-in̅ḅitá"],
+	    [:Singular, "ʔ + ʔ + in̅ḅít", "ʔ ʔ-in̅ḅít"]]
     }
     {:label "arbore-VSuffMainInchoativeNegJuss-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1645,15 +1706,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "máy", "beeḳo", "wí", "máy beeḳo-wí"],
-	    [:Common, :Singular, :Person1, "mán̅", "beeḳo", "wí", "mán̅ beeḳo-wí"],
-	    [:Masc, :Singular, :Person3, "máy", "beeḳo", "wí", "máy beeḳo-wí"],
-	    [:Common, :Plural, :Person1, "mána", "beeḳo", "wí", "mána beeḳo-wí"],
-	    [:Common, :Plural, :Person3, "máso", "beeḳo", "wí", "máso beeḳo-wí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "máy + beeḳo + wí", "máy beeḳo-wí"],
+	    [:Common, :Singular, :Person1, "mán̅ + beeḳo + wí", "mán̅ beeḳo-wí"],
+	    [:Masc, :Singular, :Person3, "máy + beeḳo + wí", "máy beeḳo-wí"],
+	    [:Common, :Plural, :Person1, "mána + beeḳo + wí", "mána beeḳo-wí"],
+	    [:Common, :Plural, :Person3, "máso + beeḳo + wí", "máso beeḳo-wí"]]
     }
     {:label "arbore-VPrefMainPattern1NegJuss-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -1661,14 +1722,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "Y", "máso", "en̅ḅetí", "máso Y-en̅ḅetí"],
-	    [:Common, :Plural, :Person1, "Y", "mána", "en̅ḅetí", "mána Y-en̅ḅetí"],
-	    [:Fem, :Singular, :Person3, "Y", "máy", "en̅ḅetí", "máy Y-en̅ḅetí"],
-	    [:Masc, :Singular, :Person3, "Y", "máy", "en̅ḅetí", "máy Y-en̅ḅetí"],
-	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "in̅ḅití", "mán̅ ʔ-in̅ḅití"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "Y + máso + en̅ḅetí", "máso Y-en̅ḅetí"],
+	    [:Common, :Plural, :Person1, "Y + mána + en̅ḅetí", "mána Y-en̅ḅetí"],
+	    [:Fem, :Singular, :Person3, "Y + máy + en̅ḅetí", "máy Y-en̅ḅetí"],
+	    [:Masc, :Singular, :Person3, "Y + máy + en̅ḅetí", "máy Y-en̅ḅetí"],
+	    [:Common, :Singular, :Person1, "ʔ + mán̅ + in̅ḅití", "mán̅ ʔ-in̅ḅití"]]
     }
     {:label "arbore-VSuffMainMiddle3AffImperf-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1676,17 +1738,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔan̅", "kúm", "ɗa", "ʔan̅ kúm-ɗa"],
-	    [:Common, :Plural, :Person1, "ʔaná", "kum", "ahana", "ʔaná kum-ahana"],
-	    [:Common, :Plural, :Person2, "ʔín̅", "kum", "ahata", "ʔín̅ kum-ahata"],
-	    [:Fem, :Singular, :Person3, "ʔay", "kúm", "ahata", "ʔay kúm-ahata"],
-	    [:Masc, :Singular, :Person3, "ʔay", "kúm", "ta", "ʔay kúm-ta"],
-	    [:Common, :Singular, :Person2, "ʔa", "kúm", "ahata", "ʔa kúm-ahata"],
-	    [:Common, :Plural, :Person3, "ʔasó", "kum", "ta", "ʔasó kum-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔan̅ + kúm + ɗa", "ʔan̅ kúm-ɗa"],
+	    [:Common, :Plural, :Person1, "ʔaná + kum + ahana", "ʔaná kum-ahana"],
+	    [:Common, :Plural, :Person2, "ʔín̅ + kum + ahata", "ʔín̅ kum-ahata"],
+	    [:Fem, :Singular, :Person3, "ʔay + kúm + ahata", "ʔay kúm-ahata"],
+	    [:Masc, :Singular, :Person3, "ʔay + kúm + ta", "ʔay kúm-ta"],
+	    [:Common, :Singular, :Person2, "ʔa + kúm + ahata", "ʔa kúm-ahata"],
+	    [:Common, :Plural, :Person3, "ʔasó + kum + ta", "ʔasó kum-ta"]]
     }
     {:label "arbore-VPrefMainPattern1NegPerf-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -1694,14 +1756,14 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "Y", "ʔímma", "én̅ḅétí", "ʔímma Y-én̅ḅétí"],
-	    [:Common, :Plural, :Person3, "Y", "maso", "én̅ḅétí", "maso Y-én̅ḅétí"],
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "én̅ḅétí", "Ma Y-én̅ḅétí"],
-	    [:Common, :Singular, :Person2, "Y", "ʔamma", "én̅ḅétí", "ʔamma Y-én̅ḅétí"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "ín̅ḅítí", "ʔamma ʔ-ín̅ḅítí"],
-	    [:Common, :Plural, :Person1, "Y", "mana", "én̅ḅétí", "mana Y-én̅ḅétí"],
-	    [:Fem, :Singular, :Person3, "Y", "Ma", "én̅ḅétí", "Ma Y-én̅ḅétí"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "Y + ʔímma + én̅ḅétí", "ʔímma Y-én̅ḅétí"],
+	    [:Common, :Plural, :Person3, "Y + maso + én̅ḅétí", "maso Y-én̅ḅétí"],
+	    [:Masc, :Singular, :Person3, "Y + Ma + én̅ḅétí", "Ma Y-én̅ḅétí"],
+	    [:Common, :Singular, :Person2, "Y + ʔamma + én̅ḅétí", "ʔamma Y-én̅ḅétí"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔamma + ín̅ḅítí", "ʔamma ʔ-ín̅ḅítí"],
+	    [:Common, :Plural, :Person1, "Y + mana + én̅ḅétí", "mana Y-én̅ḅétí"],
+	    [:Fem, :Singular, :Person3, "Y + Ma + én̅ḅétí", "Ma Y-én̅ḅétí"]]
     }
     {:label "arbore-VInfinitive-me"
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
@@ -1711,7 +1773,7 @@
 	    :morphClass :Infinitive_me,
 	    :nonFiniteForm :Infinitive,
 	    :pos :Verb}
-    :terms [[:conjClass, :gloss, :lexeme, :token]  ;; schema
+    :terms [[:conjClass, :token-note, :lexeme, :token]  ;; schema
 	    [:Prefix, "chew", :ʔIhIɗ, "∅"],
 	    [:Suffix, "fall", :jiʔ, "jiʔmé"],
 	    [:Prefix, "stand", :ʔElɗ- , "∅"],
@@ -1742,7 +1804,7 @@
 	    [:Suffix, "climb", :tiir, "tiirmé"]]
     }
     {:label "arbore-VPrefMainPattern1-2NegJuss-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -1750,14 +1812,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "Y", "mána", "eḳesí", "mána Y-eḳesí"],
-	    [:Masc, :Singular, :Person3, "Y", "máy", "eḳesí", "máy Y-eḳesí"],
-	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "igisí", "mán̅ ʔ-igisí"],
-	    [:Fem, :Singular, :Person3, "Y", "máy", "eḳesí", "máy Y-eḳesí"],
-	    [:Common, :Plural, :Person3, "Y", "máso", "eḳesí", "máso Y-eḳesí"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "Y + mána + eḳesí", "mána Y-eḳesí"],
+	    [:Masc, :Singular, :Person3, "Y + máy + eḳesí", "máy Y-eḳesí"],
+	    [:Common, :Singular, :Person1, "ʔ + mán̅ + igisí", "mán̅ ʔ-igisí"],
+	    [:Fem, :Singular, :Person3, "Y + máy + eḳesí", "máy Y-eḳesí"],
+	    [:Common, :Plural, :Person3, "Y + máso + eḳesí", "máso Y-eḳesí"]]
     }
     {:label "arbore-VSuffMainMiddle2AffJuss-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1765,14 +1828,15 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "wañño", "tó", "ʔalɗúy wañño-tó"],
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "wañño", "hanó", "ʔalɗúna wañño-hanó"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "wañño", "ható", "ʔalɗúy wañño-ható"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "wañño", "ɗa", "ʔalɗún̅ wañño-ɗa"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "wañño", "té", "ʔalɗúso wañño-té"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + wañño + tó", "ʔalɗúy wañño-tó"],
+	    [:Common, :Plural, :Person1, "ʔalɗúna + wañño + hanó", "ʔalɗúna wañño-hanó"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + wañño + ható", "ʔalɗúy wañño-ható"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + wañño + ɗa", "ʔalɗún̅ wañño-ɗa"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + wañño + té", "ʔalɗúso wañño-té"]]
     }
     {:label "arbore-VSuffMainCausative1AffImprtv-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1782,11 +1846,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "ñoorís", "∅", "ʔ ñoorís-∅"],
-	    [:Plural, "ʔ", "ñoors", "∅", "ʔ ñoors-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "ʔ + ñoorís + ∅", "ʔ ñoorís-∅"],
+	    [:Plural, "ʔ + ñoors + ∅", "ʔ ñoors-∅"]]
     }
     {:label "arbore-VPrefMainPattern2NegJuss-eld"
+     :note "Template: prefGroup + selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :eld,
@@ -1794,15 +1859,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "Y", "máy", "ellí", "∅", "máy Y-ellí-∅"],
-	    [:Common, :Singular, :Person1, "ʔ", "mán̅", "elɗí", "∅", "mán̅ ʔ-elɗí"],
-	    [:Common, :Plural, :Person3, "ʔ", "máso", "ḳiʔí", "∅", "máso ʔ-ḳiʔí"],
-	    [:Fem, :Singular, :Person3, "Y", "máy", "ellí", "∅", "máy Y-ellí"],
-	    [:Common, :Plural, :Person1, "ʔ", "mána", "ḳiʔí", "∅", "mána ʔ-ḳiʔí"]]
+    :terms [[:gender, :number, :person, :token-note-sel14, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "Y + máy + ellí + ∅", "máy Y-ellí-∅"],
+	    [:Common, :Singular, :Person1, "ʔ + mán̅ + elɗí + ∅", "mán̅ ʔ-elɗí"],
+	    [:Common, :Plural, :Person3, "ʔ + máso + ḳiʔí + ∅", "máso ʔ-ḳiʔí"],
+	    [:Fem, :Singular, :Person3, "Y + máy + ellí + ∅", "máy Y-ellí"],
+	    [:Common, :Plural, :Person1, "ʔ + mána + ḳiʔí + ∅", "mána ʔ-ḳiʔí"]]
     }
     {:label "arbore-VPrefMainPattern1NegImperf-inbit"
-    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+    :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :inbit,
@@ -1810,16 +1875,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "Y", "maso", "én̅ḅete", "maso Y-én̅ḅete"],
-	    [:Common, :Singular, :Person2, "T", "ʔamma", "én̅ḅeto", "ʔamma T-én̅ḅeto"],
-	    [:Masc, :Singular, :Person3, "Y", "Ma", "én̅ḅeto", "Ma Y-én̅ḅeto"],
-	    [:Common, :Plural, :Person2, "T", "ʔímma", "én̅ḅete", "ʔímma T-én̅ḅete"],
-	    [:Fem, :Singular, :Person3, "T", "Ma", "én̅ḅeto", "Ma T-én̅ḅeto"],
-	    [:Common, :Singular, :Person1, "ʔ", "ʔamma", "ín̅ḅito", "ʔamma ʔ-ín̅ḅito"],
-	    [:Common, :Plural, :Person1, "N", "mana", "én̅ḅeto", "mana N-én̅ḅeto"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "Y + maso + én̅ḅete", "maso Y-én̅ḅete"],
+	    [:Common, :Singular, :Person2, "T + ʔamma + én̅ḅeto", "ʔamma T-én̅ḅeto"],
+	    [:Masc, :Singular, :Person3, "Y + Ma + én̅ḅeto", "Ma Y-én̅ḅeto"],
+	    [:Common, :Plural, :Person2, "T + ʔímma + én̅ḅete", "ʔímma T-én̅ḅete"],
+	    [:Fem, :Singular, :Person3, "T + Ma + én̅ḅeto", "Ma T-én̅ḅeto"],
+	    [:Common, :Singular, :Person1, "ʔ + ʔamma + ín̅ḅito", "ʔamma ʔ-ín̅ḅito"],
+	    [:Common, :Plural, :Person1, "N + mana + én̅ḅeto", "mana N-én̅ḅeto"]]
     }
     {:label "arbore-VSuffMainMiddle2NegJuss-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1827,14 +1893,15 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Masc, :Singular, :Person3, "máy", "wañño", "tí", "máy wañño-tí"],
-	    [:Fem, :Singular, :Person3, "máy", "wañño", "tí", "máy wañño-tí"],
-	    [:Common, :Plural, :Person1, "mána", "wañño", "tí", "mána wañño-tí"],
-	    [:Common, :Singular, :Person1, "mán̅", "wañño", "∅", "mán̅ wañño-∅"],
-	    [:Common, :Plural, :Person3, "máso", "wañño", "tí", "máso wañño-tí"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "máy + wañño + tí", "máy wañño-tí"],
+	    [:Fem, :Singular, :Person3, "máy + wañño + tí", "máy wañño-tí"],
+	    [:Common, :Plural, :Person1, "mána + wañño + tí", "mána wañño-tí"],
+	    [:Common, :Singular, :Person1, "mán̅ + wañño + ∅", "mán̅ wañño-∅"],
+	    [:Common, :Plural, :Person3, "máso + wañño + tí", "máso wañño-tí"]]
     }
     {:label "arbore-VSuffMainInchoativeAffImprtv-beekow"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Inchoative,
@@ -1844,11 +1911,12 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Plural, "ʔ", "beeḳo", "wá", "ʔ beeḳo-wá"],
-	    [:Singular, "ʔ", "beeḳó", "w", "ʔ beeḳó-w"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Plural, "ʔ + beeḳo + wá", "ʔ beeḳo-wá"],
+	    [:Singular, "ʔ + beeḳó + w", "ʔ beeḳó-w"]]
     }
     {:label "arbore-VSuffMainCausative1NegImperf-nyooris"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :S1,
@@ -1856,18 +1924,19 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔímma", "ñóoris", "a", "ʔímma ñóoris-a"],
-	    [:Common, :Singular, :Person2, "ʔamma", "ñóoris", "o", "ʔamma ñóoris-o"],
-	    [:Masc, :Singular, :Person3, "Ma", "ñóors", "o", "Ma ñóors-o"],
-	    [:Fem, :Singular, :Person3, "Ma", "ñóoris", "o", "Ma ñóoris-o"],
-	    [:Common, :Singular, :Person1, "ʔamma", "ñóors", "o", "ʔamma ñóors-o"],
-	    [:Common, :Plural, :Person1, "mana", "ñóori", "no", "mana ñóori-no"],
-	    [:Common, :Plural, :Person2, "mán̅", "ñoors", "∅", "mán̅ ñoors-∅"],
-	    [:Common, :Plural, :Person3, "maso", "ñóors", "a", "maso ñóors-a"],
-	    [:Common, :Singular, :Person2, "má", "ñoors", "∅", "má ñoors-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔímma + ñóoris + a", "ʔímma ñóoris-a"],
+	    [:Common, :Singular, :Person2, "ʔamma + ñóoris + o", "ʔamma ñóoris-o"],
+	    [:Masc, :Singular, :Person3, "Ma + ñóors + o", "Ma ñóors-o"],
+	    [:Fem, :Singular, :Person3, "Ma + ñóoris + o", "Ma ñóoris-o"],
+	    [:Common, :Singular, :Person1, "ʔamma + ñóors + o", "ʔamma ñóors-o"],
+	    [:Common, :Plural, :Person1, "mana + ñóori + no", "mana ñóori-no"],
+	    [:Common, :Plural, :Person2, "mán̅ + ñoors + ∅", "mán̅ ñoors-∅"],
+	    [:Common, :Plural, :Person3, "maso + ñóors + a", "maso ñóors-a"],
+	    [:Common, :Singular, :Person2, "má + ñoors + ∅", "má ñoors-∅"]]
     }
     {:label "arbore-VSuffMainMiddle2AffImperf-wannohad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T2,
@@ -1875,16 +1944,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person2, "ʔín̅", "wañño", "hata", "ʔín̅ wañño-hata"],
-	    [:Common, :Plural, :Person1, "ʔaná", "wañño", "hana", "ʔaná wañño-hana"],
-	    [:Masc, :Singular, :Person3, "ʔay", "wáñño", "ta", "ʔay wáñño-ta"],
-	    [:Fem, :Singular, :Person3, "ʔay", "wáñño", "hata", "ʔay wáñño-hata"],
-	    [:Common, :Plural, :Person3, "ʔasó", "wañño", "ta", "ʔasó wañño-ta"],
-	    [:Common, :Singular, :Person1, "ʔan̅", "wáñño", "ɗa", "ʔan̅ wáñño-ɗa"],
-	    [:Common, :Singular, :Person2, "ʔa", "wáñño", "hata", "ʔa wáñño-hata"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "ʔín̅ + wañño + hata", "ʔín̅ wañño-hata"],
+	    [:Common, :Plural, :Person1, "ʔaná + wañño + hana", "ʔaná wañño-hana"],
+	    [:Masc, :Singular, :Person3, "ʔay + wáñño + ta", "ʔay wáñño-ta"],
+	    [:Fem, :Singular, :Person3, "ʔay + wáñño + hata", "ʔay wáñño-hata"],
+	    [:Common, :Plural, :Person3, "ʔasó + wañño + ta", "ʔasó wañño-ta"],
+	    [:Common, :Singular, :Person1, "ʔan̅ + wáñño + ɗa", "ʔan̅ wáñño-ɗa"],
+	    [:Common, :Singular, :Person2, "ʔa + wáñño + hata", "ʔa wáñño-hata"]]
     }
     {:label "arbore-VSuffMainMiddle1NegImperf-hariyad"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T1,
@@ -1892,16 +1962,17 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "Ma", "háriy", "ato", "Ma háriy-ato"],
-	    [:Common, :Singular, :Person2, "ʔamma", "háriy", "ato", "ʔamma háriy-ato"],
-	    [:Common, :Plural, :Person1, "mana", "háriy", "ano", "mana háriy-ano"],
-	    [:Masc, :Singular, :Person3, "Ma", "háriy", "to", "Ma háriy-to"],
-	    [:Common, :Singular, :Person1, "ʔamma", "háriy", "ɗo", "ʔamma háriy-ɗo"],
-	    [:Common, :Plural, :Person2, "ʔímma", "háriy", "ata", "ʔímma háriy-ata"],
-	    [:Common, :Plural, :Person3, "maso", "háriy", "ta", "maso háriy-ta"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "Ma + háriy + ato", "Ma háriy-ato"],
+	    [:Common, :Singular, :Person2, "ʔamma + háriy + ato", "ʔamma háriy-ato"],
+	    [:Common, :Plural, :Person1, "mana + háriy + ano", "mana háriy-ano"],
+	    [:Masc, :Singular, :Person3, "Ma + háriy + to", "Ma háriy-to"],
+	    [:Common, :Singular, :Person1, "ʔamma + háriy + ɗo", "ʔamma háriy-ɗo"],
+	    [:Common, :Plural, :Person2, "ʔímma + háriy + ata", "ʔímma háriy-ata"],
+	    [:Common, :Plural, :Person3, "maso + háriy + ta", "maso háriy-ta"]]
     }
     {:label "arbore-VSuffMainBaseAffJuss-raf"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :Base,
@@ -1910,12 +1981,12 @@
 	    :pos :Verb,
 	    :subconjClass :NonContracting,
 	    :tam :Jussive}
-    :terms [[:gender, :number, :person, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "ʔalɗúna", "raf", "nó", "ʔalɗúna raf-nó"],
-	    [:Masc, :Singular, :Person3, "ʔalɗúy", "raf", "∅", "ʔalɗúy raf-∅"],
-	    [:Fem, :Singular, :Person3, "ʔalɗúy", "raf", "tó", "ʔalɗúy raf-tó"],
-	    [:Common, :Singular, :Person1, "ʔalɗún̅", "raf", "a", "ʔalɗún̅ raf-a"],
-	    [:Common, :Plural, :Person3, "ʔalɗúso", "raf", "∅", "ʔalɗúso raf-∅"]]
+    :terms [[:gender, :number, :person, :token-note-sel, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "ʔalɗúna + raf + nó", "ʔalɗúna raf-nó"],
+	    [:Masc, :Singular, :Person3, "ʔalɗúy + raf + ∅", "ʔalɗúy raf-∅"],
+	    [:Fem, :Singular, :Person3, "ʔalɗúy + raf + tó", "ʔalɗúy raf-tó"],
+	    [:Common, :Singular, :Person1, "ʔalɗún̅ + raf + a", "ʔalɗún̅ raf-a"],
+	    [:Common, :Plural, :Person3, "ʔalɗúso + raf + ∅", "ʔalɗúso raf-∅"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffImprtv-igis"
     :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
@@ -1928,9 +1999,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Singular, "ʔ", "ʔ", "igís", "ʔ ʔ-igís"],
-	    [:Plural, "ʔ", "ʔ", "igisá", "ʔ ʔ-igisá"]]
+    :terms [[:number, :token-note-sel2, :token]  ;; schema
+	    [:Singular, "ʔ + ʔ + igís", "ʔ ʔ-igís"],
+	    [:Plural, "ʔ + ʔ + igisá", "ʔ ʔ-igisá"]]
     }
     {:label "arbore-VRelClauseVsMainClause"
     :common {:gender :Masc,
@@ -1950,7 +2021,7 @@
 	    [:Relative, :Affirmative, :Imperfect, "ráfo"]]
     }
     {:label "arbore-VPrefMainPattern1-2AffPluperf-igis"
-    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+    :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
     :common {:clauseType :Main,
 	    :conjClass :Prefix,
 	    :lexeme :igis,
@@ -1958,16 +2029,17 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Pluperfect}
-    :terms [[:gender, :number, :person, :token_prefGroup, :token_selGroup, :token_stem, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "ʔ", "ʔan̅", "ígise", "ʔan̅ ʔ-ígise"],
-	    [:Fem, :Singular, :Person3, "T", "ʔay", "éḳese", "ʔay T-éḳese"],
-	    [:Common, :Plural, :Person3, "Y", "ʔasó", "eḳese", "ʔasó Y-eḳese"],
-	    [:Common, :Plural, :Person2, "T", "ʔín̅", "eḳese", "ʔín̅ T-eḳese"],
-	    [:Common, :Plural, :Person1, "N", "ʔaná", "eḳese", "ʔaná N-eḳese"],
-	    [:Masc, :Singular, :Person3, "Y", "ʔay", "éḳese", "ʔay Y-éḳese"],
-	    [:Common, :Singular, :Person2, "T", "ʔa", "éḳese", "ʔa T-éḳese"]]
+    :terms [[:gender, :number, :person, :token-note-sel2, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "ʔ + ʔan̅ + ígise", "ʔan̅ ʔ-ígise"],
+	    [:Fem, :Singular, :Person3, "T + ʔay + éḳese", "ʔay T-éḳese"],
+	    [:Common, :Plural, :Person3, "Y + ʔasó + eḳese", "ʔasó Y-eḳese"],
+	    [:Common, :Plural, :Person2, "T + ʔín̅ + eḳese", "ʔín̅ T-eḳese"],
+	    [:Common, :Plural, :Person1, "N + ʔaná + eḳese", "ʔaná N-eḳese"],
+	    [:Masc, :Singular, :Person3, "Y + ʔay + éḳese", "ʔay Y-éḳese"],
+	    [:Common, :Singular, :Person2, "T + ʔa + éḳese", "ʔa T-éḳese"]]
     }
     {:label "arbore-VSuffMainMiddle3AffImprtv-kumahadd"
+     :note "Template: selGroup + stem + suffix."
     :common {:clauseType :Main,
 	    :conjClass :Suffix,
 	    :derivedStem :T3,
@@ -1977,9 +2049,9 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token_selGroup, :token_stem, :token_suffix, :token]  ;; schema
-	    [:Singular, "ʔ", "kúm", "a", "ʔ kúm-a"],
-	    [:Plural, "ʔ", "kum", "∅", "ʔ kum-∅"]]
+    :terms [[:number, :token-note-sel, :token]  ;; schema
+	    [:Singular, "ʔ + kúm + a", "ʔ kúm-a"],
+	    [:Plural, "ʔ + kum + ∅", "ʔ kum-∅"]]
     }}
 :muterms #{
     {:label "arbore-PReflEmph"
@@ -2178,14 +2250,13 @@
 	    [:Nominative, :Common, :P_Common, :P_Plural, :Singular, :Person1, "toháw"]]
     }
     {:label "arbore-VTerminalVowel"
-    :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a
-            vowel.” (pref and suff largely identical) Hayward1984b p. 255"
+    :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a vowel.” (pref and suff largely identical) Hayward1984b p. 255"
     :common {:gender :Common,
 	    :morpheme :TERMINALVOWEL,
 	    :pdgmType :Partial,
 	    :pos :Verb,
 	    :formType :Suffix}
-    :terms [[:note, :number, :person, :polarity, :tam, :token]  ;; schema
+    :terms [[:token-note, :number, :person, :polarity, :tam, :token]  ;; schema
 	    ["∅", :Singular, :Person1, :Affirmative, :Jussive, "-a"],
 	    ["in free variation with –e for mid1/2/3/4", :Plural, :_NA, :Affirmative, :Imperative, "-a"],
 	    ["∅", :Plural, :Person1, :Affirmative, :Jussive, "-o"],
