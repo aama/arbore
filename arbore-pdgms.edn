@@ -5,36 +5,33 @@
 :datasource "Hayward1984a"
 :geodemoURL "http://www.ethnologue.com/language/arv"
 :geodemoTXT "Varieties and subdialects of the Western Omo-Tana language Arbore are spoken near Lake Stefanie."
-:schemata{:gender [:Common :Fem :Masc],
-          :suffixType [:HeSuff :LoSuff :SeSuff :Simple :TSuff :TaSuff],
-          :nonFiniteForm [:Infinitive],
-          :stemClass [:Ee_stem :I_Stem :aa_Stem :e_Stem],
-          :numPoss [:P_Plural :P_Singular],
-          :subjectVerbAgreement [:Agreement :NonAgr],
-          :pdgmType [:SuppletivePdgms :VRadicalExt :Partial :Finite :NA :PrefPatternClasses :Infinitive_um :Infinitive_me]
-          :polarity [:Affirmative :Negative],
-          :case [:Absolutive :Nominative :Predicative],
-          :conjClass [:Prefix :Suffix],
-          :genderPoss [:P_Common :P_Fem :P_Masc],
-          :pos [:Pronoun :Verb],
-          :person [:Impersonal :Person1 :Person2 :Person3],
-          :derivedStem [:Base :Inchoative :M :S1 :S2 :T1 :T2 :T3 :T4],
-          :morphClass [:Infinitive_me :Infinitive_um :PrefPatternClasses :SuppletivePdgms :VRadicalExt],
-          :formType [:Suffix],
-          :stemAltClass [:Ad_Class :Add_Class :Ahad_Class :Had_Class :Is_Class :M_Class :S_Class :W_Class],
-          :morphoSynEnv [:sgOnlySuppletivePl],
-          :proClass [:BoundSubject :Deictic :Independent :PossSuff :Possessive :ReflEmph],
-          :selectorProClass [:PreVerbSelSubjMarkers :PreVerbSel_SubjMarkers],
-          :mood [:Indicative :Non_indicative],
-          :tam [:General :Imperative :Imperfect :Jussive :Perfect :Pluperfect],
-          :clauseType [:Main :Relative],
-          :number [:Impersonal :Plural :Singular],
-          :patternClass [:Irreg1_2 :Pattern1 :Pattern2],
-          :infinitiveClass [:Infinitive_me],
-          :subconjClass [:Contracting :NonContracting],
-          :deixis [:Far :Near],
-          :defClass [:Definite :Indefinite],
-          :subjectIdent [:Ident :NonIdent]}
+ :schemata {:case [:Absolutive  :Nominative :Predicative :_NA],
+            :clauseType [:Main :Relative],
+            :conjClass [:Prefix :Suffix],
+            :defClass [:Definite :Indefinite :_NA],
+            :deixis [:Far :Near],
+            :derivedStem [:Base :Inchoative :M :S1 :S2 :T1 :T2 :T3 :T4],
+            :formType [:Suffix],
+            :gender [:Common :Fem :Masc],
+            :genderPoss [:P_Common :P_Fem :P_Masc],
+            :infinitiveClass [:Infinitive_me],
+            :mood [:Indicative :Non_indicative],
+            :morphoSynEnv [:sgOnlySuppletivePl],
+            :nonFiniteForm [:Infinitive],
+            :numPoss [:P_Plural :P_Singular],
+            :number [:Impersonal :Plural :Singular :_NA],
+            :patternClass [:Irreg1_2 :Pattern1 :Pattern2],
+            :person [:Impersonal :Person1 :Person2 :Person3 :_NA],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:BoundSubject :Deictic :Independent :PossSuff :Possessive :ReflEmph],
+            :selectorProClass [:PreVerbSelSubjMarkers :PreVerbSel_SubjMarkers],
+            :stemAltClass [:Ad_Class :Add_Class :Ahad_Class :Had_Class :Is_Class :M_Class :S_Class :W_Class],
+            :stemClass [:I_Stem :aa_Stem :e_Stem :Ee_Stem],
+            :subconjClass [:Contracting :NonContracting],
+            :suffixType [:HeSuff :LoSuff :SeSuff :Simple :TSuff :TaSuff],
+            :tam [:General :Imperative :Imperfect :Jussive :Perfect :Pluperfect :_NA]
+            :pdgmType [:Finite :FinitePartial :Infinitive_me :Infinitive_um :PrefPatternClasses :SuppletivePdgms :VRadicalExt :PRO :TamSuffix]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -105,7 +102,7 @@
             Most,but not all,suffix verbs can take a –mé infinitive."
     :pdgmType :Infinitive_me
     :common {:infinitiveClass :Infinitive_me,
-             :morphClass :Infinitive_me,
+             
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjClass :lexeme :token :token-note],
@@ -144,7 +141,7 @@
             Most,but not all,suffix verbs can take a –mé infinitive."
     :pdgmType :Infinitive_um
     :common {:infinitiveClass :Infinitive_me,
-             :morphClass :Infinitive_um,
+             
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjClass :lexeme :token :token-note],
@@ -466,12 +463,11 @@
     }
     {:label "arbore-VPrefMainPattern1TenseFormation-ikkin"
     :note "Template: prefGroup + selGroup + stem."
-    :pdgmType :Partial
+    :pdgmType :FinitePartial
     :common {:clauseType :Main,
              :conjClass :Prefix,
              :lexeme :ikkin,
              :patternClass :Pattern1,
-             :pdgmType :Partial,
              :pos :Verb}
     :terms [[:polarity :stemClass :tam :number :person :gender :token :token-note-sel4],
             [:Affirmative :I_Stem :Imperative :Singular :Person2 :Common "Common ʔ-ʔik(k)ín" "ʔ + ʔ + ʔik(k)ín"],
@@ -654,12 +650,11 @@
     }
     {:label "arbore-VPrefMainPattern2TenseFormation-eecc"
     :note "Template: prefGroup + selGroup + stem."
-    :pdgmType :Partial
+    :pdgmType :FinitePartial
     :common {:clauseType :Main,
              :conjClass :Prefix,
              :lexeme :eecc,
              :patternClass :Pattern2,
-             :pdgmType :Partial,
              :pos :Verb}
     :terms [[:polarity :stemClass :tam :number :person :gender :token :token-note-sel12],
             [:Affirmative :Ee_Stem :Jussive :Plural :Person3 :Common "ʔalɗúso Y-eeččé" "Y + ʔalɗúso + eeččé"],
@@ -678,8 +673,7 @@
     :note "There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the infinitive paradigm."
     :pdgmType :PrefPatternClasses
     :common {:conjClass :Prefix,
-             :morphClass :PrefPatternClasses,
-             :pdgmType :Partial,
+             
              :pos :Verb}
     :terms [[:lexeme :patternClass :token :token-note],
             [:inbit :Pattern1 "conj:pref Causative:ʔin̅ḅisiis- (imprtv1 sg indicative) ~ -en̅ḅes- (all other)" "step, tread on"],
@@ -752,8 +746,7 @@
     {:label "arbore-VRadicalExt"
     :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p. 304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na enclitic,pp. 304-308)."
     :pdgmType :VRadicalExt
-    :common {:pdgmType :Partial,
-             :morphClass :VRadicalExt,
+    :common {
              :pos :Verb}
     :terms [[:derivedStem :lexeme :stemAltClass :token :token-note],
             [:Inchoative :beɗɗ-a :W_Class "-aw ~ -a" "become bad"],
@@ -776,11 +769,11 @@
             [:T4 :rak-aɗɗ :Add_Class "-aɗɗ ~ -at " "have difficuolties"]]
     }
     {:label "arbore-VRelClauseVsMainClause"
-    :pdgmType :Partial
+    :pdgmType :FinitePartial
     :common {:gender :Masc,
              :lexeme :raf,
              :number :Singular,
-             :pdgmType :Partial,
+             
              :person :Person3,
              :pos :Verb}
     :terms [[:clauseType :polarity :tam :token],
@@ -2143,8 +2136,6 @@
             noted in the lexicon. (Hayward1984a p. 298)"
     :pdgmType :SuppletivePdgms
     :common {:conjClass :Suffix,
-             :morphClass :SuppletivePdgms,
-             :pdgmType :Partial,
              :pos :Verb}
     :terms [[:lexeme :morphoSynEnv :token :token-note],
             [:beh :sgOnlySuppletivePl "huym-" "∅"],
@@ -2158,9 +2149,8 @@
 ]
 :muterms [
     {:label "arbore-PBoundSubject"
-    :pdgmType :NA
-    :common {:morpheme :SUBJMARK,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :BoundSubject}
     :terms [[:number :person :token],
             [:Singular :Person1 "-n̅"],
@@ -2171,9 +2161,8 @@
             [:Plural :Person3 "-so"]]
     }
     {:label "arbore-PDeictic"
-    :pdgmType :NA
-    :common {:morpheme :DEM,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Deictic}
     :terms [[:deixis :number :gender :token],
             [:Far :Singular :Masc "hátto"],
@@ -2184,9 +2173,8 @@
             [:Near :Plural :Common "tólo"]]
     }
     {:label "arbore-PInd"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :suffixType :number :person :gender :token],
             [:Absolutive :Simple :Singular :Person3 :Masc "ʔus(s)ú"],
@@ -2221,9 +2209,8 @@
             [:_NA :TaSuff :Plural :Person3 :Common "ʔos(s)ota"]]
     }
     {:label "arbore-PPoss"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Possessive}
     :terms [[:case :genderPoss :numPoss :number :person :gender :token],
             [:Nominative :P_Common :P_Plural :Singular :Person1 :Common "toháw"],
@@ -2270,9 +2257,8 @@
             [:Predicative :P_Masc :P_Singular :Plural :Person3 :Common "hasóta"]]
     }
     {:label "arbore-PPossSuff"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-áw"],
@@ -2284,9 +2270,8 @@
             [:Plural :Person3 :Common "-áso / -ásso"]]
     }
     {:label "arbore-PPreVerbSelSubjAffixes"
-    :pdgmType :NA
-    :common {:morpheme :SELSUBJAFFIXES,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :selectorProClass :PreVerbSelSubjMarkers}
     :terms [[:number :person :token],
             [:_NA :Impersonal "-na"],
@@ -2298,9 +2283,8 @@
             [:Plural :Person3 "-so"]]
     }
     {:label "arbore-PPreVerbSel_SubjMarkers"
-    :pdgmType :NA
-    :common {:morpheme :SELSUBJMARKERS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :selectorProClass :PreVerbSel_SubjMarkers}
     :terms [[:defClass :mood :polarity :tam :number :person :token],
             [:Definite :Indicative :Affirmative :_NA :Singular :Person1 "ʔín̅"],
@@ -2347,9 +2331,8 @@
             [:_NA :Non_indicative :Negative :_NA :Impersonal :_NA "mána"]]
     }
     {:label "arbore-PReflEmph"
-    :pdgmType :NA
-    :common {:morpheme :PROREFL,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ReflEmph}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yétta"],
@@ -2362,10 +2345,8 @@
     }
     {:label "arbore-VTerminalVowel"
     :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a vowel.” (pref and suff largely identical) Hayward1984b p. 255"
-    :pdgmType :Partial
+    :pdgmType :TamSuffix
     :common {:gender :Common,
-             :morpheme :TERMINALVOWEL,
-             :pdgmType :Partial,
              :pos :Verb,
              :formType :Suffix}
     :terms [[:polarity :tam :number :person :token :token-note],
