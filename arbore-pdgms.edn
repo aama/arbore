@@ -5,7 +5,8 @@
 :datasource "Hayward1984a"
 :geodemoURL "http://www.ethnologue.com/language/arv"
 :geodemoTXT "Varieties and subdialects of the Western Omo-Tana language Arbore are spoken near Lake Stefanie."
- :schemata {:case [:Absolutive  :Nominative :Predicative :_NA],
+ :schemata {:vmorphClass [:PrefPatternClasses  :SuppletivePdgms :TamSuffix :VRadicalExt :Infinitive_meExx :Infinitive_umExx],
+            :case [:Absolutive :Nominative :Predicative :_NA],
             :clauseType [:Main :Relative],
             :conjClass [:Prefix :Suffix],
             :defClass [:Definite :Indefinite :_NA],
@@ -16,7 +17,7 @@
             :genderPoss [:P_Common :P_Fem :P_Masc],
             :infinitiveClass [:Infinitive_me],
             :mood [:Indicative :Non_indicative],
-            :morphoSynEnv [:sgOnlySuppletivePl],
+            :morphoSynEnv [:SgOnlySuppletivePl],
             :nonFiniteForm [:Infinitive],
             :numPoss [:P_Plural :P_Singular],
             :number [:Impersonal :Plural :Singular :_NA],
@@ -27,11 +28,11 @@
             :proClass [:BoundSubject :Deictic :Independent :PossSuff :Possessive :ReflEmph],
             :selectorProClass [:PreVerbSelSubjMarkers :PreVerbSel_SubjMarkers],
             :stemAltClass [:Ad_Class :Add_Class :Ahad_Class :Had_Class :Is_Class :M_Class :S_Class :W_Class],
-            :stemClass [:I_Stem :aa_Stem :e_Stem :Ee_Stem],
+            :stemClass [:Aa_Stem :E_Stem :Ee_Stem :I_Stem],
             :subconjClass [:Contracting :NonContracting],
             :suffixType [:HeSuff :LoSuff :SeSuff :Simple :TSuff :TaSuff],
             :tam [:General :Imperative :Imperfect :Jussive :Perfect :Pluperfect :_NA]
-            :pdgmType [:Finite :FinitePartial :Infinitive_me :Infinitive_um :PrefPatternClasses :SuppletivePdgms :VRadicalExt :PRO :TamSuffix]}
+            :pdgmType [:Finite :FinitePartial :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -100,9 +101,9 @@
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
-    :pdgmType :Infinitive_me
-    :common {:infinitiveClass :Infinitive_me,
-             
+    :pdgmType :VOther
+    :common {:vmorphClass :Infinitive_meExx
+             :infinitiveClass :Infinitive_me,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjClass :lexeme :token :token-note],
@@ -139,9 +140,9 @@
     :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
-    :pdgmType :Infinitive_um
-    :common {:infinitiveClass :Infinitive_me,
-             
+    :pdgmType :VOther
+    :common {:vmorphClass :Infinitive_umExx
+             :infinitiveClass :Infinitive_me,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjClass :lexeme :token :token-note],
@@ -476,16 +477,16 @@
             [:Affirmative :I_Stem :Jussive :Singular :Person1 :Common "ʔalɗún̅ ʔ-ʔik(k)ina" "ʔ + ʔalɗún̅ + ʔik(k)ina"],
             [:Affirmative :I_Stem :Perfect :Singular :Person1 :Common "ʔín̅ ʔ-ʔik(k)ine" "ʔ + ʔín̅ + ʔik(k)ine"],
             [:Affirmative :I_Stem :Perfect :Singular :Person2 :Common "ʔí T-ek(k)ene" "T + ʔí + ek(k)ene"],
-            [:Affirmative :e_Stem :Imperfect :Singular :Person3 :Fem "ʔay T-ék(k)ene" "T + ʔay + ék(k)ene"],
-            [:Affirmative :e_Stem :Jussive :Singular :Person3 :Masc "ʔalɗúy Y-ek(k)enó" "Y + ʔalɗúy + ek(k)enó"],
+            [:Affirmative :E_Stem :Imperfect :Singular :Person3 :Fem "ʔay T-ék(k)ene" "T + ʔay + ék(k)ene"],
+            [:Affirmative :E_Stem :Jussive :Singular :Person3 :Masc "ʔalɗúy Y-ek(k)enó" "Y + ʔalɗúy + ek(k)enó"],
             [:Negative :I_Stem :Imperfect :Singular :Person1 :Common "ʔamma ʔ-ʔík(k)ino" "ʔ + ʔamma + ʔík(k)ino"],
             [:Negative :I_Stem :Jussive :Singular :Person1 :Common "mán̅ ʔ-ʔik(k)iní" "ʔ + mán̅ + ʔik(k)iní"],
             [:Negative :I_Stem :Perfect :Singular :Person1 :Common "ʔamma ʔ-ʔík(k)íní" "ʔ + ʔamma + ʔík(k)íní"],
-            [:Negative :e_Stem :Imperative :Singular :Person2 :Common "mán̅ Y-ek(k)ení]S]}" "Y + mán̅ + ek(k)ení]S]}"],
-            [:Negative :e_Stem :Imperative :Plural :Person2 :Common "má Y-ek(k)ení" "Y + má + ek(k)ení"],
-            [:Negative :e_Stem :Imperfect :Plural :Person1 :Common "mana N-ék(k)eno" "N + mana + ék(k)eno"],
-            [:Negative :e_Stem :Jussive :Singular :Person3 :Fem "máy Y-ek(k)ení" "Y + máy + ek(k)ení"],
-            [:Negative :e_Stem :Perfect :Singular :Person3 :Masc "Ma Y-ék(k)éní" "Y + Ma + ék(k)éní"]]
+            [:Negative :E_Stem :Imperative :Singular :Person2 :Common "mán̅ Y-ek(k)ení]S]}" "Y + mán̅ + ek(k)ení]S]}"],
+            [:Negative :E_Stem :Imperative :Plural :Person2 :Common "má Y-ek(k)ení" "Y + má + ek(k)ení"],
+            [:Negative :E_Stem :Imperfect :Plural :Person1 :Common "mana N-ék(k)eno" "N + mana + ék(k)eno"],
+            [:Negative :E_Stem :Jussive :Singular :Person3 :Fem "máy Y-ek(k)ení" "Y + máy + ek(k)ení"],
+            [:Negative :E_Stem :Perfect :Singular :Person3 :Masc "Ma Y-ék(k)éní" "Y + Ma + ék(k)éní"]]
     }
     {:label "arbore-VPrefMainPattern2AffImperf-eld"
     :note "Template: prefGroup + selGroup + stem + suffix."
@@ -660,20 +661,20 @@
             [:Affirmative :Ee_Stem :Jussive :Plural :Person3 :Common "ʔalɗúso Y-eeččé" "Y + ʔalɗúso + eeččé"],
             [:Affirmative :Ee_Stem :Perfect :Singular :Person1 :Common "ʔín̅ ʔ-ʔeečče" "ʔ + ʔín̅ + ʔeečče"],
             [:Affirmative :Ee_Stem :Perfect :Plural :Person2 :Common "ʔín̅ T-eečče" "T + ʔín̅ + eečče"],
-            [:Affirmative :aa_Stem :Imperative :Plural :Person2 :Common "Common ʔ-maaččá" "ʔ + ʔ + maaččá"],
-            [:Affirmative :aa_Stem :Imperfect :Singular :Person2 :Common "ʔa T-áačča" "T + ʔa + áačča"],
-            [:Affirmative :aa_Stem :Imperfect :Plural :Person3 :Common "ʔasó Y-aačč" "Y + ʔasó + aačč"],
-            [:Affirmative :aa_Stem :Jussive :Singular :Person1 :Common "ʔalɗún̅ ʔ-ʔaačča" "ʔ + ʔalɗún̅ + ʔaačča"],
-            [:Affirmative :aa_Stem :Jussive :Singular :Person3 :Masc "ʔalɗúy Y-aaččó" "Y + ʔalɗúy + aaččó"],
+            [:Affirmative :Aa_Stem :Imperative :Plural :Person2 :Common "Common ʔ-maaččá" "ʔ + ʔ + maaččá"],
+            [:Affirmative :Aa_Stem :Imperfect :Singular :Person2 :Common "ʔa T-áačča" "T + ʔa + áačča"],
+            [:Affirmative :Aa_Stem :Imperfect :Plural :Person3 :Common "ʔasó Y-aačč" "Y + ʔasó + aačč"],
+            [:Affirmative :Aa_Stem :Jussive :Singular :Person1 :Common "ʔalɗún̅ ʔ-ʔaačča" "ʔ + ʔalɗún̅ + ʔaačča"],
+            [:Affirmative :Aa_Stem :Jussive :Singular :Person3 :Masc "ʔalɗúy Y-aaččó" "Y + ʔalɗúy + aaččó"],
             [:Negative :Ee_Stem :Imperative :Singular :Person2 :Common "má Y-eeččí" "Y + má + eeččí"],
             [:Negative :Ee_Stem :Jussive :Plural :Person1 :Common "mána Y-eeččí" "Y + mána + eeččí"],
             [:Negative :Ee_Stem :Perfect :Singular :Person1 :Common "amma ʔ-ʔéeččí" "ʔ + amma + ʔéeččí"]]
     }
     {:label "arbore-VPrefPatternClasses"
     :note "There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the infinitive paradigm."
-    :pdgmType :PrefPatternClasses
-    :common {:conjClass :Prefix,
-             
+    :pdgmType :VOther
+    :common {:vmorphClass :PrefPatternClasses
+             :conjClass :Prefix,
              :pos :Verb}
     :terms [[:lexeme :patternClass :token :token-note],
             [:inbit :Pattern1 "conj:pref Causative:ʔin̅ḅisiis- (imprtv1 sg indicative) ~ -en̅ḅes- (all other)" "step, tread on"],
@@ -745,8 +746,8 @@
     }
     {:label "arbore-VRadicalExt"
     :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p. 304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na enclitic,pp. 304-308)."
-    :pdgmType :VRadicalExt
-    :common {
+    :pdgmType :VOther
+    :common {:vmorphClass :VRadicalExt
              :pos :Verb}
     :terms [[:derivedStem :lexeme :stemAltClass :token :token-note],
             [:Inchoative :beɗɗ-a :W_Class "-aw ~ -a" "become bad"],
@@ -2134,17 +2135,18 @@
     {:label "arbore-VSuffSuppletivePdgms"
     :note "Note also referfence to “26 sufix verbs showing some sort of irregularity” and
             noted in the lexicon. (Hayward1984a p. 298)"
-    :pdgmType :SuppletivePdgms
-    :common {:conjClass :Suffix,
+    :pdgmType :VOther
+    :common {:vmorphClass :SuppletivePdgms
+             :conjClass :Suffix,
              :pos :Verb}
     :terms [[:lexeme :morphoSynEnv :token :token-note],
-            [:beh :sgOnlySuppletivePl "huym-" "∅"],
-            [:guudaHAƊ :sgOnlySuppletivePl "guɗɗaHAƊ-" "∅"],
-            [:haadAƊ- :sgOnlySuppletivePl "baḳAƊ- (or ʔorj-)" "suppletive has full pdgm as ‘run away’"],
-            [:hil :sgOnlySuppletivePl "faʔm-" "∅"],
-            [:seÁD :sgOnlySuppletivePl "ro(o)t-" "lex has full pdgm with meaning ‘go to’"],
-            [:zah- :sgOnlySuppletivePl "rahasAƊ-" "suppletive has full pdgm as ‘be finished, exhausted’"],
-            [:ʔaarg :sgOnlySuppletivePl "dooy-" "suppletive has full pdgm as ‘look at’"]]
+            [:beh :SgOnlySuppletivePl "huym-" "∅"],
+            [:guudaHAƊ :SgOnlySuppletivePl "guɗɗaHAƊ-" "∅"],
+            [:haadAƊ- :SgOnlySuppletivePl "baḳAƊ- (or ʔorj-)" "suppletive has full pdgm as ‘run away’"],
+            [:hil :SgOnlySuppletivePl "faʔm-" "∅"],
+            [:seÁD :SgOnlySuppletivePl "ro(o)t-" "lex has full pdgm with meaning ‘go to’"],
+            [:zah- :SgOnlySuppletivePl "rahasAƊ-" "suppletive has full pdgm as ‘be finished, exhausted’"],
+            [:ʔaarg :SgOnlySuppletivePl "dooy-" "suppletive has full pdgm as ‘look at’"]]
     }
 ]
 :muterms [
@@ -2345,8 +2347,9 @@
     }
     {:label "arbore-VTerminalVowel"
     :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a vowel.” (pref and suff largely identical) Hayward1984b p. 255"
-    :pdgmType :TamSuffix
-    :common {:gender :Common,
+    :pdgmType :VOther
+    :common {:vmorphClass :TamSuffix
+             :gender :Common,
              :pos :Verb,
              :formType :Suffix}
     :terms [[:polarity :tam :number :person :token :token-note],
