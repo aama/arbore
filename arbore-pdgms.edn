@@ -167,7 +167,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2AffImperf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -186,7 +186,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2AffImprtv-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Prefix,
@@ -202,7 +202,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2AffJuss-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -219,7 +219,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2AffPerf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem.Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -238,7 +238,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2AffPluperf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -257,7 +257,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2NegJuss-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -274,7 +274,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1-2NegPerf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -293,7 +293,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1AffImperf-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -312,7 +312,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1AffImprtv-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Prefix,
@@ -328,7 +328,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1AffJuss-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -345,7 +345,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1AffPerf-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -364,7 +364,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1AffPluperf-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -383,7 +383,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1NegImperf-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -402,7 +402,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1NegImprtv-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Prefix,
@@ -418,7 +418,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1NegJuss-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -435,7 +435,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1NegPerf-inbit"
                  :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :inbit,
@@ -454,7 +454,7 @@
                  }
                 {:label "arbore-VPrefMainPattern1TenseFormation-ikkin"
                  :note "Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :FinitePartial
+                 :common {:vmorphClass :FinitePartial
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :ikkin,
@@ -480,7 +480,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2AffImperf-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -499,7 +499,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2AffImprtv-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Prefix,
@@ -515,7 +515,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2AffJuss-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -532,7 +532,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2AffPerf-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -551,7 +551,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2AffPluperf-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -570,7 +570,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2NegImperf-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -589,7 +589,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2NegImprtv-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Prefix,
@@ -605,7 +605,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2NegJuss-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -622,7 +622,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2NegPerf-eld"
                  :note "Template: prefGroup + selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eld,
@@ -641,7 +641,7 @@
                  }
                 {:label "arbore-VPrefMainPattern2TenseFormation-eecc"
                  :note "Template: prefGroup + selGroup + stem."
-                 :common {:vmorphclass :FinitePartial
+                 :common {:vmorphClass :FinitePartial
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :eecc,
@@ -678,7 +678,7 @@
                  }
                 {:label "arbore-VPrefRelativeAffImperf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf ... 267f. Template: prefGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -697,7 +697,7 @@
                  }
                 {:label "arbore-VPrefRelativeAffPerf-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -716,7 +716,7 @@
                  }
                 {:label "arbore-VPrefRelativeNegGeneral-igis"
                  :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
                           :lexeme :igis,
@@ -758,7 +758,7 @@
                          [:T4 :rak-aɗɗ :Add_Class "-aɗɗ ~ -at " "have difficuolties"]]
                  }
                 {:label "arbore-VRelClauseVsMainClause"
-                 :common {:vmorphclass :FinitePartial
+                 :common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :lexeme :raf,
                           :number :Singular,
@@ -777,7 +777,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffImperf-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -797,7 +797,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffImperf-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -817,7 +817,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffImprtv-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -834,7 +834,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffImprtv-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -851,7 +851,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffJuss-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -869,7 +869,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffJuss-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -887,7 +887,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffPerf-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -907,7 +907,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffPerf-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -927,7 +927,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffPluperf-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -947,7 +947,7 @@
                  }
                 {:label "arbore-VSuffMainBaseAffPluperf-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -967,7 +967,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegImperf-raf"
                  :note "Template: selGroup + suffix + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -987,7 +987,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegImperf-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1007,7 +1007,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegImprtv-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1024,7 +1024,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegImprtv-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1041,7 +1041,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegJuss-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1059,7 +1059,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegJuss-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1077,7 +1077,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegPerf-raf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1097,7 +1097,7 @@
                  }
                 {:label "arbore-VSuffMainBaseNegPerf-zeren"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1117,7 +1117,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1AffImperf-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1136,7 +1136,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1AffImprtv-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1152,7 +1152,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1AffJuss-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1169,7 +1169,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1AffPerf-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1188,7 +1188,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1AffPluperf-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1207,7 +1207,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1NegImperf-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1228,7 +1228,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1NegJuss-nyooris"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1245,7 +1245,7 @@
                  }
                 {:label "arbore-VSuffMainCausative1NegPerf-nyooris"
                  :note "Template: stem + suffix + selGroup."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S1,
@@ -1264,7 +1264,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeAffImperf-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1283,7 +1283,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeAffImprtv-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1299,7 +1299,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeAffJuss-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1316,7 +1316,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeAffPerf-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1335,7 +1335,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeAffPluperf-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1354,7 +1354,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeNegImperf-beekow"
                  :note "Template: selGroup + suffix + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1373,7 +1373,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeNegImprtv-beekow"
                  :note "Template: selGroup + stem + suffix [CHECK!]."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1389,7 +1389,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeNegJuss-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1406,7 +1406,7 @@
                  }
                 {:label "arbore-VSuffMainInchoativeNegPerf-beekow"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Inchoative,
@@ -1425,7 +1425,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1AffImperf-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1444,7 +1444,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1AffImprtv-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1460,7 +1460,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1AffJuss-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1477,7 +1477,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1AffPerf-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1496,7 +1496,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1AffPluperf-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1515,7 +1515,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1NegImperf-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1534,7 +1534,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1NegImprtv-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1550,7 +1550,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1NegJuss-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1567,7 +1567,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle1NegPerf-hariyad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T1,
@@ -1586,7 +1586,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2AffImperf-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1605,7 +1605,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2AffImprtv-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1621,7 +1621,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2AffJuss-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1638,7 +1638,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2AffPerf-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1657,7 +1657,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2AffPluperf-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1676,7 +1676,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2NegImperf-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1695,7 +1695,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2NegImprtv-wannohad"
                  :note "Template: selGroup + stem + suffix [CHECK!]."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1711,7 +1711,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2NegJuss-wannohad"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1728,7 +1728,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle2NegPerf"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T2,
@@ -1747,7 +1747,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3AffImperf-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1766,7 +1766,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3AffImprtv-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1781,7 +1781,7 @@
                          [:Plural "ʔ kum-∅" "ʔ + kum + ∅"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffJuss-kumahadd"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1798,7 +1798,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3AffPerf-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1817,7 +1817,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3AffPluperf-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1836,7 +1836,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3NegImperf-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1855,7 +1855,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3NegImprtv-kumahadd"
                  :note "Template: selGroup + stem + suffix [CHECK!]."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -1871,7 +1871,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3NegJuss-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1888,7 +1888,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle3NegPerf-kumahadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T3,
@@ -1907,7 +1907,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4AffImperf-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -1926,7 +1926,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4AffImprtv-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Suffix,
@@ -1942,7 +1942,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4AffJuss-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -1959,7 +1959,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4AffPerf-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -1978,7 +1978,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4AffPluperf-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -1997,7 +1997,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4NegImperf-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -2016,7 +2016,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4NegImprtv-rakkadd"
                  :note "Template: selGroup + stem + suffix [CHECK!]."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
                           :conjClass :Suffix,
@@ -2032,7 +2032,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4NegJuss-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -2049,7 +2049,7 @@
                  }
                 {:label "arbore-VSuffMainMiddle4NegPerf-rakkadd"
                  :note "Template: selGroup + stem + suffix."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T4,
@@ -2068,7 +2068,7 @@
                  }
                 {:label "arbore-VSuffRelativeAffImperf-raf"
                  :note "Only three tams:perf imperf gen. Template: suffix + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
                           :lexeme :raf,
@@ -2086,7 +2086,7 @@
                  }
                 {:label "arbore-VSuffRelativeAffPerf-raf"
                  :note "Only three tams:perf imperf gen. Template: suffix + stem."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
                           :lexeme :raf,
@@ -2104,7 +2104,7 @@
                  }
                 {:label "arbore-VSuffRelativeNegGeneral"
                  :note "Only three tams:perf imperf gen;neg general is invariant (pp. 316f)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
                           :lexeme :raf,
