@@ -3,7 +3,7 @@
  :lang :arbore
  :subfamily "Lowland East Cushitic Omo-Tana"
  :sgpref "abr"
- :datasource "Hayward1984a"
+ :datasource "Hayward1984a; abbrev. HW [NEED TO SUPPLY REFS!]"
  :geodemoURL "http://www.ethnologue.com/language/arv"
  :geodemoTXT "Varieties and subdialects of the Western Omo-Tana language Arbore are spoken near Lake Stefanie."
  :schemata {:case [:Absolutive :Nominative :Predicative :_NA],
@@ -112,7 +112,7 @@
 }
  :termclusters [
                 {:label "arbore-VInfinitive-me"
-                 :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
+                 :note "HW :: There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
                  :common {:vmorphClass :Infinitive_meExx
@@ -150,7 +150,7 @@
                          [:Suffix :ʔaman "∅" "believe"]]
                  }
                 {:label "arbore-VInfinitive-um"
-                 :note "There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
+                 :note "HW :: There is a –úm infinitive (token 1) and a –mé infinitive (shape2). The former is
             the default,and the only one possible with prefix verbs (form is based on 3 m sg).
             Most,but not all,suffix verbs can take a –mé infinitive."
                  :common {:vmorphClass :Infinitive_umExx
@@ -188,7 +188,7 @@
                          [:Suffix :ʔaman "ʔamanʔum" "believe"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2AffImperf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -207,7 +207,7 @@
                          [:Plural :Person3 :Common "ʔasó Y-aḳasa" "Y + ʔasó + aḳasa"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2AffImprtv-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -223,7 +223,7 @@
                          [:Plural "ʔ ʔ-igisá" "ʔ + ʔ + igisá"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2AffJuss-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -240,7 +240,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso Y-aḳasé" "Y + ʔalɗúso + aḳasé"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2AffPerf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem.Template: prefGroup + selGroup + stem."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem.Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -259,7 +259,7 @@
                          [:Plural :Person3 :Common "ʔíso Y-eḳese" "Y + ʔíso + eḳese"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2AffPluperf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -278,7 +278,7 @@
                          [:Plural :Person3 :Common "ʔasó Y-eḳese" "Y + ʔasó + eḳese"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2NegJuss-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -295,7 +295,7 @@
                          [:Plural :Person3 :Common "máso Y-eḳesí" "Y + máso + eḳesí"]]
                  }
                 {:label "arbore-VPrefMainPattern1-2NegPerf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -314,7 +314,7 @@
                          [:Plural :Person3 :Common "maso Y-éḳésí" "Y + maso + éḳésí"]]
                  }
                 {:label "arbore-VPrefMainPattern1AffImperf-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -333,7 +333,7 @@
                          [:Plural :Person3 :Common "ʔasó Y-én̅ḅet[e" "Y + ʔasó + én̅ḅet[e"]]
                  }
                 {:label "arbore-VPrefMainPattern1AffImprtv-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -349,7 +349,7 @@
                          [:Plural "ʔ ʔ-in̅ḅitá" "ʔ + ʔ + in̅ḅitá"]]
                  }
                 {:label "arbore-VPrefMainPattern1AffJuss-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -366,7 +366,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso Y-en̅ḅité" "Y + ʔalɗúso + en̅ḅité"]]
                  }
                 {:label "arbore-VPrefMainPattern1AffPerf-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -385,7 +385,7 @@
                          [:Plural :Person3 :Common "ʔíso Y-en̅bite" "Y + ʔíso + en̅bite"]]
                  }
                 {:label "arbore-VPrefMainPattern1AffPluperf-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -404,7 +404,7 @@
                          [:Plural :Person3 :Common "ʔasó Y-en̅bite" "Y + ʔasó + en̅bite"]]
                  }
                 {:label "arbore-VPrefMainPattern1NegImperf-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -423,7 +423,7 @@
                          [:Plural :Person3 :Common "maso Y-én̅ḅete" "Y + maso + én̅ḅete"]]
                  }
                 {:label "arbore-VPrefMainPattern1NegImprtv-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f)"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -439,7 +439,7 @@
                          [:Plural "mán̅ Y-en̅ḅetí" "Y + mán̅ + en̅ḅetí"]]
                  }
                 {:label "arbore-VPrefMainPattern1NegJuss-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -456,7 +456,7 @@
                          [:Plural :Person3 :Common "máso Y-en̅ḅetí" "Y + máso + en̅ḅetí"]]
                  }
                 {:label "arbore-VPrefMainPattern1NegPerf-inbit"
-                 :note "Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
+                 :note "HW :: Note E harmony (a - goes_to e) in pattern1 imperf (Haywood1984a 265f). Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -475,7 +475,7 @@
                          [:Plural :Person3 :Common "maso Y-én̅ḅétí" "Y + maso + én̅ḅétí"]]
                  }
                 {:label "arbore-VPrefMainPattern1TenseFormation-ikkin"
-                 :note "Template: prefGroup + selGroup + stem."
+                 :note "HW :: Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :FinitePartial
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -501,7 +501,7 @@
                          [:Negative :E_Stem :Perfect :Singular :Person3 :Masc "Ma Y-ék(k)éní" "Y + Ma + ék(k)éní"]]
                  }
                 {:label "arbore-VPrefMainPattern2AffImperf-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -520,7 +520,7 @@
                          [:Plural :Person3 :Common "ʔasó ʔ-ḳeʔ-∅" "ʔ + ʔasó + ḳeʔ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2AffImprtv-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -536,7 +536,7 @@
                          [:Plural "ʔ ʔ-ḳeʔ-∅" "ʔ + ʔ + ḳeʔ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2AffJuss-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -553,7 +553,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso ʔ-ḳeʔ-∅" "ʔ + ʔalɗúso + ḳeʔ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2AffPerf-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -572,7 +572,7 @@
                          [:Plural :Person3 :Common "ʔíso ʔ-∅-∅" "ʔ + ʔíso + ∅ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2AffPluperf-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -591,7 +591,7 @@
                          [:Plural :Person3 :Common "ʔasó ʔ-ḳeʔ-∅" "ʔ + ʔasó + ḳeʔ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2NegImperf-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -610,7 +610,7 @@
                          [:Plural :Person3 :Common "maso ʔ-∅-∅" "ʔ + maso + ∅ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2NegImprtv-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -626,7 +626,7 @@
                          [:Plural "mán̅ Y-ḳiʔ" "Y + mán̅ + ḳiʔ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2NegJuss-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -643,7 +643,7 @@
                          [:Plural :Person3 :Common "máso ʔ-ḳiʔí" "ʔ + máso + ḳiʔí + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2NegPerf-eld"
-                 :note "Template: prefGroup + selGroup + stem + suffix."
+                 :note "HW :: Template: prefGroup + selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -662,7 +662,7 @@
                          [:Plural :Person3 :Common "maso ʔ-∅" "ʔ + maso + ∅ + ∅"]]
                  }
                 {:label "arbore-VPrefMainPattern2TenseFormation-eecc"
-                 :note "Template: prefGroup + selGroup + stem."
+                 :note "HW :: Template: prefGroup + selGroup + stem."
                  :common {:vmorphClass :FinitePartial
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -683,7 +683,7 @@
                          [:Negative :Ee_Stem :Perfect :Singular :Person1 :Common "amma ʔ-ʔéeččí" "ʔ + amma + ʔéeččí"]]
                  }
                 {:label "arbore-VPrefPatternClasses"
-                 :note "There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the infinitive paradigm."
+                 :note "HW :: There are 12 pref verbs (Hayward1984a p. 261). A complete list is given in the infinitive paradigm."
                  :common {:vmorphClass :PrefPatternClasses
                           :conjClass :Prefix,
                           :pos :Verb}
@@ -699,7 +699,7 @@
                          [:ʔOhOm :Pattern2 "Irregular Imperative:pl ʔahambá" "eat"]]
                  }
                 {:label "arbore-VPrefRelativeAffImperf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf ... 267f. Template: prefGroup + stem + suffix."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf ... 267f. Template: prefGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
@@ -718,7 +718,7 @@
                          [:Plural :Person3 :Common "Y-áḳas-a" "Y + áḳas + a"]]
                  }
                 {:label "arbore-VPrefRelativeAffPerf-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
@@ -737,7 +737,7 @@
                          [:Plural :Person3 :Common "Y-éḳes-e" "Y + éḳes + e"]]
                  }
                 {:label "arbore-VPrefRelativeNegGeneral-igis"
-                 :note "Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
+                 :note "HW :: Only three tams:perf imperf gen;irregular pattern class,cf pp. 267f. Template: prefGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Prefix,
@@ -756,7 +756,7 @@
                          [:Plural :Person3 :Common "Y-eḳes-∅" "Y + eḳes + ∅"]]
                  }
                 {:label "arbore-VRadicalExt"
-                 :note "“The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p. 304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na enclitic,pp. 304-308)."
+                 :note "HW :: “The extended stem passive verbs are vary rare indeed in Arbore” (Hayward1984a p. 304). Place is taken by Impersonal Construction (= 3 pl verb form in sentence with –na enclitic,pp. 304-308)."
                  :common {:vmorphClass :VRadicalExt
                           :pos :Verb}
                  :terms [[:derivedStem :lexeme :stemAltClass :token :token-note],
@@ -780,7 +780,8 @@
                          [:T4 :rak_aɗɗ :Add_Class "-aɗɗ ~ -at " "have difficuolties"]]
                  }
                 {:label "arbore-VRelClauseVsMainClause"
-                 :common {:vmorphClass :FinitePartial
+                                  :note "HW"
+:common {:vmorphClass :FinitePartial
                           :gender :Masc,
                           :lexeme :raf,
                           :number :Singular,
@@ -798,7 +799,7 @@
                          [:Relative :Negative :Perfect "rafí"]]
                  }
                 {:label "arbore-VSuffMainBaseAffImperf-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -818,7 +819,7 @@
                          [:Plural :Person3 :Common "ʔasó raf-a" "ʔasó + raf + a"]]
                  }
                 {:label "arbore-VSuffMainBaseAffImperf-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -838,7 +839,7 @@
                          [:Plural :Person3 :Common "ʔasó zern-a" "ʔasó + zern + a"]]
                  }
                 {:label "arbore-VSuffMainBaseAffImprtv-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -855,7 +856,7 @@
                          [:Plural "ʔ raf-∅" "ʔ + raf + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseAffImprtv-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -872,7 +873,7 @@
                          [:Plural "ʔ zern-∅" "ʔ + zern + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseAffJuss-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -890,7 +891,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso raf-∅" "ʔalɗúso + raf + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseAffJuss-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -908,7 +909,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso zern-∅" "ʔalɗúso + zern + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseAffPerf-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -928,7 +929,7 @@
                          [:Plural :Person3 :Common "ʔíso raf-e" "ʔíso + raf + e"]]
                  }
                 {:label "arbore-VSuffMainBaseAffPerf-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -948,7 +949,7 @@
                          [:Plural :Person3 :Common "ʔíso zern-e" "ʔíso + zern + e"]]
                  }
                 {:label "arbore-VSuffMainBaseAffPluperf-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -968,7 +969,7 @@
                          [:Plural :Person3 :Common "ʔasó raf-e" "ʔasó + raf + e"]]
                  }
                 {:label "arbore-VSuffMainBaseAffPluperf-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -988,7 +989,7 @@
                          [:Plural :Person3 :Common "ʔasó zern-e" "ʔasó + zern + e"]]
                  }
                 {:label "arbore-VSuffMainBaseNegImperf-raf"
-                 :note "Template: selGroup + suffix + stem."
+                 :note "HW :: Template: selGroup + suffix + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1008,7 +1009,7 @@
                          [:Plural :Person3 :Common "maso ráf-a" "maso + a + ráf"]]
                  }
                 {:label "arbore-VSuffMainBaseNegImperf-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1028,7 +1029,7 @@
                          [:Plural :Person3 :Common "maso zérn-a" "maso + zérn + a"]]
                  }
                 {:label "arbore-VSuffMainBaseNegImprtv-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1045,7 +1046,7 @@
                          [:Plural "mán̅ raf-∅" "mán̅ + raf + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseNegImprtv-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1062,7 +1063,7 @@
                          [:Plural "mán̅ zern-∅" "mán̅ + zern + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseNegJuss-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1080,7 +1081,7 @@
                          [:Plural :Person3 :Common "máso raf-∅" "máso + raf + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseNegJuss-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1098,7 +1099,7 @@
                          [:Plural :Person3 :Common "máso zern-∅" "máso + zern + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseNegPerf-raf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1118,7 +1119,7 @@
                          [:Plural :Person3 :Common "maso ráf-∅" "maso + ráf + ∅"]]
                  }
                 {:label "arbore-VSuffMainBaseNegPerf-zeren"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1138,7 +1139,7 @@
                          [:Plural :Person3 :Common "maso zérn-∅" "maso + zérn + ∅"]]
                  }
                 {:label "arbore-VSuffMainCausative1AffImperf-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1157,7 +1158,7 @@
                          [:Plural :Person3 :Common "ʔasó ñoors-a" "ʔasó + ñoors + a"]]
                  }
                 {:label "arbore-VSuffMainCausative1AffImprtv-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1173,7 +1174,7 @@
                          [:Plural "ʔ ñoors-∅" "ʔ + ñoors + ∅"]]
                  }
                 {:label "arbore-VSuffMainCausative1AffJuss-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1190,7 +1191,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso ñoors-∅" "ʔalɗúso + ñoors + ∅"]]
                  }
                 {:label "arbore-VSuffMainCausative1AffPerf-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1209,7 +1210,7 @@
                          [:Plural :Person3 :Common "ʔíso ñoors-e" "ʔíso + ñoors + e"]]
                  }
                 {:label "arbore-VSuffMainCausative1AffPluperf-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1228,7 +1229,7 @@
                          [:Plural :Person3 :Common "ʔasó ñoors-e" "ʔasó + ñoors + e"]]
                  }
                 {:label "arbore-VSuffMainCausative1NegImperf-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1249,7 +1250,7 @@
                          [:Plural :Person3 :Common "maso ñóors-a" "maso + ñóors + a"]]
                  }
                 {:label "arbore-VSuffMainCausative1NegJuss-nyooris"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1266,7 +1267,7 @@
                          [:Plural :Person3 :Common "máso ñoors-∅" "máso + ñoors + ∅"]]
                  }
                 {:label "arbore-VSuffMainCausative1NegPerf-nyooris"
-                 :note "Template: stem + suffix + selGroup."
+                 :note "HW :: Template: stem + suffix + selGroup."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1285,7 +1286,7 @@
                          [:Plural :Person3 :Common "maso ñóors-∅" "maso + ñóors + ∅"]]
                  }
                 {:label "arbore-VSuffMainInchoativeAffImperf-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1304,7 +1305,7 @@
                          [:Plural :Person3 :Common "ʔasó beeḳo-wa" "ʔasó + beeḳo + wa"]]
                  }
                 {:label "arbore-VSuffMainInchoativeAffImprtv-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1320,7 +1321,7 @@
                          [:Plural "ʔ beeḳo-wá" "ʔ + beeḳo + wá"]]
                  }
                 {:label "arbore-VSuffMainInchoativeAffJuss-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1337,7 +1338,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso beeḳo-wé" "ʔalɗúso + beeḳo + wé"]]
                  }
                 {:label "arbore-VSuffMainInchoativeAffPerf-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1356,7 +1357,7 @@
                          [:Plural :Person3 :Common "ʔíso beeḳo-we" "ʔíso + beeḳo + we"]]
                  }
                 {:label "arbore-VSuffMainInchoativeAffPluperf-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1375,7 +1376,7 @@
                          [:Plural :Person3 :Common "ʔasó beeḳo-we" "ʔasó + beeḳo + we"]]
                  }
                 {:label "arbore-VSuffMainInchoativeNegImperf-beekow"
-                 :note "Template: selGroup + suffix + stem."
+                 :note "HW :: Template: selGroup + suffix + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1394,7 +1395,7 @@
                          [:Plural :Person3 :Common "maso béeḳo-wa" "maso + wa + béeḳo"]]
                  }
                 {:label "arbore-VSuffMainInchoativeNegImprtv-beekow"
-                 :note "Template: selGroup + stem + suffix [CHECK!]."
+                 :note "HW :: Template: selGroup + stem + suffix [CHECK!]."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1410,7 +1411,7 @@
                          [:Plural "mán̅ beeḳo" "mán̅ + beeḳo + wí"]]
                  }
                 {:label "arbore-VSuffMainInchoativeNegJuss-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1427,7 +1428,7 @@
                          [:Plural :Person3 :Common "máso beeḳo-wí" "máso + beeḳo + wí"]]
                  }
                 {:label "arbore-VSuffMainInchoativeNegPerf-beekow"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1446,7 +1447,7 @@
                          [:Plural :Person3 :Common "maso béeḳó-wí" "maso + béeḳó + wí"]]
                  }
                 {:label "arbore-VSuffMainMiddle1AffImperf-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1465,7 +1466,7 @@
                          [:Plural :Person3 :Common "ʔasó hariy-ta" "ʔasó + hariy + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle1AffImprtv-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1481,7 +1482,7 @@
                          [:Plural "ʔ hariy-∅" "ʔ + hariy + ∅"]]
                  }
                 {:label "arbore-VSuffMainMiddle1AffJuss-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1498,7 +1499,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso hariy-té" "ʔalɗúso + hariy + té"]]
                  }
                 {:label "arbore-VSuffMainMiddle1AffPerf-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1517,7 +1518,7 @@
                          [:Plural :Person3 :Common "ʔíso hariy-te" "ʔíso + hariy + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle1AffPluperf-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1536,7 +1537,7 @@
                          [:Plural :Person3 :Common "ʔasó hariy-te" "ʔasó + hariy + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle1NegImperf-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1555,7 +1556,7 @@
                          [:Plural :Person3 :Common "maso háriy-ta" "maso + háriy + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle1NegImprtv-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1571,7 +1572,7 @@
                          [:Plural "mán̅ hariy-tí" "mán̅ + hariy + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle1NegJuss-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1588,7 +1589,7 @@
                          [:Plural :Person3 :Common "máso hariy-tí" "máso + hariy + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle1NegPerf-hariyad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1607,7 +1608,7 @@
                          [:Plural :Person3 :Common "maso háríy-tí" "maso + háríy + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle2AffImperf-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1626,7 +1627,7 @@
                          [:Plural :Person3 :Common "ʔasó wañño-ta" "ʔasó + wañño + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle2AffImprtv-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1642,7 +1643,7 @@
                          [:Plural "ʔ wañño-∅" "ʔ + wañño + ∅"]]
                  }
                 {:label "arbore-VSuffMainMiddle2AffJuss-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1659,7 +1660,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso wañño-té" "ʔalɗúso + wañño + té"]]
                  }
                 {:label "arbore-VSuffMainMiddle2AffPerf-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1678,7 +1679,7 @@
                          [:Plural :Person3 :Common "ʔíso wañño-te" "ʔíso + wañño + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle2AffPluperf-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1697,7 +1698,7 @@
                          [:Plural :Person3 :Common "ʔasó wañño-te" "ʔasó + wañño + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle2NegImperf-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1716,7 +1717,7 @@
                          [:Plural :Person3 :Common "maso wáñño-ta" "maso + wáñño + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle2NegImprtv-wannohad"
-                 :note "Template: selGroup + stem + suffix [CHECK!]."
+                 :note "HW :: Template: selGroup + stem + suffix [CHECK!]."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1732,7 +1733,7 @@
                          [:Plural "mán̅ wañño" "mán̅ + wañño + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle2NegJuss-wannohad"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1749,7 +1750,7 @@
                          [:Plural :Person3 :Common "máso wañño-tí" "máso + wañño + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle2NegPerf"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1768,7 +1769,7 @@
                          [:Plural :Person3 :Common "maso wáññó-tí" "maso + wáññó + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffImperf-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1787,7 +1788,7 @@
                          [:Plural :Person3 :Common "ʔasó kum-ta" "ʔasó + kum + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffImprtv-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1803,6 +1804,7 @@
                          [:Plural "ʔ kum-∅" "ʔ + kum + ∅"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffJuss-kumahadd"
+                 :note "HW"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1819,7 +1821,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso kum-té" "ʔalɗúso + kum + té"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffPerf-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1838,7 +1840,7 @@
                          [:Plural :Person3 :Common "ʔíso kum-te" "ʔíso + kum + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle3AffPluperf-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1857,7 +1859,7 @@
                          [:Plural :Person3 :Common "ʔasó kum-te" "ʔasó + kum + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle3NegImperf-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1876,7 +1878,7 @@
                          [:Plural :Person3 :Common "maso kum-ta" "maso + kum + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle3NegImprtv-kumahadd"
-                 :note "Template: selGroup + stem + suffix [CHECK!]."
+                 :note "HW :: Template: selGroup + stem + suffix [CHECK!]."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -1892,7 +1894,7 @@
                          [:Plural "mán̅ kum" "mán̅ + kum"]]
                  }
                 {:label "arbore-VSuffMainMiddle3NegJuss-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1909,7 +1911,7 @@
                          [:Plural :Person3 :Common "máso kum-tí" "máso + kum + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle3NegPerf-kumahadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1928,7 +1930,7 @@
                          [:Plural :Person3 :Common "maso kúm-tí" "maso + kúm + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle4AffImperf-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1947,7 +1949,7 @@
                          [:Plural :Person3 :Common "ʔasó rakka-ta" "ʔasó + rakka + ta"]]
                  }
                 {:label "arbore-VSuffMainMiddle4AffImprtv-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1963,7 +1965,7 @@
                          [:Plural "ʔ rakka-∅" "ʔ + rakka + ∅"]]
                  }
                 {:label "arbore-VSuffMainMiddle4AffJuss-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1980,7 +1982,7 @@
                          [:Plural :Person3 :Common "ʔalɗúso rakka-té" "ʔalɗúso + rakka + té"]]
                  }
                 {:label "arbore-VSuffMainMiddle4AffPerf-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1999,7 +2001,7 @@
                          [:Plural :Person3 :Common "ʔíso rakka-te" "ʔíso + rakka + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle4AffPluperf-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2018,7 +2020,7 @@
                          [:Plural :Person3 :Common "ʔasó rakka-te" "ʔasó + rakka + te"]]
                  }
                 {:label "arbore-VSuffMainMiddle4NegImperf-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2037,7 +2039,7 @@
                          [:Plural :Person3 :Common "maso rakka-ata" "maso + rakka + ata"]]
                  }
                 {:label "arbore-VSuffMainMiddle4NegImprtv-rakkadd"
-                 :note "Template: selGroup + stem + suffix [CHECK!]."
+                 :note "HW :: Template: selGroup + stem + suffix [CHECK!]."
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Negative,
@@ -2053,7 +2055,7 @@
                          [:Plural "mán̅ rakka" "mán̅ + rakka + "]]
                  }
                 {:label "arbore-VSuffMainMiddle4NegJuss-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2070,7 +2072,7 @@
                          [:Plural :Person3 :Common "máso rakka-tí" "máso + rakka + tí"]]
                  }
                 {:label "arbore-VSuffMainMiddle4NegPerf-rakkadd"
-                 :note "Template: selGroup + stem + suffix."
+                 :note "HW :: Template: selGroup + stem + suffix."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2089,7 +2091,7 @@
                          [:Plural :Person3 :Common "maso rákká-tí" "maso + rákká + tí"]]
                  }
                 {:label "arbore-VSuffRelativeAffImperf-raf"
-                 :note "Only three tams:perf imperf gen. Template: suffix + stem."
+                 :note "HW :: Only three tams:perf imperf gen. Template: suffix + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
@@ -2107,7 +2109,7 @@
                          [:Plural :Person3 :Common "ráf-a" "a + ráf"]]
                  }
                 {:label "arbore-VSuffRelativeAffPerf-raf"
-                 :note "Only three tams:perf imperf gen. Template: suffix + stem."
+                 :note "HW :: Only three tams:perf imperf gen. Template: suffix + stem."
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
@@ -2125,7 +2127,7 @@
                          [:Plural :Person3 :Common "ráf-e" "e + ráf"]]
                  }
                 {:label "arbore-VSuffRelativeNegGeneral"
-                 :note "Only three tams:perf imperf gen;neg general is invariant (pp. 316f)"
+                 :note "HW :: Only three tams:perf imperf gen;neg general is invariant (pp. 316f)"
                  :common {:vmorphClass :Finite
                           :clauseType :Relative,
                           :conjClass :Suffix,
@@ -2143,7 +2145,7 @@
                          [:Plural :Person3 :Common "raf-∅" "raf + ∅"]]
                  }
                 {:label "arbore-VSuffSuppletivePdgms"
-                 :note "Note also referfence to “26 sufix verbs showing some sort of irregularity” and
+                 :note "HW :: Note also referfence to “26 sufix verbs showing some sort of irregularity” and
             noted in the lexicon. (Hayward1984a p. 298)"
                  :common {:vmorphClass :SuppletivePdgms
                           :conjClass :Suffix,
@@ -2158,7 +2160,8 @@
                          [:ʔaarg :SgOnlySuppletivePl "dooy-" "suppletive has full pdgm as ‘look at’"]]
                  }
                 {:label "arbore-PBoundSubject"
-                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
+                                  :note "HW"
+:common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :BoundSubject}
                  :terms [[:number :person :token],
                          [:Singular :Person1 "-n̅"],
@@ -2169,7 +2172,8 @@
                          [:Plural :Person3 "-so"]]
                  }
                 {:label "arbore-PDeictic"
-                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
+                                  :note "HW"
+:common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Deictic}
                  :terms [[:deixis :number :gender :token],
                          [:Far :Singular :Masc "hátto"],
@@ -2180,7 +2184,8 @@
                          [:Near :Plural :Common "tólo"]]
                  }
                 {:label "arbore-PInd"
-                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
+                                  :note "HW"
+:common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :suffixType :number :person :gender :token],
                          [:Absolutive :Simple :Singular :Person3 :Masc "ʔus(s)ú"],
@@ -2215,6 +2220,7 @@
                          [:_NA :TaSuff :Plural :Person3 :Common "ʔos(s)ota"]]
                  }
                 {:label "arbore-PPoss"
+                 :note "HW"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:case :genderPoss :numPoss :number :person :gender :token],
@@ -2262,6 +2268,7 @@
                          [:Predicative :P_Masc :P_Singular :Plural :Person3 :Common "hasóta"]]
                  }
                 {:label "arbore-PPossSuff"
+                 :note "HW"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
                  :terms [[:number :person :gender :token],
@@ -2274,6 +2281,7 @@
                          [:Plural :Person3 :Common "-áso / -ásso"]]
                  }
                 {:label "arbore-PPreVerbSelSubjAffixes"
+                 :note "HW"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :selectorProClass :PreVerbSelSubjMarkers}
                  :terms [[:number :person :token],
@@ -2286,6 +2294,7 @@
                          [:Plural :Person3 "-so"]]
                  }
                 {:label "arbore-PPreVerbSel_SubjMarkers"
+                 :note "HW"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :selectorProClass :PreVerbSel_SubjMarkers}
                  :terms [[:defClass :mood :polarity :tam :number :person :token],
@@ -2333,6 +2342,7 @@
                          [:_NA :Non_indicative :Negative :_NA :Impersonal :_NA "mána"]]
                  }
                 {:label "arbore-PReflEmph"
+                 :note "HW"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ReflEmph}
                  :terms [[:number :person :gender :token],
@@ -2345,7 +2355,7 @@
                          [:Plural :Person3 :Common "ʔosótta"]]
                  }
                 {:label "arbore-VTerminalVowel"
-                 :note "“With the exception of sg imprtv of most verbs all verb forms terminate in a vowel.” (pref and suff largely identical) Hayward1984b p. 255"
+                 :note "HW :: “With the exception of sg imprtv of most verbs all verb forms terminate in a vowel.” (pref and suff largely identical) Hayward1984b p. 255"
                  :common {:vmorphClass :TamSuffix
                           :gender :Common,
                           :pos :Verb,
